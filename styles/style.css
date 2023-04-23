@@ -19,7 +19,6 @@ header,footer {
 }
 
 img {
-    /*margin: 25px 25px 25px 25p;*/
     margin: 30px 30px 30px;
     border-radius: 5%;
     box-shadow: 10px 10px 15px rgb(118, 99, 81);
@@ -38,7 +37,7 @@ h2 {
 }
 
 h3 {
-    color: #ffffff
+    color: #ffffff;
 }
 
 h4 {

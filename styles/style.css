@@ -19,7 +19,7 @@ header,footer {
 }
 
 img {
-    margin: 30px 30px 30px;
+    margin: 30px 30px 30px 30px;
     border-radius: 5%;
     box-shadow: 10px 10px 15px rgb(118, 99, 81);
 }
@@ -34,6 +34,20 @@ h1 {
 
 h2 {
     color: rgb(118, 99, 81);
+} 
+
+ul {
+    list-style-type: none;
+    color: rgb(118, 99, 81);
+}
+
+a {
+    color: rgb(240, 169, 136);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
 }
 
 h3 {
@@ -42,18 +56,4 @@ h3 {
 
 h4 {
     color: #ffe4c4;
-}
-ul {
-    list-style-type: none;
-    color: rgb(118, 99, 81);
-}
-
-ul a {
-    color: rgb(240, 169, 136);
-}
-
-
-footer {
-    text-align: center;
-    padding: 10px;
 }

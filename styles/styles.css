@@ -1,10 +1,10 @@
-body {
+body{
     max-width: 960px;
     margin: 0 auto;
     padding: 4em;
     font-size: 18px;
     text-align: center;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
 }
 
 header {
@@ -18,42 +18,38 @@ header,footer {
     box-shadow: 10px 10px 15px rgb(118, 99, 81);
 }
 
-img {
+img{
     margin: 30px 30px 30px 30px;
     border-radius: 5%;
     box-shadow: 10px 10px 15px rgb(118, 99, 81);
 }
-
-
-h1 {
+h1, h3{
     color: white;
+}
+
+h1{
     padding-top: 40px;
     padding-left: 75px;
-    text-align: center;
+    text-align:center;
 }
 
-h2 {
-    color: rgb(118, 99, 81);
-} 
+h2, ul{
+    color: rgb(118, 99, 81)
+}
 
-ul {
+h4 { 
+    color: rgb(255, 228, 196)
+}
+
+ul{
     list-style-type: none;
-    color: rgb(118, 99, 81);
 }
 
-a {
-    color: rgb(240, 169, 136);
+a{
+    color: rgb(240,169,136)
 }
 
 footer {
     text-align: center;
     padding: 10px;
-}
-
-h3 {
-    color: white;
-}
-
-h4 {
-    color: rgb(255, 228, 196);
 }

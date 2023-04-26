@@ -13,9 +13,9 @@ header {
 }
 
 header,footer {
-    background-color: rgb(247, 196, 172);
+    background-color: rgb(166, 100, 100);
     border-radius: 5px 5px 5px 5px;
-    box-shadow: 10px 10px 15px rgb(118, 99, 81);
+    box-shadow: 10px 10px 15px rgb(110, 108, 105);
 }
 
 img{
@@ -30,6 +30,7 @@ h1, h3{
 h1{
     padding-top: 40px;
     padding-left: 75px;
+    text-align: center;
 }
 
 h2, ul{
@@ -45,7 +46,7 @@ ul{
 }
 
 a{
-    color: rgb(240,169,136)
+    color: rgb(206, 111, 115)
 }
 
 footer {

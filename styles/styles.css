@@ -23,7 +23,7 @@ img{
     border-radius: 5%;
     box-shadow: 10px 10px 15px rgb(118, 99, 81);
 }
-h1, h3{
+h1, h3, h4{
     color: white;
 }
 
@@ -37,9 +37,6 @@ h2, ul{
     color: rgb(118, 99, 81)
 }
 
-h4 { 
-    color: rgb(255, 228, 196)
-}
 
 ul{
     list-style-type: none;
@@ -49,6 +46,10 @@ a{
     color: rgb(191, 69, 76);
 }
 
+h4{
+    font-weight: 100;
+    font-size: 14px;
+}
 footer {
     text-align: center;
     padding: 10px;

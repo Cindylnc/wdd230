@@ -1,8 +1,5 @@
-
 *{
     margin: 20px;
-
-
 }
 
 
@@ -54,7 +51,7 @@ a{
 article img {
     display: block;
     margin: 1rem auto;
-    size: 50%;
+    width: 68%;
 }
 article{
     background-color: rgb(251, 246, 246);
@@ -65,7 +62,7 @@ p{
     font-family: "Indie Flower", Helvetica, sans-serif;
     color: rgb(191, 69, 76);
     font-size: 18px;
-    padding-bottom: 20px;
+    padding: 18px;
 }
 
 #footer{

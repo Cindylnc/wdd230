@@ -2,4 +2,11 @@
     main {
       grid-template-columns: 1fr 1fr 1fr;
     }
+    h1{
+        font-size: 43px;
+    }
+    #footer{
+        font-size: 18px;
+    }
+
   }

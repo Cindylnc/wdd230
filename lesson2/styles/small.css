@@ -1,21 +1,77 @@
 
-h1 {
-    color:rebeccapurple;
-    font-family: "Quicksand", "Bradley Hand",sans-serif;
+*{
+    margin: 20px;
+
+
 }
 
-p{
-    font-family: "Indie Flower", Helvetica, sans-serif;
-    color: orange;
+
+header,footer {
+    background-color: rgb(166, 100, 100);
+    box-shadow: 10px 10px 15px rgb(110, 108, 105);
+    border-radius: 5px;
 }
 
-h2{
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem;
+}
+
+
+h1,h2 {
+    color:white;
+    text-align: center;
+}
+
+h1{
+    font-size: 43px;
+    font-weight: 100;
+    padding-top: 30px;
+
+}
+h2 {
+    padding-bottom: 30px;
     font-family: "Quicksand", "Bradley Hand",sans-serif;
     font-weight: 300;
-    color: red;
+}
+h3{
+    font-size: 22px;
+    
 }
 
-footer{
+h4{
+    font-size: 18px;
+    color: rgb(166, 100, 100);  
+}
+
+a{
+    color: rgb(191, 69, 76);
     font-family: "Quicksand", "Bradley Hand",sans-serif;
+    font-size: 14px;
+}
+
+article img {
+    display: block;
+    margin: 1rem auto;
+    size: 50%;
+}
+article{
+    background-color: rgb(251, 246, 246);
+    box-shadow: 5px 5px 8px rgb(110, 108, 105);
+    border-radius: 3px;
+}
+p{
+    font-family: "Indie Flower", Helvetica, sans-serif;
+    color: rgb(166, 100, 100);
+    font-size: 18px;
+}
+
+
+footer{
+    color: white;
+    font-family: "Quicksand", "Bradley Hand",sans-serif;
+    padding: 1px;
+    text-align: center;
 
 }

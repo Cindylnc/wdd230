@@ -1,0 +1,32 @@
+*{
+    margin: 20px;
+}
+
+
+header,footer {
+    background-color: rgb(127, 183, 180);
+    box-shadow: 10px 10px 15px rgb(110, 108, 105);
+    border-radius: 5px;
+}
+
+img {
+    width: 150px;
+}
+
+
+
+
+
+
+#footer{
+    color: white;
+    font-size: 15px;
+}
+
+footer{
+    color: white;
+    font-family: "Quicksand", "Bradley Hand",sans-serif;
+    padding: 1px;
+    text-align: center;
+
+}

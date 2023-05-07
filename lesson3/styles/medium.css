@@ -1,0 +1,14 @@
+@media (min-width: 800px) {
+    main {
+
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    h1{
+        font-size: 43px;
+    }
+    #footer{
+        font-size: 18px;
+    }
+  }

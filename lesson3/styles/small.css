@@ -11,11 +11,19 @@ header,footer {
 
 img {
     width: 150px;
+    display: block;
+    margin: 1rem auto;
 }
 
 
+h1, h2, p {
+    text-align: center;
+}
 
 
+h1{
+    color:white;
+}
 
 
 #footer{

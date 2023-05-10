@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&family=Playfair+Display&family=Poiret+One&display=swap');
 
 *{
-    margin: 12px;
+    margin: 8px;
     font-family: Manrope, Helvetica, sans-serif;
 }
 
@@ -22,9 +22,9 @@ main{
 
 .container {
     display: grid;
-	max-width: 85%;
 	margin: 0 auto;
 }
+
 
 .name{
     font-family: Poiret One, Helvetica, sans-serif;
@@ -46,6 +46,13 @@ img {
     margin: 1rem auto;
 }
 
+.typography{
+    width: 450px;
+}
+
+.colors{
+    width: 350px;
+}
 
 h1, h2, h3, p {
     text-align: center;
@@ -55,21 +62,21 @@ h1, h2, h3, p {
 h1{
     color:#2e333e;
     font-family: Playfair Display, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 26px;
 }
-
 
 a {
     text-decoration : none;
+    color: #b65210;
 }
 
 a:focus {
     color: rgb(223, 125, 27);
 }
 
-#footer{
-    color: black;
-    font-size: 15px;
+.footer{
+    color: #2e333e;
+    font-size: 11px;
 }
 
 footer{

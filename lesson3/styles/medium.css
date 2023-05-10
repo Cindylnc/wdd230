@@ -1,14 +1,19 @@
 @media (min-width: 800px) {
-    main {
 
-        display: grid;
-        grid-template-columns: 1fr;
+    *{
+        margin: 30px;
+     
     }
 
-    h1{
-        font-size: 43px;
+    nav ul { 
+        display: flex; 
     }
-    #footer{
-        font-size: 18px;
+	nav ul li { 
+            flex: 1 1 100%; 
+        }
+
+    header,footer {
+        padding: 50px;
     }
+
   }

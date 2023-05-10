@@ -1,40 +1,96 @@
-*{
-    margin: 20px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&family=Playfair+Display&family=Poiret+One&display=swap');
 
+*{
+    margin: 12px;
+    font-family: Manrope, Helvetica, sans-serif;
+}
 
 header,footer {
-    background-color: rgb(127, 183, 180);
+    background-color: #f2d4c0;
     box-shadow: 10px 10px 15px rgb(110, 108, 105);
     border-radius: 5px;
+    padding: 3px;
 }
 
+main{
+    margin: 2rem auto;
+}
+
+.small-logo{
+    width: 200px;
+}
+
+.container {
+    display: grid;
+	max-width: 85%;
+	margin: 0 auto;
+}
+
+.name{
+    font-family: Poiret One, Helvetica, sans-serif;
+}
+
+.selected-site {
+    color: #b65210;
+    background-color: white;
+    padding: 3px 2px;
+    border-radius: 50px;
+    max-width: 50%;
+    margin: 1rem auto;
+}
+
+
 img {
-    width: 150px;
+    width: 350px;
     display: block;
     margin: 1rem auto;
 }
 
 
-h1, h2, p {
+h1, h2, h3, p {
     text-align: center;
 }
 
 
 h1{
-    color:white;
+    color:#2e333e;
+    font-family: Playfair Display, Helvetica, sans-serif;
+    font-size: 30px;
 }
 
 
+a {
+    text-decoration : none;
+}
+
+a:focus {
+    color: rgb(223, 125, 27);
+}
+
 #footer{
-    color: white;
+    color: black;
     font-size: 15px;
 }
 
 footer{
-    color: white;
-    font-family: "Quicksand", "Bradley Hand",sans-serif;
-    padding: 1px;
+    color: #2f2d2d;
     text-align: center;
 
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+}
+
+nav ul li a{
+    display: block;
+}
+
+
+.persona{
+    width: 200px;
 }

@@ -1,8 +1,26 @@
-@media only screen and (min-width: 1280px) {
+@media (min-width: 800px) {
 
-    *{
-        margin: 30px;
-     
+    header,footer{
+        margin: 40px;
+    }
+
+    nav ul { 
+        display: flex; 
+    }
+
+
+    .container {
+        display: grid;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+	nav ul li { 
+            flex: 1 1 100%; 
+        }
+
+
+    header,footer {
+        padding: 50px;
     }
 
   }

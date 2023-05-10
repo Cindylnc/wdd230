@@ -48,12 +48,12 @@ a{
     font-size: 14px;
 }
 
-article img {
+section img {
     display: block;
     margin: 1rem auto;
     width: 68%;
 }
-article{
+section{
     background-color: rgb(251, 246, 246);
     box-shadow: 5px 5px 8px rgb(110, 108, 105);
     border-radius: 3px;

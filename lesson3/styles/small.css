@@ -67,7 +67,7 @@ h1{
 
 a {
     text-decoration : none;
-    color: #b65210;
+    color: #99460f;
 }
 
 a:focus {
@@ -91,10 +91,12 @@ ul {
   padding: 0;
   text-align: center;
   overflow: hidden;
+  font-weight: 400;
 }
 
 nav ul li a{
     display: block;
+    font-weight: 400;
 }
 
 

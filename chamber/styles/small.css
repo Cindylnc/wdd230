@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&family=Playfair+Display&family=Poiret+One&display=swap');
+
+*{
+    margin: 8px;
+    font-family: Manrope, Helvetica, sans-serif;
+}
+
+.logo-header{
+    width: 200px;
+}
+
+.social {
+    width: 20px;
+} 
+
+
+
+/*-------Navigation Button-------*/
+
+
+nav button {
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: rgb(175, 79, 19);
+}
+
+nav {
+    background-color: rgb(224, 224, 224);
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid black;
+}
+
+
+nav ul li.active a{
+    background-color: rgb(255, 255, 255);
+    color: black
+}
+
+
+nav ul li a:hover {
+    background-color: rgb(195, 168, 168);
+}
+
+#date {
+
+    margin: 2rem auto;
+
+}
+
+/*-------Hero-------*/
+
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-img{
+
+    width: 98% ;
+
+ 
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 35px;
+    text-align: center;
+
+}
+
+.home-title{
+    color: #F2FBFF;
+    font-family: Poiret One;
+    font-size: 25px;
+    margin: auto;
+    margin-top: -5px;
+    text-align: center;
+}
+
+#hero-msg h4{
+    display: none;
+}
+.join-button {
+    display: none;
+}
+
+/*-------
+#hero-msg h4{
+    font-family: Poiret One, Helvetica, sans-serif;
+    color: #F2FBFF;
+    font-size: 14px;
+    margin-left: -30px;
+    margin-right: -30px;
+
+}
+
+
+.button-box {
+    text-align: center;
+    color: rgb(201, 89, 32);   
+    margin-top: 10px;
+}
+
+.join-button {
+    background-color:#ffffff;
+    color: rgb(182, 92, 28); 
+    text-decoration: none;
+    font-family: "Montserrat", Helvetica, sans-serif;
+    font-size: 12px;
+    padding: 6px 8px;
+    margin-top: 8px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+-----*/
+
+
+
+
+
+
+
+
+

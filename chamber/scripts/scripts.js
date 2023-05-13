@@ -10,8 +10,8 @@ headerdate.innerHTML = `Today is <strong>${fulldate}</strong>.`;
 
 
 function toggleMenu (){
-    document.getElementById("primary-nav").classList.toggle("open");
+    document.getElementById("primaryNav").classList.toggle("open");
 }
-const x = document.getElementById("hamburger-btn")
+const x = document.getElementById("hamburgerBtn")
 x.onclick = toggleMenu;
 

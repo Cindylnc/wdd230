@@ -178,7 +178,7 @@ main section{
     color: #ffffff;
     font-size: 26px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 55px;
     text-align: center;
 
 }
@@ -187,7 +187,7 @@ main section{
 #event, #weather, #news, #join, #spotlights{
     background-color: #f7e5d9;
     font-family: Poiret One;
-    font-size: 14px;
+    font-size: 12px;
 }
 /*----Event----*/
 

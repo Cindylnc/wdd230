@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&family=Playfair+Display&family=Poiret+One&display=swap');
 
 *{
-    margin: 8px;
+    margin: 5px;
     font-family: Manrope, Helvetica, sans-serif;
 }
 
+
+/*---Header-----*/
+
+.site-header {
+    margin: -5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .logo-header{
-    width: 90px;
-    margin: auto;
+    width: 80px;
+    
 
 }
 
@@ -15,38 +24,14 @@
     width: 20px;
 } 
 
-.heading{
-    background-color: white;
-    padding: 0;
+.header-section{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
 }
 
 .page-title {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    color: rgb(50, 47, 46);
-}
-
-.page-title h1{
-    font-size: 14px;
-}
-
-.social-media{
-
-    margin: auto;
-
-}
-
-.social{
-    margin: auto;
-}
-
-.page-title div{
-    margin: auto;
-    font-size: 10px;
+    flex: 1;
 }
 
 /*---Date Message in header-----*/
@@ -213,7 +198,53 @@ nav ul.open {
 
 
 
+/*--Header
 
+
+.logo-header{
+    width: 90px;
+    margin: auto;
+
+}
+
+.social {
+    width: 20px;
+} 
+
+.heading{
+    background-color: white;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-title {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: rgb(50, 47, 46);
+}
+
+.page-title h1{
+    font-size: 14px;
+}
+
+.social-media{
+
+    margin: auto;
+
+}
+
+.social{
+    margin: auto;
+}
+
+.page-title div{
+    margin: auto;
+    font-size: 10px;
+}
+-----*/
 
 
 

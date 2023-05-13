@@ -51,7 +51,6 @@
 
 }
 
-
 #date {
     margin: auto;
     margin-top: 25px;
@@ -134,9 +133,22 @@ nav ul.open {
 
 
 
-/*-----------------------------------Hero--------------------------------*/
+/*----------------------------------Main-------------------------------*/
+
+
+
+main section{
+    border: 5px solid rgb(245, 242, 242);
+    border-radius: 8px;
+    height: 10rem;
+    padding: 1rem 1rem;
+    margin: 10px 10px;
+}
+
+/*-------------Hero--------------*/
 
 #hero {
+    border: none;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
 }
@@ -169,12 +181,46 @@ nav ul.open {
     text-align: center;
 }
 
-#hero-msg h4{
+
+#event, #weather, #news, #join, #spotlights{
+    background-color: #f7e5d9;
+}
+/*----Event----*/
+
+
+/*----Weather----*/
+
+
+/*----News----*/
+
+
+/*-----Spotlights-------*/
+
+#spotlights {
+    height: fit-content;
+    
+}
+
+.spotlight3{
     display: none;
 }
-.join-button {
-    display: none;
+
+main article {
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+    background-color: #fef2e9;
+    margin: 10px 10px;
+    padding: 1rem 1rem;
+    height: 10rem;
 }
+
+/*----Join----*/
+
+#join {
+    display: none
+}
+
+
 
 /*-------
 #hero-msg h4{

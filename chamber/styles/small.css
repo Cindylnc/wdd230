@@ -138,6 +138,7 @@ nav ul.open {
 
 
 main section{
+    display: block;
     border: 5px solid rgb(245, 242, 242);
     border-radius: 8px;
     height: 10rem;
@@ -148,43 +149,10 @@ main section{
 
 /*-------------Hero--------------*/
 
-#hero {
-    border: none;
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-}
 
-#hero-box {
-    grid-column: 1/4;
-    grid-row: 1/4;
-    z-index: -1;
-}
+/*------------other-------------*/
 
-#hero-img{
-    margin-left: -15px;
-    width: 110% ;
-
-}
-
-#hero-msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
-
-    text-align: center;
-
-}
-
-.home-title{
-    color: #ffffff;
-    font-size: 26px;
-    margin: auto;
-    margin-top: 55px;
-    text-align: center;
-
-}
-
-
-#event, #weather, #news, #join, #spotlights{
+#hero, #event, #weather, #news, #join, #spotlights{
     background-color: #f7e5d9;
     font-family: Poiret One;
     font-size: 12px;
@@ -221,7 +189,7 @@ main article {
 /*----Join----*/
 
 #join {
-    display: none
+    display: none;
 }
 
 /*--------------------------------Footer-------------------------------*/
@@ -266,87 +234,44 @@ footer {
 
 
 
-/*-------
-#hero-msg h4{
-    font-family: Poiret One, Helvetica, sans-serif;
-    color: #F2FBFF;
-    font-size: 14px;
-    margin-left: -30px;
-    margin-right: -30px;
+
+
+/*-------------Hero IMAGE
+
+#hero {
+    border: none;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    z-index: -1;
+}
+
+#hero-img{
+    margin-left: -15px;
+    width: 110% ;
 
 }
 
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
 
-.button-box {
     text-align: center;
-    color: rgb(201, 89, 32);   
-    margin-top: 10px;
+
 }
 
-.join-button {
-    background-color:#ffffff;
-    color: rgb(182, 92, 28); 
-    text-decoration: none;
-    font-family: "Montserrat", Helvetica, sans-serif;
-    font-size: 12px;
-    padding: 6px 8px;
-    margin-top: 8px;
-    border-radius: 5px;
-    margin-bottom: 10px;
-}
------*/
-
-
-
-
-
-/*--Header
-
-
-.logo-header{
-    width: 90px;
+.home-title{
+    color: #ffffff;
+    font-size: 26px;
     margin: auto;
+    margin-top: 55px;
+    text-align: center;
 
 }
 
-.social {
-    width: 20px;
-} 
-
-.heading{
-    background-color: white;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.page-title {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    color: rgb(50, 47, 46);
-}
-
-.page-title h1{
-    font-size: 14px;
-}
-
-.social-media{
-
-    margin: auto;
-
-}
-
-.social{
-    margin: auto;
-}
-
-.page-title div{
-    margin: auto;
-    font-size: 10px;
-}
------*/
-
-
+-------------*/
 

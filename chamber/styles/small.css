@@ -13,7 +13,24 @@
     width: 20px;
 } 
 
+header {
+    background-color: white;
+}
 
+
+.heading {
+    background-color: #f2d4c0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#date {
+    margin: auto;
+    margin-top: -20px;
+    text-align: center;
+}
 
 /*-----------Navigation Button--------------*/
 
@@ -41,13 +58,13 @@ nav ul li a {
     padding: .8rem 2vw;
     text-decoration: none;
     color: #333;
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(255, 255, 255);
 }
 
 
 nav ul li.active a{
     background-color: rgb(255, 255, 255);
-    color: black
+    color: rgb(157, 130, 130)
 }
 
 
@@ -83,9 +100,7 @@ nav ul.open {
 /*---Date Message in header-----*/
 
 #date {
-
     margin: 2rem auto;
-
 }
 
 

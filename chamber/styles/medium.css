@@ -1,12 +1,21 @@
 @media (min-width: 800px) {
 
-nav button {
+ nav button{
     display: none;
+
 }
 
-nav ul{
+#primaryNav{
     display: flex;
-    margin-left: 2vw;
+    margin: -1px;
+    border: none;
+    background-color: rgb(201, 201, 224);
+    display: flex;
+    justify-content: space-around;
+    border-top: none;
 }
 
+nav ul li a {
+
+}
 }

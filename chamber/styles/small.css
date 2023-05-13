@@ -220,8 +220,46 @@ main article {
     display: none
 }
 
+/*--------------------------------Footer-------------------------------*/
 
 
+.logo-footer{
+    width: 200px;
+}
+
+
+footer {
+    background-color: #f2d4c1;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 10px 10px 15px rgb(110, 108, 105);
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+}
+
+.chamber-footer h4{
+    color: rgb(175, 79, 19);
+    font-family: Playfair Display, Helvetica, sans-serif;
+}
+
+.chamber-footer p{
+    color:#2e333e;
+    font-size: 14px;
+}
+
+.chamber-footer a{
+    font-size: 14px;
+    text-decoration : none;
+    color: #913e07;
+
+}
+
+
+.footer-info p{
+    font-size: 12px;
+}
 /*-------
 #hero-msg h4{
     font-family: Poiret One, Helvetica, sans-serif;

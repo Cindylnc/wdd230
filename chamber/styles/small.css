@@ -55,11 +55,24 @@ nav ul li a:hover {
     background-color: rgb(195, 168, 168);
 }
 
+nav ul {
+    display:none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+
+
+
+
 #date {
 
     margin: 2rem auto;
 
 }
+
 
 /*-------Hero-------*/
 

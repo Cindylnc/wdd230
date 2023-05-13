@@ -21,8 +21,15 @@ nav ul#primaryNav{
 }
 
 nav ul li a {
-
     border-right: none;
-
 }
+
+/*--------------------*/
+
+
+#event {
+    background-color: blue;
+  }
+
+
 }

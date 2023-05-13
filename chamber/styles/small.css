@@ -15,7 +15,7 @@
 
 
 
-/*-------Navigation Button-------*/
+/*-----------Navigation Button--------------*/
 
 
 nav button {
@@ -55,6 +55,7 @@ nav ul li a:hover {
     background-color: rgb(195, 168, 168);
 }
 
+/*---Hide Nav-----*/
 nav ul {
     display:none;
 }
@@ -63,9 +64,23 @@ nav ul.open {
     display: block;
 }
 
+/*---Close Menu in Nav-----*/
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
 
 
-
+/*---Date Message in header-----*/
 
 #date {
 
@@ -74,7 +89,7 @@ nav ul.open {
 }
 
 
-/*-------Hero-------*/
+/*-----------------------------------Hero--------------------------------*/
 
 #hero {
     display: grid;
@@ -103,7 +118,7 @@ nav ul.open {
 }
 
 .home-title{
-    color: #e1eef4;
+    color: #ffffff;
     font-family: Poiret One;
     font-size: 25px;
     margin: auto;

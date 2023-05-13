@@ -1,0 +1,12 @@
+@media (min-width: 800px) {
+
+nav button {
+    display: none;
+}
+
+nav ul{
+    display: flex;
+    margin-left: 2vw;
+}
+
+}

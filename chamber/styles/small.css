@@ -6,37 +6,71 @@
 }
 
 .logo-header{
-    width: 200px;
+    width: 90px;
+    margin: auto;
+
 }
 
 .social {
     width: 20px;
 } 
 
-header {
+.heading{
     background-color: white;
-}
-
-
-.heading {
-    background-color: #f2d4c0;
-
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.page-title {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.page-title h1{
+    font-size: 14px;
+}
+
+.social-media{
+
+    margin: auto;
+
+}
+
+.social{
+    margin: auto;
+}
+
+.page-title div{
+    margin: auto;
+    font-size: 10px;
+}
+
+/*---Date Message in header-----*/
+
 #date {
     margin: auto;
-    margin-top: -20px;
+}
+
+
+#date {
+    margin: auto;
+    margin-top: 10px;
     text-align: center;
+    color: rgb(175, 79, 19);
+    background-color: #f2d4c0;
+    padding: 10px;
+    font-size: 10px;
+    font-family: Poiret One, Helvetica, sans-serif;
 }
 
 /*-----------Navigation Button--------------*/
 
 
 nav button {
-    margin: .2rem 2vw;
+    margin: -.6rem -.5vw;
     background: transparent;
     border: none;
     font-size: 2rem;
@@ -44,7 +78,8 @@ nav button {
 }
 
 nav {
-    background-color: rgb(224, 224, 224);
+    background-color: #f2d4c0;
+
 }
 
 nav ul{
@@ -64,12 +99,13 @@ nav ul li a {
 
 nav ul li.active a{
     background-color: rgb(255, 255, 255);
-    color: rgb(157, 130, 130)
+    color: #f2d4c0;
 }
 
 
 nav ul li a:hover {
-    background-color: rgb(195, 168, 168);
+    background-color: #ffffff;
+    color:rgb(175, 79, 19);
 }
 
 /*---Hide Nav-----*/
@@ -97,11 +133,7 @@ nav ul.open {
 }
 
 
-/*---Date Message in header-----*/
 
-#date {
-    margin: 2rem auto;
-}
 
 
 /*-----------------------------------Hero--------------------------------*/
@@ -118,10 +150,9 @@ nav ul.open {
 }
 
 #hero-img{
-
-    width: 98% ;
-
- 
+    margin-left: -6px;
+    width: 103% ;
+    margin-top: -15px;
 }
 
 #hero-msg {
@@ -129,7 +160,6 @@ nav ul.open {
     grid-row: 1/2;
     margin-top: 35px;
     text-align: center;
-
 }
 
 .home-title{
@@ -137,7 +167,7 @@ nav ul.open {
     font-family: Poiret One;
     font-size: 25px;
     margin: auto;
-    margin-top: -5px;
+    margin-top: -20px;
     text-align: center;
 }
 

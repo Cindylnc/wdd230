@@ -6,7 +6,7 @@ document.querySelector("#lastUpdate").textContent = document.lastModified;
 const headerdate = document.querySelector("#date");
 const now = new Date();
 const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now);
-headerdate.innerHTML = `Today is <strong>${fulldate}</strong>.`;
+headerdate.innerHTML = `<strong>Today is ${fulldate}</strong>.`;
 
 
 function toggleMenu (){

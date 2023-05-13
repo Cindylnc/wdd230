@@ -5,17 +5,24 @@
 
 }
 
-#primaryNav{
+nav ul#primaryNav{
     display: flex;
+    margin-left: 2vw;
+    border-top: none;
+    display: flex;
+    justify-content: space-around;
+    /*----------
     margin: -1px;
     border: none;
     background-color: rgb(201, 201, 224);
     display: flex;
     justify-content: space-around;
-    border-top: none;
+    border-top: none;  -Navigation Button--------------*/
 }
 
 nav ul li a {
+
+    border-right: none;
 
 }
 }

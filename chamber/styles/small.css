@@ -35,12 +35,12 @@
 .page-title h1{
     font-family: "Playfair Display", Helvetica, sans-serif;
     font-size: 1.1rem;
-    color: #bd8560;
+    color: #b16635;
 }
 .page-title p {
     margin: -.8rem .1vw;
     font-size: .6rem;
-    color: #bd8560;
+    color: #b16635;
 }
 
 /*---Date Message in header-----*/
@@ -55,7 +55,7 @@
     margin-top: 25px;
     margin-bottom: 15px;
     text-align: center;
-    color: rgb(175, 79, 19);
+    color: #984710;
     background-color: #f2d4c0;
     padding: 10px;
     font-size: 12px;
@@ -211,7 +211,7 @@ footer {
 }
 
 .chamber-footer h4{
-    color: rgb(175, 79, 19);
+    color: #b16635;
     font-family: "Playfair Display", Helvetica, sans-serif;
 }
 

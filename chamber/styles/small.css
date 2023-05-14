@@ -35,12 +35,12 @@
 .page-title h1{
     font-family: "Playfair Display", Helvetica, sans-serif;
     font-size: 1.5rem;
-    color: #a15f30;
+    color: #a7592f;
 }
 .page-title p {
     margin: -.8rem .1vw;
     font-size: .7rem;
-    color: #a15f30;
+    color: #a7592f;
 }
 
 /*---Date Message in header-----*/
@@ -211,7 +211,7 @@ footer {
 }
 
 .chamber-footer h4{
-    color: #913e07;
+    color: #8d4311;
     font-family: "Playfair Display", Helvetica, sans-serif;
 }
 

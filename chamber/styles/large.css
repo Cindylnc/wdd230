@@ -1,10 +1,31 @@
 @media only screen and (min-width: 1280px) {
     
 
-    
+    *{
+        margin: 15px!important;
+      
+    }
+
+    header{
+        margin: 10px!important;
+    }
+
+
+    nav button{
+        display: none;
+
+    }
+
+    nav ul#primaryNav{
+        display: flex;
+        margin-left: 2vw;
+        border-top: none;
+   
+       
+    }
+
     nav ul li a {
-        padding: .5rem  1rem;
-        
+        border-right: none;
     }
 
 /*--------Main------------*/
@@ -57,5 +78,16 @@
     display: block !important;  
 
 }
+
+
+
+.contact-info-footer{
+    padding-left: 45%!important;
     
+}
+
+
+
+
+
 }

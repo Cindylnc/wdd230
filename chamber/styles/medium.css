@@ -1,26 +1,26 @@
 @media (min-width: 800px) {
 
-    nav button{
-        display: none;
-
+    *{
+        margin: 10px!important;
+      
     }
 
-    nav ul#primaryNav{
-        display: flex;
-        margin-left: 2vw;
-        border-top: none;
-        justify-content: space-around;
-        /*----------
-        margin: -1px;
-        border: none;
-        background-color: rgb(201, 201, 224);
-        display: flex;
-        justify-content: space-around;
-        border-top: none;  -Navigation Button--------------*/
+/*--------Header---------*/
+
+    .page-title h1 {
+        font-size: 2rem!important;
+    }
+    .page-title p {
+        font-size: 1rem!important;
     }
 
-    nav ul li a {
-        border-right: none;
+    #date {
+        padding: 16x;
+        font-size: 16px !important;
+    }
+
+    .logo-header{
+        width: 130px!important;
     }
 
 /*--------Main------------*/
@@ -66,32 +66,43 @@
         order: -2;
     }
 
+
+    /*--------Footer--------*/
+
     footer {
         display: flex;
         display: grid;
-        grid-template-rows: 4fr 1fr;
+  
     }
 
     .chamber-footer{
         display: flex;
-        justify-content: space-between;
         
-
+        
     }
 
     .pg-address{
         text-align: left;
-        padding-left: -20px;
-        justify-content:space-around;
 
     }
 
+  
     .contact-info-footer{
-        justify-content: center;
-        padding-right: 25px;
+        text-align: end;
+        margin-left: auto;
+        padding-left: 15%;
         
-
     }
+
+    .footer-info{
+
+        display: flex;
+        margin: 1rem auto!important;
+ 
+  
+    }
+
+
 
    
 

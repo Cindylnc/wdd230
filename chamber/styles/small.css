@@ -2,7 +2,7 @@
 
 *{
     margin: 5px;
-    font-family: Manrope, Helvetica, sans-serif;
+    font-family: "Manrope", Helvetica, sans-serif;
 }
 
 
@@ -32,10 +32,9 @@
     flex: 1;
 }
 
-.page-title h1 {
-    font-family: Playfair Display, Helvetica, sans-serif;
+.page-title h1{
+    font-family: "Playfair Display", Helvetica, sans-serif;
     font-size: 1.1rem;
-    padding: none;
     color: #bd8560;
 }
 .page-title p {
@@ -60,7 +59,7 @@
     background-color: #f2d4c0;
     padding: 10px;
     font-size: 12px;
-    font-family: Poiret One, Helvetica, sans-serif;
+    font-family: "Poiret One", Helvetica, sans-serif;
 }
 
 /*-----------Navigation Button--------------*/
@@ -137,14 +136,14 @@ nav ul.open {
 
 
 
-main section{
+main section, main div{
     display: block;
     border: 5px solid rgb(245, 242, 242);
     border-radius: 8px;
     height: 10rem;
     padding: 1rem 1rem;
     margin: 10px 10px;
-    font-family: Poiret One;
+    font-family: "Poiret One";
 }
 
 /*-------------Hero--------------*/
@@ -154,7 +153,7 @@ main section{
 
 #hero, #event, #weather, #news, #join, #spotlights{
     background-color: #f7e5d9;
-    font-family: Poiret One;
+    font-family: "Poiret One";
     font-size: 12px;
 }
 /*----Event----*/
@@ -173,11 +172,11 @@ main section{
     
 }
 
-.spotlight3{
+.spotlight3{ 
     display: none;
 }
 
-main article {
+.spotlight1, .spotlight2, .spotlight3 {
     border-radius: 10px;
     border: 2px solid #ffffff;
     background-color: #fef2e9;
@@ -213,7 +212,7 @@ footer {
 
 .chamber-footer h4{
     color: rgb(175, 79, 19);
-    font-family: Playfair Display, Helvetica, sans-serif;
+    font-family: "Playfair Display", Helvetica, sans-serif;
 }
 
 .chamber-footer p{
@@ -230,7 +229,7 @@ footer {
 
 .footer-info p{
     font-size: 12px;
-    
+
 }
 
 

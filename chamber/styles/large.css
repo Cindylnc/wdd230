@@ -1,10 +1,6 @@
 @media only screen and (min-width: 1280px) {
     
 
-    *{
-        margin: 15px!important;
-      
-    }
 
     header{
         margin: 10px!important;
@@ -18,15 +14,10 @@
 
     nav ul#primaryNav{
         display: flex;
-        margin-left: 2vw;
-        border-top: none;
-   
-       
+
     }
 
-    nav ul li a {
-        border-right: none;
-    }
+  
 
 /*--------Main------------*/
 

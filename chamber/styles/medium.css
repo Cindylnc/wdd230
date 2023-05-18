@@ -26,45 +26,43 @@
 /*--------Main------------*/
 
     .container{
-        display: grid;
+        grid-template-columns: 1.5fr 1fr;
     }
 
     #hero {
         grid-column: 1/4;
-        order: -5;
     }
 
     #news {
         grid-column: 1/4;
-        order: -5;
+        grid-row: 2/3;
     }
 
     #spotlights {
-        height: fit-content;
-        display: flex;
-        order: -3;
         grid-column: 1/4;
+        grid-row: 3/4;
+        display: grid;
     }
 
     .spotlight1{
-        flex:1;
+        grid-column: 1/2;
     }
 
     .spotlight2{
-        flex:1;
+        grid-column: 2/3;
     } 
 
-    #event {
-        order: -1;
-        grid-column: 1/3;
-    
+    #join {
+        display: block;
+        grid-column: 1/4;
+        grid-row: 4/5;
     }
 
-    #join {
-        display: block !important;
-        grid-column: 1 / 4;
-        order: -2;
+    #event {
+        grid-column: 1/2;
+
     }
+
 
 
     /*--------Footer--------*/

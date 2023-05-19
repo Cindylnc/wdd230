@@ -236,11 +236,15 @@ OPTION 3
     overflow: hidden;
     border: 1px dashed cyan;
     width: 1fr;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
     padding: .8rem .8rem;
+    
 }
 
 
 .hero-container img{
+    grid-column: 1/5;
     margin: 0;
     width: 100%;
     height: 100%;
@@ -251,8 +255,10 @@ OPTION 3
 
 .hero-tex {
     position: absolute;
-    top: 10px;
-    left: 10px;
+    grid-column: 2/3;
+    top: 15px;
+
+    text-align: center;
 
 }
 

@@ -2,10 +2,6 @@
     
 
 
-    header{
-        margin: 10px!important;
-    }
-
 
     nav button{
         display: none;
@@ -23,28 +19,38 @@
 
 .container{
     grid-template-columns: 1fr 2fr 1fr;
-}
-
-main section, main div{
-    margin: 5px 5px!important;
-
 
 }
+
 
 #event {
     grid-column: 1/2;
     grid-row: 1/2;
+    height: 14rem;
 }
 
 #weather {
     grid-column:1/2;
     grid-row: 2/3;
+    height: 14rem;
 }
 
 #join {
     grid-column: 1/2;
     grid-row: 3/4;
 }
+
+
+
+
+
+.button-join{
+    grid-column: 1/4;
+    font-size: 1.3rem;
+    padding: 20px 1px 1px 1px;
+}
+
+
 
 
 
@@ -70,15 +76,14 @@ main section, main div{
 }
 
 .join-hero {
-    position: relative;
     background-color: white;
     box-shadow: 3px 3px 5px rgb(145, 145, 145);
-    font-size: 1.4rem;
-    color:#a7592f;
+    font-size: 1.3rem;
+    color:#000000;
     text-shadow: 0 0 5px #e4c3c3;
     left: 30px;
     top: 135px;
-    font-weight: 400;
+    font-weight: 200;
 }
 
 
@@ -98,20 +103,29 @@ main section, main div{
     grid-column: 3/4;
     grid-row: 1/4;
     display: grid;
+    
+    
 }
 .spotlight1{
     grid-column: 1/2;
     grid-row: 1/2;
+    height: 90%;
+    border-radius: 15px;
 }
 
 .spotlight2{
     grid-column: 1/2;
     grid-row: 2/3;
+    height: 90%;
+    border-radius: 15px;
+    
 } 
 
 .spotlight3{
     display: block;  
     grid-row: 3/4;
+    height: 90%;
+    border-radius: 15px;
 }
 
 .spotlight1, .spotlight2, .spotlight3 {

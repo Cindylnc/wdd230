@@ -178,15 +178,6 @@
     }
 
 
-    .join-div{
-        background-color:#887f90;
-        border: none;
-        grid-column: 2/3;
-        font-family: "Manrope", Helvetica, sans-serif;
-        padding: 25px 3px 3px;
-        text-align: center;
-    }
-
     .button-join{
         text-decoration: none;
         color: white;
@@ -195,7 +186,7 @@
         border-radius: 8px;
         font-family: "Poiret";
         background-color:#887f90;
-        padding: 25px 1px 1px;
+        padding: 25px .5px .5px;
         text-align: center;
 
 

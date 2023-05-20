@@ -287,7 +287,7 @@ OPTION 3
 
 }
 
-.join {
+.join-hero {
     background-color:#c0947c;
     color: white;
     text-decoration: none;
@@ -297,7 +297,7 @@ OPTION 3
     font-weight: 700;
 }
 
-.join:hover {
+.join-hero :hover {
     background-color: white;
     color: #a7592f;
 } 
@@ -499,8 +499,6 @@ main section, main div{
     border-radius: 1px;
     border: 2px solid #ffffff;
     background-color: #fef2e9;
-
-
     padding: 1rem 1rem;
     height: 12rem;
 }

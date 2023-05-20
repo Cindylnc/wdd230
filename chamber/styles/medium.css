@@ -25,11 +25,8 @@
 
 
 
-    #weather {
+ 
 
-
-        
-    }
 
 /*--------Main------------*/
 
@@ -37,9 +34,51 @@
         grid-template-columns: 1.5fr 1fr;
     }
 
-    #hero {
+
+    /* #hero {
         grid-column: 1/4;
+    } */
+
+
+
+    .hero-container{
+
+        position: relative;
+        overflow: hidden;
+        /* display: block; */
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        border: 1px solid chartreuse;
+    
     }
+
+
+  
+    /*----Weather--*/
+
+    #weather{
+        position: relative;
+    }
+    
+    #weather h3 {
+        margin: 15px auto;
+    }
+    
+    .temp{
+        margin-top: 350px;
+        position: absolute;
+    }
+    
+    .weather-condition {
+        position: relative
+    }
+    
+    .wind-speed, .wind-chill {
+        line-height: 1px
+    }
+
+
+
 
     #news {
         grid-column: 1/4;
@@ -60,17 +99,52 @@
         grid-column: 2/3;
     } 
 
-    #join {
-        display: block;
-        grid-column: 1/4;
-        grid-row: 4/5;
-    }
-
+ 
     #event {
         grid-column: 1/2;
 
     }
 
+
+
+    #spotlights{
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /*---Join--*/
+
+    #join {
+        display: block;
+        grid-column: 1/4;
+        grid-row: 4/5;
+        height: 12rem;
+        text-align: center;
+        border: none;
+    }
+
+
+    .join-div{
+        font-size: 1rem;
+        background-color:#c0947c;
+        border: none;
+
+        font-family: "Montserrat", Helvetica, sans-serif;
+        padding: 20px;
+        border-radius: 8px;
+
+    }
+
+    .button-join{
+        text-decoration: none;
+        color: black;
+    }
+
+    #join p{
+        font-size: 16px;
+        padding-top: 35px;
+    }
 
 
     /*--------Footer--------*/

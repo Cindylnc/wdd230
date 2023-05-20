@@ -237,11 +237,8 @@ OPTION 3
     width: 1fr;
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    padding: .8rem .8rem;
     border: none;
 
-
-    
 }
 
 
@@ -264,14 +261,9 @@ OPTION 3
     grid-row: 1/2; 
     font-size: 1rem;
     left: 5px;
-
     color: rgb(47, 42, 39);
-
     line-height: 3em;
     border: none;
-
-
-
     text-align: center;
 }
 
@@ -298,16 +290,11 @@ OPTION 3
 .join {
     background-color:#c0947c;
     color: white;
-    /* background-color:#f2d4c0;
-    color: black; */
     text-decoration: none;
     font-family: "Montserrat", Helvetica, sans-serif;
-    /* font-size: 1rem; */
     padding: 12px 28px;
     border-radius: 8px;
-
-    
-
+    font-weight: 700;
 }
 
 .join:hover {
@@ -367,6 +354,10 @@ main section, main div{
 /*----Event-----*/
 
 
+#event{
+    height: 12rem;
+    border: 1px;
+}
 
 #event h3 {
     text-align: center;
@@ -374,6 +365,7 @@ main section, main div{
     color: #a7592f;
     font-size: 1.6rem;
     margin: 10px auto;
+
 }
 #event-date{
     color: #a7592f;
@@ -393,11 +385,13 @@ main section, main div{
 /*----Weather----*/
 
 #weather{
-    border: 5px solid #f7e5d9;
+    border: 1px solid #f7e5d9;
     background-color: #ffffff;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     box-shadow: 10px 10px 15px rgb(224, 224, 224);
+    height: 12rem;
+    /* line-height: 10px; */
 
 }
 
@@ -420,35 +414,37 @@ main section, main div{
     grid-column: 3/5;
     font-size: 2.8rem;
     font-weight: 900;
-    margin-top: -15px;
+    margin-top: -40px;
+
 }
 
 .weather-condition {
     grid-column: 2/5;
     font-size: 1.5rem;
     margin:0 auto;
+    margin-top: -40px;
+    
 
 }
 
 #weather hr {
     grid-column: 1/5;
+    
 }
 
-.wind-speed {
+.wind-speed, .wind-chill {
     grid-column: 1/5;
     margin:0 auto;
 }
 
-.wind-chill {
-    grid-column: 1/5;
-    margin:0 auto;
-}
+
 
 
 /*----News---*/
 
 #news{
     box-shadow: 10px 10px 15px rgb(224, 224, 224);
+    border: 1px;
 }
 
 #news h3 {
@@ -468,6 +464,7 @@ main section, main div{
 /*-----Spotlights-------*/
 
 #spotlights{
+    border: 1px;
     background-color: white;
     font-family: "Poiret One";
 
@@ -499,13 +496,13 @@ main section, main div{
 }
 
 .spotlight1, .spotlight2, .spotlight3 {
-    border-radius: 10px;
+    border-radius: 1px;
     border: 2px solid #ffffff;
     background-color: #fef2e9;
 
-    margin: 10px 10px;
+
     padding: 1rem 1rem;
-    height: 10rem;
+    height: 12rem;
 }
 
 

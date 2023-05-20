@@ -16,3 +16,13 @@ function toggleMenu (){
 const x = document.getElementById("hamburgerBtn")
 x.onclick = toggleMenu;
 
+
+
+document.addEventListener("DOMContentLoaded", function(){
+    const today = newDate().getDay();
+    if(today === 6) {
+        const element = document.getElementById('banner');
+        element.style.display = 'block';
+    }
+
+})

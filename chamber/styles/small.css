@@ -283,21 +283,22 @@ OPTION 3
 
 .button-box{
     border: none;
-    margin-top: 40px;
+    margin-top: 50px;
 
 }
 
 .join-hero {
-    background-color:#c0947c;
+    background-color:#221e4e;
     color: white;
     text-decoration: none;
     font-family: "Montserrat", Helvetica, sans-serif;
     padding: 12px 28px;
     border-radius: 8px;
     font-weight: 700;
+    box-shadow: 3px 3px 5px rgb(224, 224, 224);
 }
 
-.join-hero :hover {
+.join-hero:hover {
     background-color: white;
     color: #a7592f;
 } 
@@ -314,7 +315,6 @@ OPTION 3
 
 .container{
     display: grid;
-
     grid-template-columns: 1fr;
 }
 
@@ -455,8 +455,8 @@ main section, main div{
 }
 
 #news p {
-    margin: 0 auto;
-    text-align: justify;
+
+
     padding: .5rem .5rem;
 }
 
@@ -478,7 +478,7 @@ main section, main div{
 }
 .spotlight2 p, .spotlight3 p, .spotlight1 p{ 
     color: black;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 #garden-icon {

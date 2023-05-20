@@ -67,7 +67,7 @@
     
     .city{
         color: rgb(255, 255, 255);
-        text-shadow: 0 0 10px #030202;
+        text-shadow: 8px 10px 10px #030202;
         font-size: 395%;    
         top: -30px;
         left: 28px;
@@ -78,7 +78,7 @@
     .join-hero {
         position: relative;
         background-color: #e19a28;
-        color: white;
+        color: #403a3a;
         left: 30px;
         top: 20px;
         font-weight: 700;
@@ -185,7 +185,7 @@
         font-size: 1.3rem;
         border-radius: 8px;
         font-family: "Poiret";
-        background-color:#887f90;
+        background-color:#6e6774;
         padding: 25px .5px .5px;
         text-align: center;
 

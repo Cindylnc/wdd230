@@ -18,11 +18,27 @@ x.onclick = toggleMenu;
 
 
 
+// document.addEventListener("DOMContentLoaded", function(){
+//     const today = newDate().getDay();
+//     if(today === 6) {
+//         const element = document.getElementById('banner');
+//         element.style.display = 'block';
+//     }
+
+// })
+
+
+function newDate(){
+    return new Date();
+}
+
+const today = newDate().getDay();
+
+console.log(today);
+
 document.addEventListener("DOMContentLoaded", function(){
-    const today = newDate().getDay();
-    if(today === 6) {
+    if (today === 6) {
         const element = document.getElementById('banner');
         element.style.display = 'block';
     }
-
 })

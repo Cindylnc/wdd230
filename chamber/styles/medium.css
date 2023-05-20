@@ -42,16 +42,100 @@
 
 
     .hero-container{
-
+        grid-column: 1/3;
         position: relative;
-        overflow: hidden;
-        /* display: block; */
+        overflow:visible;
+        left: -28px;
         display: grid;
-        grid-template-columns: 1.5fr 1fr;
-        border: 1px solid chartreuse;
-    
+        grid-template-columns: 1fr 5fr 1fr;
+        /* grid-template-rows: 1fr 1fr 1fr; */
+
     }
 
+     .hero-container img{
+        width: 120%;
+        margin: 0;
+        border-radius: 15px;
+        grid-column: 1/3;
+        grid-row: 1/3; 
+    
+    }
+    
+
+
+
+
+
+    .hero-tex {
+        position: absolute;
+        width: 100%;
+        /* height: 100%; */
+        grid-column: 1/3;
+        grid-row: 2/2; 
+        font-size: 1rem;
+        left: 0px;
+        /* color: rgb(47, 42, 39); */
+        line-height: 0;
+        border: none;
+        text-align: auto;
+    }
+    
+    
+    
+    .city{
+        color: rgb(255, 255, 255);
+        grid-column: 1/3;
+        position: absolute;
+        font-size: 395%;
+        width: 100%;
+        text-shadow: 0 0 3px #030202;
+        top: -20px;
+        left:40px
+ 
+    }
+    
+    
+    .button-box{
+        border: none;
+        margin-top: 35px;
+    
+    }
+    
+    .join-hero {
+        background-color:   #221e4e;
+        color: white;
+      
+        text-decoration: none;
+        font-family: "Montserrat", Helvetica, sans-serif;
+        padding: 12px 28px;
+        border-radius: 8px;
+        font-weight: 700;
+        box-shadow: 3px 3px 5px rgb(224, 224, 224);
+    }
+    
+    .join-hero:hover {
+        background-color: white;
+        color: #a7592f;
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+     /*---Event-*/
+    #event {
+        grid-column: 1/2;
+
+    }
 
   
     /*----Weather--*/
@@ -83,12 +167,14 @@
     }
 
 
-
+    /*----News--*/
 
     #news {
         grid-column: 1/4;
         grid-row: 2/3;
     }
+
+  /*------Spotlights------*/
 
     #spotlights {
         grid-column: 1/4;
@@ -104,13 +190,6 @@
         grid-column: 2/3;
     } 
 
- 
-    #event {
-        grid-column: 1/2;
-
-    }
-
-
 
     #spotlights{
         margin: 0;
@@ -125,41 +204,45 @@
         grid-row: 4/5;
         height: 10rem;
         border: none;
-        display: block;
-        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1.3fr 1fr;
         box-shadow: 10px 10px 15px rgb(224, 224, 224);
     }
 
 
     .join-div{
-        font-size: 1rem;
         background-color:#887f90;
         border: none;
-
+        grid-column: 2/3;
         font-family: "Manrope", Helvetica, sans-serif;
-
-        /* padding: 15px 30px;
-        margin-top: 50px;
-        border-radius: 5px; */
-        position: absolute;
-        top:30px;
-        left: 20rem;
-
+        padding: 25px 3px 3px;
+        text-align: center;
     }
 
     .button-join{
         text-decoration: none;
-        color: black;
-               padding: 15px 30px;
-        margin-top: 50px;
-        border-radius: 5px;
-        
+        color: white;
+        grid-column: 2/3;
+        font-size: 1.3rem;
+        border-radius: 8px;
+        font-family: "Poiret";
+        background-color:#887f90;
+        padding: 25px 1px 1px;
+        text-align: center;
+
+
+    }
+
+    .button-join:hover{
+        background-color: white;
+        color: rgb(216, 147, 27);
+
     }
 
     #join p{
+        grid-column: 1/4;
         font-size: 16px;
-        padding-top: 35px;
-        position: absolute;
+        text-align: center;Poiret
     }
 
 

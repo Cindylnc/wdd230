@@ -234,7 +234,7 @@ OPTION 3
     margin: 0;
     position: relative;
     overflow: hidden;
-    width: 1fr;
+    /* width: 1fr; */
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     border: none;
@@ -268,11 +268,7 @@ OPTION 3
 }
 
 
-.invite{
-    display: none;
 
-
-}
 .city{
     position: absolute;
     font-size: 1.8rem;

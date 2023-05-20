@@ -68,8 +68,9 @@
 }
 
 .city{
-    color: rgb(255, 255, 255);
-    text-shadow: 0 0 10px #171616;
+    /* color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px #171616; */
+    color: rgb(47, 42, 39);
     font-size: 395%;    
     top: 70px;
     left: 30px;

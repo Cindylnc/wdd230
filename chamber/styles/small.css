@@ -260,12 +260,12 @@ OPTION 3
     position: absolute;
     display: block;
     grid-column: 2/3;
-    font-size: 22px;
+    font-size: 10px;
     left: 10px;
-    top: 30px;
+    top: 10px;
     color: rgb(47, 42, 39);
     text-align: center;
-    line-height: 1em;
+    line-height: 2em;
     border: none;
 }
 
@@ -276,7 +276,7 @@ OPTION 3
 
 .button-box{
     border: none;
-    margin-top: 40px;
+    /* margin-top: 40px; */
 }
 
 .join {

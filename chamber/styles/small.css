@@ -278,18 +278,20 @@ OPTION 3
     font-size: 1.8rem;
     width: 100%;
     text-shadow: 0 0 3px #ffffff;
+    top: 5px;
 }
 
 
 .button-box{
     border: none;
-    margin-top: 50px;
+    margin-top: 35px;
 
 }
 
 .join-hero {
-    background-color:#221e4e;
+    background-color:   #221e4e;
     color: white;
+  
     text-decoration: none;
     font-family: "Montserrat", Helvetica, sans-serif;
     padding: 12px 28px;
@@ -529,7 +531,7 @@ main section, main div{
 footer {
     background-color: #f2d4c1;
     border-radius: 5px 5px 5px 5px;
-    box-shadow: 10px 10px 15px rgb(110, 108, 105);
+    /* box-shadow: 10px 10px 15px rgb(110, 108, 105); */
 }
 
 footer {

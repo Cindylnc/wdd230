@@ -270,10 +270,12 @@ OPTION 3
 
 
 .city{
+
+    
     position: absolute;
     font-size: 1.8rem;
     width: 100%;
-    text-shadow: 0 0 3px #ffffff;
+    text-shadow: 0 0 20px #ffffff;
     top: 5px;
 }
 
@@ -290,9 +292,9 @@ OPTION 3
   
     text-decoration: none;
     font-family: "Montserrat", Helvetica, sans-serif;
-    padding: 12px 28px;
+    padding: 10px 15px;
     border-radius: 8px;
-    font-weight: 700;
+    font-weight: 400;
     box-shadow: 3px 3px 5px rgb(224, 224, 224);
 }
 

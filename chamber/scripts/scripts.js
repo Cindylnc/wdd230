@@ -37,7 +37,7 @@ const today = newDate().getDay();
 console.log(today);
 
 document.addEventListener("DOMContentLoaded", function(){
-    if (today === 6) {
+    if (today === 1 || today === 2) {
         const element = document.getElementById('banner');
         element.style.display = 'block';
     }

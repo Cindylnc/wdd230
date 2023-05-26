@@ -163,7 +163,7 @@ nav ul.open {
 
 
 
-    /* TEMP IMAGE */
+    /**************** TEMP IMAGE ****************/
 
 picture {
     border: none;
@@ -198,7 +198,7 @@ picture.temp {
 } */
 
 
-   /* END TEMP IMAGE */
+   /**************** END TEMP IMAGE ****************/
 
 
 
@@ -208,7 +208,9 @@ picture.temp {
     grid-column: 1/4;
     grid-row: 1/2; 
     font-size: 1rem;
-    left: 5px;
+    /* left: 5px; */     /* RETURN TEMP */
+    top: 100px;         /* DELETE TEMP */
+    left: -25px;        /* DELETE TEMP */
     color: rgb(47, 42, 39);
     line-height: 3em;
     border: none;

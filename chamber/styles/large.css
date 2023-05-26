@@ -1,5 +1,5 @@
 @media only screen and (min-width: 1280px) {
-    
+    /* 1280 */
 
 
 
@@ -63,13 +63,16 @@
     top: -20px;
 }
 
- .hero-container img{    
+ /* .hero-container img{    
     height: 165%;
+} */
+
+picture{
+    height: 50%;
 }
 
 .city{
-    /* color: rgb(255, 255, 255);
-    text-shadow: 0 0 10px #171616; */
+
     color: rgb(47, 42, 39);
     font-size: 395%;    
     top: 70px;

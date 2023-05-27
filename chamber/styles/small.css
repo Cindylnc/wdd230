@@ -337,7 +337,7 @@ main section, main div{
     grid-template-columns: repeat(4,1fr);
     box-shadow: 10px 10px 15px rgb(224, 224, 224);
     height: 12rem;
-    line-height: 10px;
+    /* line-height: 10px; */
 
 }
 
@@ -354,7 +354,11 @@ main section, main div{
     font-size: 1.6rem;
 }
 
-
+#weather #w-temp {
+ 
+    font-size: 2rem;
+    margin:0 auto;
+}
 
 
 .weather-condition {
@@ -371,11 +375,11 @@ main section, main div{
     
 }
 
-.wind-speed, .wind-chill {
-    grid-column: 1/5;
-    margin:0 auto;
-}
 
+
+#weather span{
+    font-size: 1.1rem;
+}
 
 
 

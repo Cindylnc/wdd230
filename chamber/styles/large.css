@@ -58,9 +58,10 @@
 
 .hero-container{
     grid-column: 2/3;  
-    grid-row: 1/2;
+    grid-row: 1/1;
     left: -18px;
     top: -20px;
+    object-fit: cover;
 }
 
  /* .hero-container img{    
@@ -68,7 +69,7 @@
 } */
 
 picture{
-    height: 50%;
+    height: 0%;
 }
 
 .city{
@@ -89,6 +90,31 @@ picture{
     top: 135px;
     font-weight: 200;
 }
+
+.hero-tex { /* DELETE TEMP */
+    top: 190px;         /* DELETE TEMP */
+    left: -30px;        /* DELETE TEMP */
+}
+
+
+.hero-container{ /* DELETE TEMP */
+    overflow:hidden; /* DELETE TEMP */
+    grid-row: 1/3; /* DELETE TEMP */
+   
+}
+picture.temp { /* DELETE TEMP */
+    grid-column: 1/4;  /* DELETE TEMP */
+    grid-row: 1/3; /* DELETE TEMP */
+
+  }
+
+
+
+
+
+
+
+
 
 
 

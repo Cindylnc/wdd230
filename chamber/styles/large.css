@@ -58,10 +58,11 @@
 
 .hero-container{
     grid-column: 2/3;  
-    grid-row: 1/1;
-    left: -18px;
-    top: -20px;
-    object-fit: cover;
+    /*grid-row: 1/1;  return TEMP */
+    /* left: -18px; Return TEMP */
+    /* top: -20px;  Return TEMP */
+    /* object-fit: cover;  Return TEMP */
+    grid-row: 1/3; /* DELETE TEMP */
 }
 
  /* .hero-container img{    
@@ -77,7 +78,7 @@ picture{
     color: rgb(47, 42, 39);
     font-size: 395%;    
     top: 70px;
-    left: 30px;
+    left: 0px;
 }
 
 .join-hero {
@@ -93,16 +94,12 @@ picture{
 
 .hero-tex { /* DELETE TEMP */
     top: 250px;         
-    left: 0px;        
+    left: -40px;        
     /* text-align: center;  */
 }
 
 
-.hero-container{ /* DELETE TEMP */
-    grid-row: 1/3; /* DELETE TEMP */
-    left: -70px; /* DELETE TEMP */
-   
-}
+
 picture.temp { /* DELETE TEMP */
     grid-column: 1/4;  /* DELETE TEMP */
     grid-row: 1/3; /* DELETE TEMP */

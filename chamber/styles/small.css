@@ -156,9 +156,10 @@ nav ul.open {
     position: relative;
     overflow: hidden;
     /* width: 1fr; */
-    display: grid;
+    /* display: grid; */
     grid-template-columns: 1fr 3fr 1fr;
     border: none;
+    
 
 }
 
@@ -178,9 +179,9 @@ picture {
 }
 
 picture.temp {
-    display: block;
+    /* display: block; */
     width: 100%;
-    padding: 0px;
+    /* padding: auto; */
     margin: -25px -25px;
   }
 
@@ -336,7 +337,7 @@ main section, main div{
     grid-template-columns: repeat(4,1fr);
     box-shadow: 10px 10px 15px rgb(224, 224, 224);
     height: 12rem;
-    /* line-height: 10px; */
+    line-height: 10px;
 
 }
 

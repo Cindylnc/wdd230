@@ -92,26 +92,23 @@ picture{
 }
 
 .hero-tex { /* DELETE TEMP */
-    top: 190px;         /* DELETE TEMP */
-    left: -30px;        /* DELETE TEMP */
+    top: 250px;         
+    left: 0px;        
+    /* text-align: center;  */
 }
 
 
 .hero-container{ /* DELETE TEMP */
-    overflow:hidden; /* DELETE TEMP */
     grid-row: 1/3; /* DELETE TEMP */
+    left: -70px; /* DELETE TEMP */
    
 }
 picture.temp { /* DELETE TEMP */
     grid-column: 1/4;  /* DELETE TEMP */
     grid-row: 1/3; /* DELETE TEMP */
 
+
   }
-
-
-
-
-
 
 
 

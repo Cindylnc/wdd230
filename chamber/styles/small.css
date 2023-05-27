@@ -3,6 +3,7 @@
 *{
     margin: 5px;
     font-family: "Manrope", Helvetica, sans-serif;
+
 }
 
 
@@ -189,13 +190,7 @@ picture.temp {
   }
 
 
-  /* .temp{
-    grid-column: 3/5;
-    font-size: 2.8rem;
-    font-weight: 900;
-    margin-top: -40px;
 
-} */
 
 
    /**************** END TEMP IMAGE ****************/

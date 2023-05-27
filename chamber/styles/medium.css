@@ -37,29 +37,29 @@
 
 
 
-/* TEMP-RETURN
+
     .hero-container{
         grid-column: 1/3;
-        position: relative;
+        /* position: relative; */
         overflow:visible;
         left: -28px;
         display: grid;
         grid-template-columns: 1fr 5fr 1fr;
-    } */
+    }
 
-     /* TEMP-RETURN
+
       .hero-container img{
         width: 120%;
         margin: 0;
         border-radius: 15px;
         grid-column: 1/3;
         grid-row: 1/3; 
-    } */
+    }
 
     .hero-container{
         grid-column: 1/3;
-        display: flex;
-        position: relative;
+        /* display: flex; */
+        /* position: relative; */
         overflow:visible;
         left: -28px;
         display: grid; 
@@ -67,15 +67,74 @@
     }
 
 
-    picture{   /*TEMP - DLT*/
+    picture.temp{   
         width: 120%;
         
         margin: 0;
         border-radius: 15px;
         grid-column: 1/3;
         grid-row: 1/3; 
+    }
+
+    
+
+
+
+
+
+    picture {
+        border: none;
+        grid-column: 1/4;
+
+        margin: -30px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+        opacity: .7;
+        grid-column: 1/3;
+        grid-row: 1/3; 
 
     }
+    
+    picture.temp {
+        display: block;
+        width: 100%;
+        padding: 0px;
+        margin: 0px -25px;
+        grid-column: 1/3;
+        grid-row: 1/3; 
+      }
+    
+      main picture.temp img {
+        width: 100%;
+      
+      }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
     .hero-tex {
         grid-row: 2/2; 

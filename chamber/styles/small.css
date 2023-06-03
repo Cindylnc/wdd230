@@ -505,3 +505,72 @@ footer {
 
 
 
+/*------------------------------------------------------------*/
+/*--------------------------DISCOVER--------------------------*/
+/*------------------------------------------------------------*/
+
+
+#population-female, #population-male{
+    height: 30px;
+}
+
+#land-icon{
+    width: 110px;
+}
+
+.large-numb{
+    font-size: 18px;
+    font-weight: 800;
+    color: #a7592f;
+}
+
+.discover-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.discover-container h2{
+    font-size: 20px;
+}
+
+.popu-box p{
+    font-size: 10px;
+}
+
+
+
+.land-area{
+    margin: 0 auto;
+    grid-column: 1/2;
+    /* grid-row: 1/2; */
+}
+
+.popu-box{
+    margin: 0 auto;
+       padding: 0;
+    display: flex;
+}
+.population{
+    margin: 0 auto;
+    grid-column: 2/4;
+    padding: 0;
+    /* grid-row: 1/2; */
+}
+
+.growth-rate{
+    margin: 0 auto;
+    grid-column: 1/3;
+    grid-row: 2/3;
+}
+
+.house-income{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    margin: 0 auto;
+    /* padding: 0; */
+}
+
+
+

@@ -600,5 +600,8 @@ footer {
 }
 
 
-
+.picture-discover:hover{
+    opacity: .9;
+    transform: scale(1.08);
+}
 

@@ -509,27 +509,13 @@ footer {
 /*--------------------------DISCOVER--------------------------*/
 /*------------------------------------------------------------*/
 
-
-#population-female, #population-male{
-    height: 30px;
-}
-
-#land-icon{
-    width: 110px;
-}
-
-.pg-discover {
+/*---TOP---*/
+.pg-discover, .pg-discover-images {
     color: #a7592f;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     padding: 20px;
     padding-bottom: 14px;
-}
-
-.large-numb{
-    font-size: 18px;
-    font-weight: 800;
-    color: #a7592f;
 }
 
 .discover-container{
@@ -547,6 +533,21 @@ footer {
 .discover-container div{
     border: none;
 
+}
+
+#land-icon{
+    width: 110px;
+}
+
+#population-female, #population-male{
+    height: 30px;
+}
+
+
+.large-numb{
+    font-size: 18px;
+    font-weight: 800;
+    color: #a7592f;
 }
 
 .popu-box p{
@@ -590,18 +591,44 @@ footer {
     /* padding: 0; */
 }
 
-.picture-discover{
-    width: 300px;
 
+
+/*---BOTTOM---*/
+
+.picture-discover{
+    width: 100%;
     border-radius: 9px;
     box-shadow: 20px 20px 25px rgb(224, 224, 224);
     transition: transform .8s;
     margin-bottom: 30px;
+    
 }
-
 
 .picture-discover:hover{
     opacity: .9;
     transform: scale(1.08);
+}
+
+.images-disc {
+    border: none;
+    
+    
+}
+
+.pg-discover-images {
+    margin-top: 55px;
+    padding-bottom: 14px;
+    
+    
+    /* align-items: center; */
+}
+.images-disc p{
+    /* padding-top: -10px; */
+    margin-top: -15px;
+    margin-bottom: 30px;
+    color: #a7592f;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;  
 }
 

@@ -280,11 +280,49 @@
 
 
 
-   
+/*------------------------------------------------------------*/
+/*--------------------------DISCOVER--------------------------*/
+/*------------------------------------------------------------*/
 
 
-/*--------Footer---------*/
 
 
+
+    #land-icon{
+        width: 200px;
+    }
+
+    #population-female, #population-male{
+        height: 60px;
+    }
+
+
+    .growth-rate p, .population p, .house-income p{
+        margin-top: 30px;
+        /* text-align: center;  */
+    }
+
+
+    .discover-container{
+        display: flex;
+        margin: 10px;
+        text-align: center;
+    }
+
+    .picture-discover{
+        width: 60%;
+        display: block;
+        margin: auto;
+
+    }
+    .images-disc p{
+        /* padding-top: -10px; */
+        margin-top: 12px;
+        margin-bottom: 30px;
+        color: #a7592f;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 700;  
+    }
 
 }

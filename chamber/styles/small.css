@@ -518,6 +518,13 @@ footer {
     width: 110px;
 }
 
+.pg-discover {
+    color: #a7592f;
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+}
+
 .large-numb{
     font-size: 18px;
     font-weight: 800;
@@ -525,6 +532,7 @@ footer {
 }
 
 .discover-container{
+    border: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
@@ -535,27 +543,36 @@ footer {
     font-size: 20px;
 }
 
+.discover-container div{
+    border: none;
+
+}
+
+
+
 .popu-box p{
-    font-size: 10px;
+    font-size: 12px;
+    
 }
 
 
 
 .land-area{
     margin: 0 auto;
+    /* padding: auto; */
     grid-column: 1/2;
     /* grid-row: 1/2; */
 }
 
 .popu-box{
     margin: 0 auto;
-       padding: 0;
+    padding: 0;
     display: flex;
+    border: none;
 }
 .population{
     margin: 0 auto;
     grid-column: 2/4;
-    padding: 0;
     /* grid-row: 1/2; */
 }
 

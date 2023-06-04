@@ -42,3 +42,22 @@ document.addEventListener("DOMContentLoaded", function(){
         element.style.display = 'block';
     }
 })
+
+
+// LAST VISIT
+
+const msForDay = 86400000;
+const userLastVisit = document.getElementById("user-visit")
+
+const lastVisitTime = Number(window.localStorage.getItem("visittime-ls"));
+
+function calculateDays() {
+    const lastVisitInDays = Math.round((now.getTime() - lastVisitTime)/msForDay);
+    lastVisitSpan = $`| 🤗 Welcome back! Your last visit was ${lastVisitInDays} days ago |`;
+}
+  
+if (lastVisitTime !== 0) {
+    calculateDays();
+} else {
+    userLastVisit.textContent = ` |  👋 Welcome to The PG Chamber!  This is your first visit   |`;
+}

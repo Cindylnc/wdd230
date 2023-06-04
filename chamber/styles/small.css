@@ -632,3 +632,12 @@ footer {
     font-weight: 700;  
 }
 
+
+.visit-container{
+    text-align: center;
+}
+#user-visit{
+    color: #a7592f;
+    font-weight: 900;
+
+}

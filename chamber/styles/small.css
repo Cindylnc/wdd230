@@ -635,6 +635,8 @@ footer {
 
 .visit-container{
     text-align: center;
+    border: none;
+    background-color: #fef2e9;
 }
 #user-visit{
     color: #a7592f;

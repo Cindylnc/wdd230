@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300&display=swap');
+
+
 :root {
 	--back: #000000;
     --back2: #333333;
@@ -14,12 +16,18 @@
 body {
 	font-family: "Geologica", Arial, serif;
     font-weight: 800;
+    /* margin: 0 auto; */
+    padding: 4em;
+    font-size: 16px;
+
 }
 
 table {
 	/* margin: 10px auto; */
-
+    text-align: center;
 	border-collapse: collapse;
+    margin: 8px;
+    margin-bottom: 50px;
 
 }
 
@@ -87,4 +95,9 @@ caption {
   tbody tr, td{
 
 	border: 1px solid var(--borderlight);
+}
+
+footer{
+    text-align: center;
+font-size: 10px;
 }

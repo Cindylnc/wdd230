@@ -44,44 +44,6 @@ document.addEventListener("DOMContentLoaded", function(){
 })
 
 
-// TES 1 LAST VISIT
-
-// const msForDay = 86400000;
-// const userVisit = document.getElementById("user-visit")
-
-// const lastVisitTime = Number(window.localStorage.getItem("visittime-ls"));
-
-// function calculateDays() {
-//     const lastVisitInDays = Math.round((now.getTime() - lastVisitTime)/msForDay);
-//     userVisit = $`| 🤗 Welcome back! Your last visit was ${lastVisitInDays} days ago |`;
-// }
-  
-// if (lastVisitTime !== 0) {
-//     calculateDays();
-// } else {
-//     userVisit.textContent = ` |  👋 Welcome to The PG Chamber!  This is your first visit   |`;
-// }
-
-// localStorage.setItem("lastVisitTime-ls",lastVisitTime);
-
-
-// TEST 2 LAST VISIT
-
-// const visitsDisplay = document.querySelector(".user-visit"); 
-// let numVisits = Number(window.localStorage.getItem("visits-localstorage"));
-
-// if (numVisits !== 0) {
-//     visitsDisplay.textContent = numVisits;
-// }
-// else{
-//     visitsDisplay.textContent = `This is your 1st visit`;
-// }
-// numVisits++;
-
-// localStorage.setItem("visits-localstorage", numVisits);
-
-
-
 
 const msForDay = 86400000;
 

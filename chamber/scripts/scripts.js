@@ -57,7 +57,7 @@ let lastVisitTime = Number(window.localStorage.getItem("visits-localstorage"));
 }
 
 if (lastVisitTime !== 0) {
-   calculateDays();
+    userVisit.textContent = calculateDays();
     } else {
         userVisit.textContent = ` |  👋 Welcome to The PG Chamber!  This is your first visit   |`;
      }

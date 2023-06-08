@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", function(){
 })
 
 
-
+// Local Storage Last Visit
 const msForDay = 86400000;
 
 const userVisit  = document.querySelector(".user-visit");

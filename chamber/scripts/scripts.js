@@ -53,7 +53,7 @@ let lastVisitTime = Number(window.localStorage.getItem("visits-localstorage"));
  function calculateDays() {
     const lastVisitInDays = Math.round((now.getTime() - lastVisitTime)/msForDay);
     const message = `| 🤗 Welcome back! Your last visit was ${lastVisitInDays} days ago |`;
-    return message
+    return message;
 }
 
 if (lastVisitTime !== 0) {

@@ -23,10 +23,9 @@ body {
 }
 
 table {
-	/* margin: 10px auto; */
+	margin: 10px auto;
     text-align: center;
 	border-collapse: collapse;
-    margin: 8px;
     margin-bottom: 50px;
 
 }

@@ -45,21 +45,50 @@ document.addEventListener("DOMContentLoaded", function(){
 
 
 // Local Storage Last Visit
-const msForDay = 86400000;
+// const msForDay = 86400000;
+
+// const userVisit  = document.querySelector(".user-visit");
+// let lastVisitTime = Number(window.localStorage.getItem("visits-localstorage")); 
+
+//  function calculateDays() {
+//     const lastVisitInDays = Math.round((now.getTime() + lastVisitTime)/msForDay);
+//     const message = `| 🤗 Welcome back! Your last visit was ${lastVisitInDays} days ago |`;
+//     return message;
+// }
+
+// if (lastVisitTime !== 0) {
+//     userVisit.textContent = calculateDays();
+//     } else {
+//         userVisit.textContent = ` |  👋 Welcome to The PG Chamber!  This is your first visit   |`;
+//      }
+
+// localStorage.setItem("visits-localstorage", lastVisitTime);
+
+
+
+
+
+
+
 
 const userVisit  = document.querySelector(".user-visit");
-let lastVisitTime = Number(window.localStorage.getItem("visits-localstorage")); 
+
+
+let lastVisitTime = localStorage.getItem("visits-localstorage"); 
+let currentTimestamp = Date.now();
+const msForDay = 86400000;
+const lastVisitInDays = Math.floor((currentTimestamp - lastVisitTime) / msForDay);
+localStorage.setItem("visits-localstorage", currentTimestamp);
 
  function calculateDays() {
-    const lastVisitInDays = Math.round((now.getTime() - lastVisitTime)/msForDay);
+    lastVisitInDays;
     const message = `| 🤗 Welcome back! Your last visit was ${lastVisitInDays} days ago |`;
     return message;
 }
 
-if (lastVisitTime !== 0) {
+if (lastVisitInDays >= 1) {
     userVisit.textContent = calculateDays();
     } else {
         userVisit.textContent = ` |  👋 Welcome to The PG Chamber!  This is your first visit   |`;
      }
 
-localStorage.setItem("visits-localstorage", lastVisitTime);

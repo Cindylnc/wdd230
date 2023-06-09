@@ -27,6 +27,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .page-title {
@@ -46,18 +47,18 @@
 
 /*---Date Message in header-----*/
 
-
+/* 6.8.23UPDATE */
 
 #date {
     margin: auto;
-    margin-top: 25px;
-    margin-bottom: 15px;
+    /* margin-top: 25px; */
+    /* margin-bottom: 15px; */
     text-align: center;
     color: #984710;
     background-color: #f2d4c0;
     padding: 10px;
-    font-size: 12px;
-    /* font-family: "Poiret One", Helvetica, sans-serif; */
+    font-size: 14px;
+    font-family: "Poiret One", Helvetica, sans-serif;
 }
 
 
@@ -80,12 +81,14 @@
 /*-----------Navigation Button--------------*/
 
 
+
 nav button {
     margin: -.6rem -.5vw;
     background: transparent;
     border: none;
     font-size: 2rem;
     color: rgb(175, 79, 19);
+    
 }
 
 nav {
@@ -95,7 +98,7 @@ nav {
 
 nav ul{
     list-style: none;
-    padding: 0;
+    padding: 0.8rem;
     margin:0;
 }
 
@@ -122,15 +125,19 @@ nav ul li a:hover {
 /*---Hide Nav-----*/
 nav ul {
     display:none;
+
 }
 
 nav ul.open {
     display: block;
+
 }
 
 /*---Close Menu in Nav-----*/
 #hamburgerBtn span:nth-child(1) {
     display: block;
+
+    
 }
 #hamburgerBtn span:nth-child(2) {
     display: none;
@@ -632,9 +639,6 @@ footer {
     font-weight: 700;  
 }
 
-#hi p{
-    color: blue;
-}
 
 
 .visit-container{

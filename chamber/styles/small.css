@@ -726,6 +726,24 @@ form label.top input:required:valid {
     margin-right: 3%;
 }
 
+.level-info{
+    padding: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+    transition: transform .5s;
+}
+
+.level-hr {
+    margin-top: 8px;
+    margin-bottom: 15px;
+    width: 85%;
+}
+
+.level-info:hover{
+    opacity: .9;
+    transform: scale(1.04);
+}
+
 .form,
 .membership {
   padding-top: 40px;
@@ -790,4 +808,23 @@ div.level-info{
 
 .join-jeader p{
     color: #913e07;
+}
+
+/*------------------------------------------------------------*/
+/*----------------------------THANK YOU-----------------------*/
+/*------------------------------------------------------------*/
+
+
+#thanks h1{
+    color: #913e07;
+    font-family: "Playfair Display", Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.thanks-container{
+    padding: 10%;
+    padding-bottom: 50%;
+    border: none;
+    text-align: center;
 }

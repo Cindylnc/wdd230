@@ -310,10 +310,15 @@
         text-align: center;
         font-size: 14px;
         font-weight: 700;  
+        margin-left: 10rem;
+        margin-right: 10rem ;
     }
 
-
-
+    .pg-discover-images {
+        margin-top: 100px;
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+    }
 
 /*------------------------------------------------------------*/
 /*-----------------------------JOIN---------------------------*/

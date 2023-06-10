@@ -651,3 +651,139 @@ footer {
     font-weight: 900;
 
 }
+
+/*------------------------------------------------------------*/
+/*-----------------------------JOIN---------------------------*/
+/*------------------------------------------------------------*/
+
+/*----  FORM  ----*/
+
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid #913e07;
+    border-radius: 10px;
+    padding: .5rem 3%;
+}
+
+form legend{
+    color:#2e333e;
+    font-weight: bold;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+    
+}
+
+form label.top, form div{
+    display: block;
+    padding-top: 1.5rem;
+    color:#2e333e;
+    font-size: .92rem
+}
+
+form label.top input{
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #f3eeee;
+    border-radius: 4px;
+    padding: .75rem;
+    color:#30277c;
+    width: 100%;
+    max-width: 18rem;
+    background:white;
+}
+
+form label.side {
+    display: block;
+    padding: .75rem 0;
+    color: black;
+}
+
+form input.submitBtn{
+    border: none;
+    background-color: #2e333e;
+    color:rgb(255, 255, 255);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+
+form label.top input:required {
+    border-left: #d9a68b solid 6px;
+}
+
+form label.top input:required:valid {
+    border-left: #e7dbd4 solid 6px;
+}
+
+
+/*----  MAIN ----*/
+
+#join-container{
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.form,
+.membership {
+  padding-top: 40px;
+  border: none;
+}
+
+.form div{
+    border: none;
+    margin: auto;
+    background-color:  #fef5ee;
+}
+
+.membership div{
+    margin-top: 40px;
+}
+
+span.level-title{
+    color: #984710;
+    font-weight: 900;
+}
+
+p.level-descr{
+    font-size: 15px;
+}
+
+div.level-info{
+    border: 1px solid #f7e5d9;
+    box-shadow: 10px 10px 15px rgb(224, 224, 224);
+
+}
+
+.join-header h2{
+    color: #383b43;
+    font-weight: 900;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    text-shadow: 1px 1px 9px rgba(0, 15, 9, .3);
+    box-shadow: 10px 10px 15px rgb(224, 224, 224);
+    padding-bottom: 1rem;
+}
+
+
+
+.join-header h1{
+    color: #a7592f;
+    text-shadow: 2px 2px 4px rgba(1, 1, 9, 0.3);
+    letter-spacing: 1px;
+    font-size: 2.5rem;
+    font-family: "Playfair Display", Helvetica, sans-serif;
+}
+
+
+.join-header{
+    text-align: center;
+    border: none;
+}
+
+.form h2, .membership h2{
+    color: #2e333e;
+    font-size: 1.7rem;
+}

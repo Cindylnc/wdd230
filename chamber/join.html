@@ -44,17 +44,17 @@
     <p id="banner">&#129309; Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
 
    
-    <main>
-        <section>
-            <h1>
-                UBLOCK SUCCESS <br> Join the Chamber of Commerce
-            </h1>
+    <main id="join-container">
+        <section class="join-header">
+            <h1>UNLOCK SUCCESS</h1>
+            <h2>Join the Chamber of Commerce</h2>
+            <br>
             <p>Explore the diverse levels of membership at the Chamber of Commerce 
                 and discover the perfect fit for your business with our Non-Profit, 
                 Bronze, Silver, and Gold membership options.</p>
         </section>
 
-        <section>
+        <section class="membership">
             <h2>Membership Benefits by Level</h2>
             <div class="level-info">
                 <span class="level-title"> Non-Profit  (No Fee) </span>
@@ -87,7 +87,7 @@
                 </p>
             </div>
 
-            <div class="level-info">
+            <div class="level-info" id="gold">
                 <span class="level-title"> Gold  $750</span>
                 <p class="level-descr"> Our Gold membership is designed for businesses seeking 
                 premier advantages and maximum exposure. Alongside all the benefits of 
@@ -101,7 +101,7 @@
 
 
         <section class="form">
-            <h1>Chamber of Commerce Application</h1>
+            <h2>Chamber of Commerce Application</h2>
             <form method="get" action="thankyou.html">
                 <div>
                     <fieldset>    
@@ -113,25 +113,24 @@
                         <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
                         <label class="top">Phone Number* <input type="tel" name="phone" placeholder="(000)-000-000" required></label>
                     </fieldset>
-                </div>
-    
-                <div>
+               
                     <fieldset>
                         <legend>Membership Levels</legend>
-                        <label class="side"><input type="radio" name="membership" value="Non-Profit">Non-Profit</label>
-                        <label class="side"><input type="radio" name="membership" value="Bronze">Bronze Membership</label>
-                        <label class="side"><input type="radio" name="membership" value="Silver">Silver Membership</label>
-                        <label class="side"><input type="radio" name="membership" value="Gold">Gold Membership</label>
+                        <label class="side"><input type="radio" name="membership" value="Non-Profit"> Non-Profit</label>
+                        <label class="side"><input type="radio" name="membership" value="Bronze"> Bronze Membership ($250)</label>
+                        <label class="side"><input type="radio" name="membership" value="Silver"> Silver Membership ($450)</label>
+                        <label class="side"><input type="radio" name="membership" value="Gold"> Gold Membership ($750)</label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Business Description</legend>
+                        <textarea name="description" ></textarea>
                     </fieldset>
                 </div>
     
-    
-                <fieldset>
-                    <legend>Business Description</legend>
-                    <textarea name="description" ></textarea>
-                </fieldset>
-    
-                <input type="submit" value="Submit Form" class="submitBtn">
+
+                <input type="submit" value="Submit Application" class="submitBtn">  
+
             </form>    
         </section>
 

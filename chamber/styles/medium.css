@@ -325,4 +325,31 @@
         font-weight: 700;  
     }
 
+
+
+
+/*------------------------------------------------------------*/
+/*-----------------------------JOIN---------------------------*/
+/*------------------------------------------------------------*/
+
+
+/*----  MAIN ----*/
+
+    main #join-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    main section.form{
+        grid-column: 1/2; 
+    }
+    main section.membership{
+        grid-column: 2/3;
+    }
+
+    #join-container{
+        margin-top: 2%;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+
 }

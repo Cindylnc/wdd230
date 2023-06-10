@@ -45,35 +45,95 @@
 
    
     <main>
-        <h1>Chamber of Commerce Application</h1>
-        <form method="get" action="thanks.html">
-            <fieldset>
-                <legend>Applicant Information</legend>
-                <label class="top">First Name* <input type="text" name="fname" required></label>
-                <label class="top">Last Name* <input type="text" name="lname" required></label>
-                <label class="top">Position <input type="text" name="position" ></label>
-                <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                <label class="top">Phone Number* <input type="tel" name="phone" placeholder="(000)-000-000" required></label>
-            </fieldset>
+        <section>
+            <h1>
+                UBLOCK SUCCESS <br> Join the Chamber of Commerce
+            </h1>
+            <p>Explore the diverse levels of membership at the Chamber of Commerce 
+                and discover the perfect fit for your business with our Non-Profit, 
+                Bronze, Silver, and Gold membership options.</p>
+        </section>
 
-            <fieldset>
-                <legend>Membership Levels</legend>
-                <label class="side"><input type="radio" name="membership" value="Non-Profit">Non-Profit</label>
-                <label class="side"><input type="radio" name="membership" value="Bronze">Bronze Membership</label>
-                <label class="side"><input type="radio" name="membership" value="Silver">Silver Membership</label>
-                <label class="side"><input type="radio" name="membership" value="Gold">Gold Membership</label>
-            </fieldset>
+        <section>
+            <h2>Membership Benefits by Level</h2>
+            <div class="level-info">
+                <span class="level-title"> Non-Profit  (No Fee) </span>
+                <p class="level-descr">Become a Nonprofit member at the 
+                Chamber of Commerce to connect with influential professionals, 
+                enhance visibility, advocate for important causes, access valuable resources, 
+                enjoy cost-saving benefits, engage with the community, and receive personalized support.
+                 Join today to unlock a world of opportunities for your organization and make a lasting 
+                 impact on your community.
+                </p>
+            </div>
 
-            <fieldset>
-                <legend>Business Description</legend>
-                <textarea name="description" ></textarea>
-            </fieldset>
+            <div class="level-info">
+                <span class="level-title"> Bronze  $250</span>
+                <p class="level-descr"> With our Bronze membership, you'll gain essential 
+                benefits to support your business growth. Enjoy networking opportunities, 
+                access to valuable resources, and enhanced visibility within the business community. 
+                Take advantage of cost-saving benefits and engage with fellow professionals 
+                to expand your network and drive success.
+                </p>
+            </div>
 
-            <input type="submit" value="Submit" class="submitBtn">
+            <div class="level-info">
+                <span class="level-title"> Silver  $450</span>
+                <p class="level-descr">Elevate your business to the next level with our 
+                Silver membership. In addition to the benefits offered in the Bronze level, 
+                you'll receive exclusive perks such as increased visibility through featured 
+                listings, priority access to chamber events, and enhanced promotional opportunities. 
+                Benefit from targeted marketing support and the ability to showcase your brand to a wider audience.
+                </p>
+            </div>
+
+            <div class="level-info">
+                <span class="level-title"> Gold  $750</span>
+                <p class="level-descr"> Our Gold membership is designed for businesses seeking 
+                premier advantages and maximum exposure. Alongside all the benefits of 
+                Bronze and Silver, you'll receive top-tier recognition as a prominent industry 
+                leader. Gain exclusive access to executive-level networking events, speaking 
+                opportunities, and high-profile sponsorships. Leverage the power of the chamber's 
+                influential network to forge strategic partnerships and propel your business forward.
+                </p>
+            </div>
+        </section>
 
 
-
-        </form>
+        <section class="form">
+            <h1>Chamber of Commerce Application</h1>
+            <form method="get" action="thankyou.html">
+                <div>
+                    <fieldset>    
+                        <legend>Applicant Information</legend>
+                        <label class="top">First Name* <input type="text" name="fname" required></label>
+                        <label class="top">Last Name* <input type="text" name="lname" required></label>
+                        <label class="top">Business Name* <input type="text" name="bname" required></label>
+                        <label class="top">Business Position Title <input type="text" name="position" pattern="[a-zA-Z\s-]{7,}" ></label>
+                        <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                        <label class="top">Phone Number* <input type="tel" name="phone" placeholder="(000)-000-000" required></label>
+                    </fieldset>
+                </div>
+    
+                <div>
+                    <fieldset>
+                        <legend>Membership Levels</legend>
+                        <label class="side"><input type="radio" name="membership" value="Non-Profit">Non-Profit</label>
+                        <label class="side"><input type="radio" name="membership" value="Bronze">Bronze Membership</label>
+                        <label class="side"><input type="radio" name="membership" value="Silver">Silver Membership</label>
+                        <label class="side"><input type="radio" name="membership" value="Gold">Gold Membership</label>
+                    </fieldset>
+                </div>
+    
+    
+                <fieldset>
+                    <legend>Business Description</legend>
+                    <textarea name="description" ></textarea>
+                </fieldset>
+    
+                <input type="submit" value="Submit Form" class="submitBtn">
+            </form>    
+        </section>
 
 
 

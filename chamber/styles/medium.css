@@ -105,7 +105,7 @@
     
     
     .city{
-        color: rgb(47, 42, 39);
+        color: rgb(33, 32, 31);
         /* color: rgb(66, 60, 60); */
         text-shadow: 0px 0px 0px ;
         font-size: 395%;    
@@ -117,27 +117,14 @@
     
     .join-hero {
         position: relative;
-        background-color: #e19a28;
-        color: #403a3a;
+        background-color: #0a051d;
+        color: #ffffff;
         left: 30px;
         top: 20px;
         font-weight: 700;
     }
     
   
-
-
-
-
-
-
-
-
-
-
-
-
-    
 
      /*---Event-*/
     #event {
@@ -335,27 +322,47 @@
 
 /*----  MAIN ----*/
 
-    main #join-container{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    main section.form{
-        grid-column: 1/2; 
-    }
-    main section.membership{
-        grid-column: 2/3;
-    }
 
-    #join-container{
-        margin-top: 2%;
-        margin-left: 12%;
-        margin-right: 12%;
-    }
+
 
     .level-info{
-        padding: 5%;
-        margin-left: 15%;
-        margin-right: 15%;
+        padding: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+
+
+
+
+    #join-container{
+        margin-top: 3%;
+        margin-left: 2%;
+        margin-right: 2%;
+        display: grid;
+
+        grid-template-columns: 1.3fr .95fr;
+        grid-template-rows: .2fr 1fr;
+        margin-bottom: 20%;
+    }
+    
+    .join-header{
+        margin-left: 8%;
+        margin-right: 8%;
+        grid-column: 1/3; 
+        grid-row: 1/2;
+        margin-bottom: 3%;
+    }
+    
+    .membership{
+        margin: 1px;
+        grid-column: 2/3; 
+        grid-row: 2/3;
+    }
+    
+    .form{
+        grid-column: 1/2; 
+        grid-row: 2/3;
     }
 
 

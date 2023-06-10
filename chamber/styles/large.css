@@ -191,22 +191,15 @@ form label.side{
 
 /*----  MAIN ----*/
 
-.form {
-    grid-column: 1/3;
-  }
-  .membership{
-    grid-column: 3/4;
-  }
-
   #join-container{
     margin-top: 3%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .level-info{
-    margin-left: 18%;
-    margin-right: 18%;
+    margin-left: 3%;
+    margin-right: 3%;
     padding: 4%;
 }
 

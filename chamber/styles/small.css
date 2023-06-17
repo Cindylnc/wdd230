@@ -861,17 +861,18 @@ div.level-info{
 /*------------------------------------------------------------*/
 
 
-
-
-
-
 .directory{
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 60px;
 }
 
 .directory h1{
-    color: #241098;
+    padding-bottom: 80px;
+    padding-left: 1rem;
+    color: #b66c44;
+    text-shadow: 2px 2px 4px rgba(1, 1, 9, 0.3);
+    letter-spacing: 1px;
+    font-size: 2rem;
+    font-family: "Playfair Display", Helvetica, sans-serif;
 }
 
 .directory section {
@@ -881,22 +882,26 @@ div.level-info{
     padding: 2% 0 8% 0;
     width: 400px;
     text-align: center;
-
     border: none;
+    transition: transform .9s;
   }
+
+.directory section:hover{
+    opacity: .9;
+    transform: scale(1.05);
+}
 
 .cards{
     text-align: center;
-    background-color: #d9a68b;
+    background-color: #fff7f1;
     border: none;
 }
+
 .cards p {
     font-weight: bold;
     font-size: .8rem;
     line-height: 11px;
     color: rgb(78, 76, 76);
-
-
 }
 
 .cards h2 {
@@ -905,36 +910,25 @@ div.level-info{
     padding-bottom: 1rem;
     line-height: 11px;
     color: rgb(78, 76, 76);
-
 }
 
 .cards h3 {
-    /* font-weight: bold;
-    font-size: 1rem;
-    padding-bottom: 1rem;
-    line-height: 11px; */
     color: rgb(199, 118, 60);
     font-weight: bolder;
     text-shadow: 2px 2px 4px #d6bebe;
-    
-
 }
 
 .cards h4 {
     color: rgb(199, 118, 60);
     padding-bottom: .3rem;
-
 }
 
 .cards a {
-
-    line-height: 30px;
+    font-size: 14px;
+    line-height: 40px;
     color: rgb(143, 196, 208);
     font-style: italic;
     font-weight: lighter;
-    /* text-decoration: none; */
-    
-
 }
 
 .cards img {
@@ -942,8 +936,5 @@ div.level-info{
     height: 100%;
     border: .7px solid rgb(252, 252, 252);
     border-radius: 5px;
-    /* justify-content: space-between;
-    align-items: center; */
-
 }
 

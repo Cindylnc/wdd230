@@ -855,3 +855,95 @@ div.level-info{
     border: none;
     text-align: center;
 }
+
+/*------------------------------------------------------------*/
+/*--------------------------Directory---------------------*/
+/*------------------------------------------------------------*/
+
+
+
+
+
+
+.directory{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.directory h1{
+    color: #241098;
+}
+
+.directory section {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 2% 0 8% 0;
+    width: 400px;
+    text-align: center;
+
+    border: none;
+  }
+
+.cards{
+    text-align: center;
+    background-color: #d9a68b;
+    border: none;
+}
+.cards p {
+    font-weight: bold;
+    font-size: .8rem;
+    line-height: 11px;
+    color: rgb(78, 76, 76);
+
+
+}
+
+.cards h2 {
+    font-weight: bold;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    line-height: 11px;
+    color: rgb(78, 76, 76);
+
+}
+
+.cards h3 {
+    /* font-weight: bold;
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    line-height: 11px; */
+    color: rgb(199, 118, 60);
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px #d6bebe;
+    
+
+}
+
+.cards h4 {
+    color: rgb(199, 118, 60);
+    padding-bottom: .3rem;
+
+}
+
+.cards a {
+
+    line-height: 30px;
+    color: rgb(143, 196, 208);
+    font-style: italic;
+    font-weight: lighter;
+    /* text-decoration: none; */
+    
+
+}
+
+.cards img {
+    width: 65%;
+    height: 100%;
+    border: .7px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    /* justify-content: space-between;
+    align-items: center; */
+
+}
+

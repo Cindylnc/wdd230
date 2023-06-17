@@ -2,72 +2,81 @@
     "companies": [
       {
         "name": "Andes Productions",
-        "address": "185 Mountain Way Drive, PG UT 84062",
         "phone": "801-437-0652",
+        "address1": "185 Mountain Way Drive",
+        "address2": "Pleasant Grove,  UT 84062",
         "url": "https://andesproductions.com",
         "logo": "images/dir-andes.png",
         "membership": "Silver Membership"
       },
       {
         "name": "Reliable Heating & Air",
-        "address": "195 E 100 S, PG UT 84062",
         "phone": "801-602-5000",
+        "address1": "195 E 100 S",
+        "address2": "Pleasant Grove,  UT 84062",
         "url": "http://reliableheating.com",
         "logo": "images/dir-reliable.png",
         "membership": "Gold Membership"
       },
       {
         "name": "Hyatt House",
-        "address": "544 S Pleasant Grove Blvd, PG UT 84062",
         "phone": "(385) 498-3700",
+        "address1": "544 S Pleasant Grove Blvd",
+        "address2": "Pleasant Grove,  UT 84062",
         "url": "https://sequoiadevelopment.com/project/pg-hyatt-house/",
         "logo": "images/dir-hyat.png",
         "membership": "Bronze Membership"
       },
       {
         "name": "Peak Nutritional Therapy",
-        "address": "1016 W 700 S Suite B, PG UT 84062",
         "phone": "(385) 261-3064",
+        "address1": "1016 W 700 S Suite B",
+        "address2": "Pleasant Grove,  UT 84062",
         "url": "https://www.peaknutritionaltherapy.com/",
         "logo": "images/dir-peakn.png",
         "membership": "Bronze Membership"
       },
       {
         "name": "BMW of Pleasant Grove",
-        "address": "2111 W Grove Parkway, PG UT 84062",
         "phone": "(801) 443-2000",
+        "address1": "2111 W Grove Parkway",
+        "address2": "Pleasant Grove,  UT 84062",
         "url": "https://www.bmwofpg.com/",
         "logo": "images/dir-bmw.png",
         "membership": "Gold Membership"
       },
       {
         "name": "Truffle Cottage",
-        "address": "45 S Main St, PG UT 84062",
         "phone": "(385) 313-0833",
+        "address1": "45 S Main St",
+        "address2": "Pleasant Grove,  UT 84062",
         "url": "https://thetrufflecottage.com/",
         "logo": "images/dir-truffle.png",
         "membership": "Silver Membership"
       },
       {
         "name": "Cook Center for Human Connection",
-        "address": "1955 W Grove Pkwy #300, PG UT 84062",
         "phone": "(385) 376-1045",
+        "address1": "1955 W Grove Pkwy #300",
+        "address2": "Pleasant Grove,  UT 84062",
         "url": "https://cookcenter.org/",
         "logo": "images/dir-cook.png",
         "membership": "NP Membership"
       },
       {
         "name": "Bluetree Family Dental",
-        "address": "985 W State St #101, PG UT 84062",
         "phone": "(385) 440-1990",
+        "address1": "985 W State St #101",
+        "address2": "Pleasant Grove,  UT 84062",
         "url": "https://bluetreefamilydental.com/",
         "logo": "images/dir-blue.png",
         "membership": "Gold Membership"
       },
       {
         "name": "Utah Girls Love You",
-        "address": "10 West Center Street, PG UT 84062",
         "phone": "(801) 899 2692",
+        "address1": "10 West Center Street",
+        "address2": "Pleasant Grove,  UT 84062",
         "url": "https://www.utahgirlsloveyou.org/about",
         "logo": "images/dir-utgirls.png",
         "membership": "NP Membership"

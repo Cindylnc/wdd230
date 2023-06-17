@@ -4,43 +4,61 @@ async function getDirectoryData() {
     const response = await fetch(jsonDirectory);
     const data = await response.json();
     // console.table(data.prophets);  // note that we reference the prophet array of the data object given the structure of the json file
-    displayBusiness(data.businesses);
+    displayBusiness(data.companies);
   }
   
   getDirectoryData();
 
-const displayBusiness = (businesses) => {
+const displayBusiness = (companies) => {
   const cards = document.querySelector('div.cards');
 
-  businesses.forEach((business) => {
+  companies.forEach((business) => {
     let card = document.createElement('section');
+    let logo = document.createElement('img');
     let h2 = document.createElement('h2');
-    let birthPlace = document.createElement('p');
-    let birthDate = document.createElement('p');
-    let deathdate = document.createElement('p');
-    let portrait = document.createElement('img');
+    let compPhone = document.createElement('h4');
+    let compAddress1 = document.createElement('p');
+    let compAddress2 = document.createElement('p');
+    let website = document.createElement("a");
+    let membership = document.createElement('h3');
+
+
+
+    // let card = document.createElement('section');
+    // let h2 = document.createElement('h2');
+    // let birthPlace = document.createElement('p');
+    // let birthDate = document.createElement('p');
+    // let deathdate = document.createElement('p');
+    // let portrait = document.createElement('img');
   
 
-    h2.textContent = `${business.name} ${business.lastname}`;
-    birthPlace.textContent = `Place of Birth: ${prophet.birthplace}`;
-    birthDate.textContent = `Date of Birth: ${prophet.birthdate}`;
-    deathdate.textContent = `Date of Death: ${prophet.death}`;
+    h2.textContent = `${business.name}`;
+    compPhone.textContent = `${business.phone}`;
+    compAddress1.textContent = `${business.address1}`;
+    compAddress2.textContent = `${business.address2}`;
+    website.textContent = `${business.url}`;
+    membership.textContent = `${business.membership}`;
 
 
-    portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
-    portrait.setAttribute('loading', 'lazy');
-    portrait.setAttribute('width', '340');
-    portrait.setAttribute('height', '440');
+    logo.setAttribute('src', business.logo);
+    logo.setAttribute('alt', `Logo of ${business.name}`);
+    logo.setAttribute('loading', 'lazy');
+    // logo.setAttribute('width', '340');
+    // logo.setAttribute('height', '440');
+    website.setAttribute("href", `${business.url}`);
+    website.setAttribute("target", "_blank");
 
+    card.appendChild(logo);
     card.appendChild(h2);
-    card.appendChild(portrait);
-    card.appendChild(birthPlace);
-    card.appendChild(birthDate);
-    card.appendChild(deathdate);
+
+    card.appendChild(compPhone);
+    card.appendChild(compAddress1);
+    card.appendChild(compAddress2);
+    card.appendChild(website);
+    card.appendChild(membership);
     
 
     cards.appendChild(card);
-  }); // end of forEach loop
+  }); 
 }
 

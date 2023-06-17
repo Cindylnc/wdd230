@@ -1,0 +1,15 @@
+@media (min-width: 680px) {
+    h1 {
+        font-size: 2rem;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+    img {
+        height: auto;
+    }
+
+}

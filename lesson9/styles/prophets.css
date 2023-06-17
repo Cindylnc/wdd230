@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&family=Playfair+Display&family=Poiret+One&display=swap');
+
+body{
+    font-family: "PlayFair", Helvetica, sans-serif;
+}
+
+h1, footer {
+    background-color: #b09d93;
+    border-radius: 5px;
+    padding: 3%;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+main{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+section {
+    background-color: rgb(243, 239, 239);
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 2% 0 8% 0;
+    width: 400px;
+    text-align: center;
+  }
+
+p {
+    font-weight: bold;
+    font-size: .9rem;
+    line-height: 5px;
+    color: rgb(35, 35, 35);
+}
+
+img {
+    width: 80%;
+    height: 100%;
+    border: .7px solid rgb(252, 252, 252);
+    border-radius: 5px;
+    box-shadow: 0 0 30px;
+}
+
+footer{
+    font-size: .9rem;
+}

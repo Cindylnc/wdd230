@@ -215,6 +215,71 @@ form label.side{
 }
 
 
+.list section{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 1fr;
+    margin-left:0;
+    width: 0;
+}
+
+.list p{
+    grid-column: 2/3;
+}
+
+.list h3{
+    grid-column: 4/5;
+}
+
+
+.list a{
+    grid-column: 5/6;
+}
+
+
+.list{
+    display: flex !important;
+    flex-direction: column;
+    margin: auto;
+    width: auto;
+}
+
+.list section{
+
+    text-align: center;
+    display: grid;
+
+    width: auto;
+    padding: 1px;
+    
+}
+
+
+.list p{
+    grid-column: 2/3;
+    font-size: 16px;
+ 
+ 
+}
+
+.list h3{
+    grid-row: 1/2;
+    grid-row: 1/2;
+    font-size: 20px;
+}
+
+.list h4{
+    grid-column: 3/4;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.list a{
+    font-size: 18px;
+    grid-row: 1/2;
+}
 
 
 

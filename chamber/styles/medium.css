@@ -396,7 +396,7 @@
 
 
 
-    .grid .directory .cards {
+    .directory .cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -405,19 +405,29 @@
         height: auto;
     }
 
-    /* .list section{
 
-  
-        grid-template-columns: 1fr 4fr;
-        max-width: 100%;
+    .list{
+        display: flex !important;
+        flex-direction: column;
+        margin: auto;
+        width: 600px;;
+    }
+    
+    .list section{
 
-    } */
-
-    .list .directory .cards {
+        text-align: center;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        
+        grid-template-columns: 50% 50% ;
+        width: auto;
+        padding: 1%;
+    }
+    
+
+    .list p{
+        grid-column: 2/3;
     }
 
-
+    .list h3{
+        grid-row: 2/3;
+    }
 }

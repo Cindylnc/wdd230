@@ -23,7 +23,7 @@
         "phone": "(385) 498-3700",
         "address1": "544 S Pleasant Grove Blvd",
         "address2": "Pleasant Grove,  UT 84062",
-        "url": "https://sequoiadevelopment.com/project/pg-hyatt-house/",
+        "url": "https://sequoiadevelopment.com",
         "logo": "images/dir-hyat.png",
         "membership": "Bronze Membership"
       },
@@ -32,7 +32,7 @@
         "phone": "(385) 261-3064",
         "address1": "1016 W 700 S Suite B",
         "address2": "Pleasant Grove,  UT 84062",
-        "url": "https://www.peaknutritionaltherapy.com/",
+        "url": "https://www.peaknutritional.com/",
         "logo": "images/dir-peakn.png",
         "membership": "Bronze Membership"
       },
@@ -77,7 +77,7 @@
         "phone": "(801) 899 2692",
         "address1": "10 West Center Street",
         "address2": "Pleasant Grove,  UT 84062",
-        "url": "https://www.utahgirlsloveyou.org/about",
+        "url": "https://www.utahgirlsloveyou.org/",
         "logo": "images/dir-utgirls.png",
         "membership": "NP Membership"
       }

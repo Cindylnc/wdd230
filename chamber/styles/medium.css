@@ -396,13 +396,27 @@
 
 
 
-    .cards {
+    .grid .directory .cards {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
     .cards img {
         height: auto;
+    }
+
+    /* .list section{
+
+  
+        grid-template-columns: 1fr 4fr;
+        max-width: 100%;
+
+    } */
+
+    .list .directory .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
     }
 
 

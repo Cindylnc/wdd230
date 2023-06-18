@@ -1,4 +1,9 @@
 const jsonDirectory = 'json/directory.json';
+const listBtn = document.querySelector(".listButton");
+const gridBtn = document.querySelector(".gridButton");
+const display = document.querySelector(".cards");
+
+
 
 async function getDirectoryData() {
     const response = await fetch(jsonDirectory);
@@ -22,15 +27,6 @@ const displayBusiness = (companies) => {
     let website = document.createElement("a");
     let membership = document.createElement('h3');
 
-
-
-    // let card = document.createElement('section');
-    // let h2 = document.createElement('h2');
-    // let birthPlace = document.createElement('p');
-    // let birthDate = document.createElement('p');
-    // let deathdate = document.createElement('p');
-    // let portrait = document.createElement('img');
-  
 
     h2.textContent = `${business.name}`;
     compPhone.textContent = `${business.phone}`;
@@ -61,4 +57,31 @@ const displayBusiness = (companies) => {
     cards.appendChild(card);
   }); 
 }
+
+
+
+
+gridBtn.addEventListener("click", () => {
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
+
+listBtn.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
+
+
+// const directory = document.querySelector('.cards')
+// const dirpanelbutton = document.querySelector('.gridButton');
+// const dirlistbutton = document.querySelector('.listButton');
+
+
+// dirpanelbutton.addEventListener('click', () => {directory.classList.add('list')}, false);
+// dirlistbutton.addEventListener('click', () => {directory.classList.remove('list')}, false);
+
+
+
 

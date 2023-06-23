@@ -4,20 +4,14 @@
         padding: 1.8rem;
     }
     
-    
     h1{
         margin-bottom: 100px;
     }
     
     h1, footer {
-    
         padding: 50px;
         font-size: 1.8rem;
-    
     }
-    
-    
-    
     
     .weather-box{
         margin: auto;
@@ -27,17 +21,12 @@
         padding-bottom: 50px;
     }
     
-    
-    
     #weather-icon{
         width: 20%;
     }
     
-    
-    
     footer{
         margin-top: 200px;
-    
     } 
 
 }

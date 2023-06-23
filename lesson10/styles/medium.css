@@ -1,0 +1,44 @@
+@media (min-width: 680px) {
+
+    body{
+        padding: 1.8rem;
+    }
+    
+    
+    h1{
+        margin-bottom: 100px;
+    }
+    
+    h1, footer {
+    
+        padding: 50px;
+        font-size: 1.8rem;
+    
+    }
+    
+    
+    
+    
+    .weather-box{
+        margin: auto;
+        width: 500px;
+        height: 300px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    
+    
+    #weather-icon{
+        width: 20%;
+    }
+    
+    
+    
+    footer{
+        margin-top: 200px;
+    
+    } 
+
+}
+

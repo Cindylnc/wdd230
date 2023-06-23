@@ -1,0 +1,61 @@
+body{
+    font-family: "PlayFair", Helvetica, sans-serif;
+
+}
+
+
+h1{
+    margin-bottom: 50px;
+}
+h1, footer {
+    background-color: #ccdbd7;
+    border-radius: 5px;
+    padding: 30px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.weather-box p{
+    color: black;
+    font-size: 1.1rem;
+    line-height: 20px;
+}
+
+.weather-box{
+    background-color: rgb(243, 239, 239);
+    margin: 15px;
+    /* width: 500px;
+    height: 300px; */
+    width: auto;
+    /* height: 200px; */
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    text-align: center;
+    border: .7px solid rgb(252, 252, 252);
+    border-radius: 25px;
+    box-shadow: 0 0 20px;
+}
+
+#current-temp, #degree{
+    line-height: 70px;
+    font-size: 2.1rem;
+    color:rgb(57, 111, 113) ;
+}
+
+figcaption{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color:rgb(57, 111, 113) ;
+}
+
+#weather-icon{
+    width: 90px;
+}
+
+
+
+footer{
+    margin-top: 60px;
+    font-size: 1.2rem;
+}

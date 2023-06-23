@@ -987,6 +987,9 @@ div.level-info{
     display: none;
   }
 
+  .list a{
+    color:black ;
+  }
   
   
   

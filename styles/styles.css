@@ -1,15 +1,19 @@
 body{
     max-width: 960px;
-    margin: 0 auto;
-    padding: 4em;
+    margin:  auto;
+    padding: em;
     font-size: 16px;
-    text-align: center;
+    text-align: left;
     box-sizing: border-box;
 }
 
 header {
     display: flex;
     align-items:stretch;
+}
+
+main{
+    padding-left: 15%;
 }
 
 header,footer {

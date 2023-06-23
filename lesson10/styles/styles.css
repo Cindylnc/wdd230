@@ -3,7 +3,6 @@ body{
 
 }
 
-
 h1{
     margin-bottom: 50px;
 }
@@ -15,7 +14,6 @@ h1, footer {
     text-align: center;
 }
 
-
 .weather-box p{
     color: black;
     font-size: 1.1rem;
@@ -25,12 +23,7 @@ h1, footer {
 .weather-box{
     background-color: rgb(243, 239, 239);
     margin: 15px;
-    /* width: 500px;
-    height: 300px; */
     width: auto;
-    /* height: 200px; */
-    /* padding-top: 50px;
-    padding-bottom: 50px; */
     text-align: center;
     border: .7px solid rgb(252, 252, 252);
     border-radius: 25px;
@@ -52,8 +45,6 @@ figcaption{
 #weather-icon{
     width: 90px;
 }
-
-
 
 footer{
     margin-top: 60px;

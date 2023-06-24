@@ -345,34 +345,34 @@ main section, main div{
     height: 12rem;
 }
 
-.weather-icon {
-    /* grid-column: 1/2; */
-    /* font-size: 4rem; */
-    /* margin: 0 auto; */
-    width: 90px;
+#weather-icon {
+    margin-top: 0;
+    width: 60px;
 }
 
 .weather-div{
     border: none;
     display: flex;
-    margin:  0 1px 0 50px;
+    margin:  -10px 0px 0 50px;
     padding: 0;
     text-align: center;
 }
 
 #weather h3 {
-    /* grid-column: 1/2; */
-    /* margin: 10px auto; */
-    /* margin: 0 auto; */
     font-size: 1.6rem;
+    padding-top: -10px;
 }
 
 #weather #w-temp {
- 
-    font-size: 2rem;
-    /* margin:0 auto; */
+    font-size: 1.8rem;
 }
 
+figcaption{
+    font-size: 1rem;
+    font-weight: bolder;
+    color:rgb(57, 111, 113) ;
+    margin: 0;
+}
 
 #weather hr {
     border-top: 1px solid black; 

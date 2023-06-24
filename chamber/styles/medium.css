@@ -135,29 +135,14 @@
   
     /*----Weather--*/
 
-    #weather{
-        position: relative;
-        
-    }
+
     
     #weather h3 {
-        margin: 15px auto;
-        font-size: 1.2rem;
- 
-
+        font-size: 1.6rem;
     }
     
   
-    
-    .weather-condition {
-        position: relative;
-      
-    }
-    
-    .wind-speed, .wind-chill {
-        line-height: 1px;
-   
-    }
+
 
 
     /*----News--*/

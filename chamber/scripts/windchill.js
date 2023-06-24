@@ -62,4 +62,3 @@ function  displayResults(weatherData) {
 
   apiFetch();
 
-

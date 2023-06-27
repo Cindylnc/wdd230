@@ -52,7 +52,7 @@
 #date {
     margin: auto;
     /* margin-top: 25px; */
-    /* margin-bottom: 15px; */
+    margin-bottom: 15px;
     text-align: center;
     color: #984710;
     background-color: #f2d4c0;
@@ -628,10 +628,10 @@ footer {
     color: #a7592f;
     text-align: center;
     font-size: 14px;
-    font-weight: 700;  
-    margin:  auto;
+    /* font-weight: 700;   */
+    /* margin:  auto; */
     /* padding: auto; */
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 
 }
 

@@ -246,21 +246,16 @@ form label.side{
 }
 
 .list section{
-
     text-align: center;
     display: grid;
-
     width: auto;
     padding: 1px;
-    
 }
 
 
 .list p{
     grid-column: 2/3;
     font-size: 16px;
- 
- 
 }
 
 .list h3{
@@ -280,7 +275,6 @@ form label.side{
     font-size: 18px;
     grid-row: 1/2;
 }
-
 
 
 }

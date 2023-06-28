@@ -22,16 +22,14 @@ const displayBusiness = (companies) => {
     let logo = document.createElement('img');
     let h2 = document.createElement('h2');
     let compPhone = document.createElement('h4');
-    let compAddress1 = document.createElement('p');
-    let compAddress2 = document.createElement('p');
+    let compAddress = document.createElement('p');
     let website = document.createElement("a");
     let membership = document.createElement('h3');
 
 
     h2.textContent = `${business.name}`;
     compPhone.textContent = `${business.phone}`;
-    compAddress1.textContent = `${business.address1}`;
-    compAddress2.textContent = `${business.address2}`;
+    compAddress.innerHTML = `${business.address1} <br> ${business.address2}`;
     website.textContent = `${business.url}`;
     membership.textContent = `${business.membership}`;
 
@@ -39,8 +37,6 @@ const displayBusiness = (companies) => {
     logo.setAttribute('src', business.logo);
     logo.setAttribute('alt', `Logo of ${business.name}`);
     logo.setAttribute('loading', 'lazy');
-    // logo.setAttribute('width', '340');
-    // logo.setAttribute('height', '440');
     website.setAttribute("href", `${business.url}`);
     website.setAttribute("target", "_blank");
 
@@ -48,8 +44,7 @@ const displayBusiness = (companies) => {
     card.appendChild(h2);
 
     card.appendChild(compPhone);
-    card.appendChild(compAddress1);
-    card.appendChild(compAddress2);
+    card.appendChild(compAddress);
     card.appendChild(website);
     card.appendChild(membership);
     
@@ -81,7 +76,3 @@ function showList() {
 
 // dirpanelbutton.addEventListener('click', () => {directory.classList.add('list')}, false);
 // dirlistbutton.addEventListener('click', () => {directory.classList.remove('list')}, false);
-
-
-
-

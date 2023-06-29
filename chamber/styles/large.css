@@ -13,6 +13,11 @@
 
 /*--------Main------------*/
 
+main section, main div {
+    padding: 2rem 0;
+    margin: 0.5rem;
+}
+
 .container{
     grid-template-columns: 1fr 2fr 1fr;
 
@@ -22,14 +27,19 @@
 #event {
     grid-column: 1/2;
     grid-row: 1/2;
-    height: 14rem;
+    height: 12rem;
+
 }
 
 #weather {
     grid-column:1/2;
     grid-row: 2/3;
-    height: 14rem;
+    height: 12rem;
+
+
 }
+
+
 
 #join {
     grid-column: 1/2;

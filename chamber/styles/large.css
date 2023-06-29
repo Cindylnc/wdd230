@@ -89,13 +89,14 @@ main section, main div {
 }
 
 .join-hero {
-    background-color: white;
-    box-shadow: 3px 3px 5px rgb(145, 145, 145);
+    background-color:   #221e4e;
+    color: white;
+    /* box-shadow: 3px 3px 5px rgb(145, 145, 145); */
     font-size: 1.3rem;
-    color:#000000;
-    text-shadow: 0 0 5px #e4c3c3;
-    left: 30px;
-    top: 135px;
+
+    /* text-shadow: 0 0 5px #e4c3c3; */
+    left: 35px;
+    top: 100px;
     font-weight: 200;
 }
 

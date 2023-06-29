@@ -131,19 +131,16 @@ nav ul li a:hover {
 /*---Hide Nav-----*/
 nav ul {
     display:none;
-
 }
 
 nav ul.open {
     display: block;
-
 }
 
 /*---Close Menu in Nav-----*/
 #hamburgerBtn span:nth-child(1) {
     display: block;
 
-    
 }
 #hamburgerBtn span:nth-child(2) {
     display: none;
@@ -160,42 +157,30 @@ nav ul.open {
 
 
 
-/*------hero--------*/ 
+/*------Hero--------*/ 
 
 
 
 .hero-container{
-    margin: 0;
+    margin: auto;
     position: relative;
-    overflow: hidden;
-    /* width: 1fr; */
-    /* display: grid; */
     grid-template-columns: 1fr 3fr 1fr;
     border: none;
-    
-
 }
 
-
-
-    /**************** TEMP IMAGE ****************/
-
+.hero-container img{
+    margin: -5px;
+    border-radius: 15px;
+}
 
 picture.temp {
     object-fit: cover;
-    /* margin: -25px -25px; */
-    opacity: .6;
-
-
-
+    opacity: .7;
   }
 
   main picture.temp img {
     width: 100%;
-  
   }
-
-
 
 
 
@@ -209,9 +194,8 @@ picture.temp {
     grid-column: 1/4;
     grid-row: 1/2; 
     font-size: 1rem;
-    /* left: 5px; */     /* RETURN TEMP */
-    top: 100px;         /* DELETE TEMP */
-    left: -25px;        /* DELETE TEMP */
+    top: 100px;         
+    left: -25px;       
     color: rgb(47, 42, 39);
     line-height: 3em;
     border: none;

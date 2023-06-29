@@ -52,8 +52,15 @@
 
 /*--------Hero-------*/
 
-picture.temp{
-    width: 1%;
+
+
+  main picture.temp img {
+    height: 100%;
+  }
+
+  .hero-container img{
+    margin: -15px 0;
+    border-radius: 15px;
 }
 
 .hero-container{
@@ -66,7 +73,7 @@ picture.temp{
 
 .city{
     color: rgb(47, 42, 39);
-    font-size: 395%;    
+    font-size: 300%;    
     top: 70px;
     left: 0px;
 }

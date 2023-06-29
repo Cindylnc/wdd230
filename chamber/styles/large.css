@@ -171,27 +171,28 @@ main section, main div {
 /*----  FORM  ----*/
 
 form label.side{
-    padding: .4rem 0;
+    /* padding: .75rem 0; */
 }
 
 /*----  MAIN ----*/
 
   #join-container{
-    margin-top: 3%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 3% 3% 25% 3%;
 }
 
 .level-info{
     margin-left: 3%;
     margin-right: 3%;
-    padding: 4%;
+    padding: 9%;
 }
 
 .membership {
-    margin: 100px
+    margin: 0px 100px;
 }
+form fieldset{
+    margin: 2rem 1rem;
 
+}
 
 /*------------------------------------------------------------*/
 /*---------------------------DIRECTORY----------------------*/

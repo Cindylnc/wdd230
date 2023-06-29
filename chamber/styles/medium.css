@@ -30,15 +30,17 @@
         grid-column: 1/3;
         grid-row: 1/2;
         border-color:  #e19a28;
+        position: static;
 
     }
 
+ 
 
 
     .hero-tex {
         grid-row: 2/2; 
         line-height: 0;
-        top: 300px;  /* DELETE TEMP */
+        top: 350px;  /* DELETE TEMP */
         left: -45px;  /* DELETE TEMP */
     }
     

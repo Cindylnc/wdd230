@@ -3,7 +3,6 @@
 *{
     margin: 5px;
     font-family: "Manrope", Helvetica, sans-serif;
-
 }
 
 body {
@@ -53,11 +52,8 @@ body {
 
 /*---Date Message in header-----*/
 
-/* 6.8.23UPDATE */
-
 #date {
     margin: auto;
-    /* margin-top: 25px; */
     margin-bottom: 15px;
     text-align: center;
     color: #984710;

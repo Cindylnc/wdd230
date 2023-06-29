@@ -183,7 +183,6 @@ nav ul.open {
 
 picture.temp {
     object-fit: cover;
-    width: 100%;
     /* margin: -25px -25px; */
     opacity: .6;
 

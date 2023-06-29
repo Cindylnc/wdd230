@@ -698,7 +698,7 @@ form label.top input:required:valid {
 }
 
 .join-header{
-    text-align: center;
+    /* text-align: center; */
     border: none;
 }
 

@@ -483,8 +483,6 @@ footer {
     font-size: 18px;
     padding: 20px;
     padding-bottom: 14px;
-
-
     color: #a7592f;
     text-shadow: 2px 2px 4px rgba(1, 1, 9, 0.3);
     letter-spacing: 1px;
@@ -495,8 +493,6 @@ footer {
 .discover-container{
     border: none;
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr;
-    margin: 0 auto; */
     padding: 0;
 }
 
@@ -506,8 +502,6 @@ footer {
 
 .discover-container div{
     border: none;
-
-
 }
 
 #land-icon{
@@ -577,12 +571,11 @@ footer {
     transition: transform .8s;
     margin-bottom: 15px;
     margin-top: 50px;
-    
 }
 
 .picture-discover:hover{
     opacity: .9;
-    transform: scale(1.08);
+    transform: scale(1.03);
 }
 
 .images-disc {
@@ -796,7 +789,7 @@ div.level-info{
 
 
 .directory{
-    padding-top: 60px;
+    padding-top: 30px;
     
 }
 
@@ -813,19 +806,12 @@ div.level-info{
 .directory section {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    margin: 50px auto;
+    margin: 30px auto;
     padding: 2% 0 8% 0;
-    width: 400px;
+    width: 310px;
     text-align: center;
     border: none;
-    transition: transform .9s;
-    
   }
-
-.directory section:hover{
-    opacity: .9;
-    transform: scale(1.05);
-}
 
 
 .directory .cards {
@@ -886,16 +872,17 @@ div.level-info{
     text-align: right;
     margin-top: -100px;
     height: 50px;
-    }
+}
     
-    .list{
+.list{
     display: flex !important;
     flex-direction: column;
     margin: auto;
-    }
-    .list p{
+}
+
+.list p{
     line-height: 20px;
-    }
+}
 
 
 .list section{
@@ -904,7 +891,6 @@ div.level-info{
 	grid-template-columns: 1fr;
     margin: 10px;
     width: auto;
-
 }
 
 .list .cards{
@@ -921,7 +907,7 @@ div.level-info{
 }
   
   .list h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 25px;
     
   }

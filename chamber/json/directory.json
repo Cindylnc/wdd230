@@ -6,7 +6,7 @@
         "address1": "185 Mountain Way Drive",
         "address2": "Pleasant Grove,  UT 84062",
         "url": "https://andesproductions.com",
-        "logo": "images/dir-andes.png",
+        "logo": "images/dir-andes.webp",
         "membership": "Silver Membership"
       },
       {
@@ -15,7 +15,7 @@
         "address1": "195 E 100 S",
         "address2": "Pleasant Grove,  UT 84062",
         "url": "http://reliableheating.com",
-        "logo": "images/dir-reliable.png",
+        "logo": "images/dir-reliable.webp",
         "membership": "Gold Membership"
       },
       {
@@ -24,7 +24,7 @@
         "address1": "544 S Pleasant Grove Blvd",
         "address2": "Pleasant Grove,  UT 84062",
         "url": "https://sequoiadevelopment.com",
-        "logo": "images/dir-hyat.png",
+        "logo": "images/dir-hyat.webp",
         "membership": "Bronze Membership"
       },
       {
@@ -33,7 +33,7 @@
         "address1": "1016 W 700 S Suite B",
         "address2": "Pleasant Grove,  UT 84062",
         "url": "https://www.peaknutritional.com/",
-        "logo": "images/dir-peakn.png",
+        "logo": "images/dir-peakn.webp",
         "membership": "Bronze Membership"
       },
       {
@@ -42,7 +42,7 @@
         "address1": "2111 W Grove Parkway",
         "address2": "Pleasant Grove,  UT 84062",
         "url": "https://www.bmwofpg.com/",
-        "logo": "images/dir-bmw.png",
+        "logo": "images/dir-bmw.webp",
         "membership": "Gold Membership"
       },
       {
@@ -51,7 +51,7 @@
         "address1": "45 S Main St",
         "address2": "Pleasant Grove,  UT 84062",
         "url": "https://thetrufflecottage.com/",
-        "logo": "images/dir-truffle.png",
+        "logo": "images/dir-truffle.webp",
         "membership": "Silver Membership"
       },
       {
@@ -60,7 +60,7 @@
         "address1": "1955 W Grove Pkwy #300",
         "address2": "Pleasant Grove,  UT 84062",
         "url": "https://cookcenter.org/",
-        "logo": "images/dir-cook.png",
+        "logo": "images/dir-cook.webp",
         "membership": "NP Membership"
       },
       {
@@ -69,7 +69,7 @@
         "address1": "985 W State St #101",
         "address2": "Pleasant Grove,  UT 84062",
         "url": "https://bluetreefamilydental.com/",
-        "logo": "images/dir-blue.png",
+        "logo": "images/dir-blue.webp",
         "membership": "Gold Membership"
       },
       {
@@ -78,7 +78,7 @@
         "address1": "10 West Center Street",
         "address2": "Pleasant Grove,  UT 84062",
         "url": "https://www.utahgirlsloveyou.org/",
-        "logo": "images/dir-utgirls.png",
+        "logo": "images/dir-utgirls.webp",
         "membership": "NP Membership"
       }
     ]

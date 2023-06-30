@@ -158,7 +158,7 @@ main section, main div {
 
 
 .picture-discover{
-    width: 35%;
+    width: 50%;
     display: block;
     margin: auto;
 
@@ -202,9 +202,7 @@ form fieldset{
 
 
 .directory .cards {
-
     grid-template-columns: 1fr 1fr 1fr;
-
 }
 
 .list section{

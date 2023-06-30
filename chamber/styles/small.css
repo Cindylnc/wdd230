@@ -481,11 +481,18 @@ footer {
 
 /*---TOP---*/
 .pg-discover, .pg-discover-images {
-    color: #a7592f;
+    /* color: #a7592f; */
     text-align: center;
     font-size: 18px;
     padding: 20px;
     padding-bottom: 14px;
+
+
+    color: #a7592f;
+    text-shadow: 2px 2px 4px rgba(1, 1, 9, 0.3);
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+    font-family: "Playfair Display", Helvetica, sans-serif;
 }
 
 .discover-container{
@@ -799,10 +806,10 @@ div.level-info{
 .directory h2{
     padding-bottom: 80px;
     padding-left: 1rem;
-    color: #b66c44;
+    color: #a7592f;
     text-shadow: 2px 2px 4px rgba(1, 1, 9, 0.3);
     letter-spacing: 1px;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: "Playfair Display", Helvetica, sans-serif;
 }
 
@@ -902,9 +909,7 @@ div.level-info{
     width: auto;
 
 }
-.list .directory {
-    background-color: red !important;
-}
+
 .list .cards{
     max-width: fit-content;
     text-align: center;

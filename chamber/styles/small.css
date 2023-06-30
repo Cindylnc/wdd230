@@ -201,7 +201,6 @@ picture.temp {
 
 
 .city{
-
     position: absolute;
     font-size: 1.8rem;
     width: 100%;
@@ -762,7 +761,7 @@ div.level-info{
     color: #a7592f;
     text-shadow: 2px 2px 4px rgba(1, 1, 9, 0.3);
     letter-spacing: 1px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: "Playfair Display", Helvetica, sans-serif;
 }
 
@@ -807,7 +806,7 @@ div.level-info{
     color: #a7592f;
     text-shadow: 2px 2px 4px rgba(1, 1, 9, 0.3);
     letter-spacing: 1px;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: "Playfair Display", Helvetica, sans-serif;
 }
 

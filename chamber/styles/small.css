@@ -190,7 +190,7 @@ picture.temp {
     grid-column: 1/4;
     grid-row: 1/2; 
     font-size: 1rem;
-    top: 100px;         
+    top: 45px;         
     left: -25px;       
     color: rgb(47, 42, 39);
     line-height: 3em;
@@ -202,12 +202,11 @@ picture.temp {
 
 .city{
 
-    
     position: absolute;
     font-size: 1.8rem;
     width: 100%;
     text-shadow: 0 0 20px #ffffff;
-    top: 5px;
+    margin-top: 0px;
 }
 
 
@@ -220,7 +219,6 @@ picture.temp {
 .join-hero {
     background-color:   #221e4e;
     color: white;
-  
     text-decoration: none;
     font-family: "Montserrat", Helvetica, sans-serif;
     padding: 10px 15px;

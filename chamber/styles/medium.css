@@ -120,6 +120,10 @@
     }
 
 
+    .spotlight1, .spotlight2, .spotlight3 {
+        margin-top: 5px;
+    }
+
     /*---Join--*/
 
     #join {

@@ -377,28 +377,16 @@ figcaption{
     border: 1px;
     background-color: white;
     font-family: "Poiret One";
-
     box-shadow: 10px 10px 15px rgb(224, 224, 224);
     color: #a7592f;
 }
 
-
 .spotlight2 h3, .spotlight3 h3, .spotlight1 h3{ 
-    font-size: 1.5rem;
+    font-size: .9rem;
 }
 .spotlight2 p, .spotlight3 p, .spotlight1 p{ 
     color: black;
-    font-size: .8rem;
-}
-
-#garden-icon {
-    font-size: 2rem;
-    margin: 0 auto;
-}
-
-#fitness-icon {
-    font-size: 2rem;
-    margin: 0 auto;
+    /* font-size: .8rem; */
 }
 
 .spotlight3{ 
@@ -406,12 +394,22 @@ figcaption{
 }
 
 .spotlight1, .spotlight2, .spotlight3 {
-    border-radius: 1px;
-    border: 2px solid #ffffff;
-    background-color: #fef2e9;
+    border-radius: 5px;
+    border: 1px solid #a7592f;
+    background-color: #ffffff;
     padding: 1rem 1rem;
     height: 12rem;
+    text-align: center;
+    margin-top: 55px;
 }
+
+#spotlights a{
+    color: #106d98;
+    font-size: .8rem;
+    text-decoration : none;
+
+}
+
 
 
 
@@ -844,14 +842,14 @@ div.level-info{
 }
 
 .cards h4 {
-    color: rgb(199, 118, 60);
+    color: #9e552e;
     padding-bottom: .3rem;
 }
 
 .cards a {
     font-size: 14px;
     line-height: 40px;
-    color: rgb(143, 196, 208);
+    color: #106d98;
     font-style: italic;
     font-weight: lighter;
 }

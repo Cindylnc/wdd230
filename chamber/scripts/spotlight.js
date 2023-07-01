@@ -36,7 +36,7 @@ function spotlightBus(companies){
     compWeb.setAttribute('href', `${companies.url}`);
     // compPhone .appendChild(compWeb);
     // EDIT THIS???
-    hr.style.margin = "10px";  
+    hr.style.margin = "15px";  
 
     const spotlightDiv = document.querySelector(element)
     spotlightDiv.appendChild(logo);

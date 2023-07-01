@@ -615,13 +615,13 @@ form fieldset{
     margin: 2rem 0;
     border: 1px solid #913e07;
     border-radius: 10px;
-    padding: .5rem 3%;
+    padding: .1rem 3%;
 }
 
 form legend{
     color:#2e333e;
     font-weight: bold;
-    margin: 0 1rem;
+    margin: 0 .05rem;
     font-size: 1.2rem;
     
 }
@@ -638,7 +638,7 @@ form label.top input{
     font-size: 1rem;
     border: solid 1px #f3eeee;
     border-radius: 4px;
-    padding: .75rem;
+    padding: .75rem .08rem;  
     color:#30277c;
     width: 100%;
     max-width: 18rem;

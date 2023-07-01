@@ -294,7 +294,6 @@ main section, main div{
 
 #event p {
     text-align: justify;
-    /* font-size: 0.8rem; */
     padding: .5rem  .5rem;
     text-align: center;
 
@@ -303,7 +302,7 @@ main section, main div{
 /*----Weather----*/
 
 #weather{
-    border: 1px solid #f7e5d9;
+    border: 1px solid #c58664;
     background-color: #ffffff;
     display: grid;
     box-shadow: 10px 10px 15px rgb(224, 224, 224);
@@ -318,7 +317,7 @@ main section, main div{
 .weather-div{
     border: none;
     display: flex;
-    margin:  -10px 0px 0 50px;
+    margin:  -10px 0px 0px 50px;
     padding: 0;
     text-align: center;
 }
@@ -375,7 +374,6 @@ figcaption{
 
 #spotlights{
     border: 1px;
-    /* background-color: white; */
     font-family: "Poiret One";
     box-shadow: 10px 10px 15px rgb(224, 224, 224);
     color: #a7592f;
@@ -386,7 +384,7 @@ figcaption{
 }
 .spotlight2 p, .spotlight3 p, .spotlight1 p{ 
     color: black;
-    /* font-size: .8rem; */
+
 }
 
 .spotlight3{ 
@@ -395,22 +393,18 @@ figcaption{
 
 .spotlight1, .spotlight2, .spotlight3 {
     border-radius: 5px;
-    border: 1px solid #a7592f;
+    border: 1px solid #c58664;
     background-color: #ffffff;
-    /* padding: 1rem 1rem; */
-    /* height: 12rem; */
     text-align: center;
     margin-top: 25px;
+    /* box-shadow: 10px 10px 15px rgb(224, 224, 224); */
 }
 
 #spotlights a{
     color: #106d98;
     font-size: .8rem;
     text-decoration : none;
-
 }
-
-
 
 
 /*----Join----*/
@@ -418,11 +412,6 @@ figcaption{
 #join {
     display: none;
 }
-
-
-
-
-
 
 
 

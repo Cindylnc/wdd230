@@ -1,7 +1,5 @@
 const requestURL= 'json/directory.json';
 
-
-
 function spotlightBus(companies){
 
     const filterBus = companies.filter(function (companies) {
@@ -16,53 +14,38 @@ function spotlightBus(companies){
   }
 
 
-  function displayBus(companies, nose) {
-// CHnage variable names **********************
+  function displayBus(companies, element) {
     let compName = document.createElement('h3');
     let logo = document.createElement('img');
-
+    let compPhone  = document.createElement('p');
     let hr = document.createElement('hr');
-    let pSpotinfo = document.createElement('p');
-    let a = document.createElement('a');
+    let compWeb = document.createElement('a');
 
     compName.innerHTML = `${companies.name}`;
-    compName.setAttribute('class', 'large');
+    compPhone .innerHTML = `${companies.phone}`;
+    // compPhone .classList.add('spotinfo');
+    compWeb.textContent = `${companies.url}`;
 
+    compName.setAttribute('class', 'large');
     logo.setAttribute('src', companies.logo);
     // logo.setAttribute('class', 'spotlightImg');  
     logo.setAttribute('alt', `Logo of ${companies.name}`);
     logo.setAttribute('loading', 'lazy');
     logo.setAttribute('width', '150');
     // logo.setAttribute('height', '240');
-  
+    compWeb.setAttribute('href', `${companies.url}`);
+    // compPhone .appendChild(compWeb);
+    // EDIT THIS???
+    hr.style.margin = "10px";  
 
+    const spotlightDiv = document.querySelector(element)
+    spotlightDiv.appendChild(logo);
+    spotlightDiv.appendChild(compName);
+    spotlightDiv.appendChild(compPhone );
+    spotlightDiv.appendChild(hr);
+    spotlightDiv.appendChild(compWeb);
 
-
- 
-
-    hr.style.margin = "2px";
-
-    pSpotinfo.innerHTML += companies.phone + " | ";
-    pSpotinfo.classList.add('spotinfo');
-
-    a.textContent = "website";
-    a.setAttribute('href', "#");
-  
-    pSpotinfo.appendChild(a);
-
-    // update nose name and change spotlight container name
-    const spotlightContainer = document.querySelector(nose)
-
-    spotlightContainer.removeChild(spotlightContainer.firstElementChild);
-  
-    spotlightContainer.appendChild(logo);
-    spotlightContainer.appendChild(compName);
-
-    spotlightContainer.appendChild(hr);
-    spotlightContainer.appendChild(pSpotinfo);
-
-
-
+    spotlightDiv.removeChild(spotlightDiv.firstElementChild);
   }
 
   fetch(requestURL)

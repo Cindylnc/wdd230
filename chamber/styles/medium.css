@@ -251,7 +251,7 @@
     #join-container{
         margin: 0% 2% 20% 2%;
         display: grid;
-        grid-template-columns: 1.3fr .95fr;
+        grid-template-columns: 1.8fr 2fr;
         grid-template-rows: .2fr 1fr;
     }
     

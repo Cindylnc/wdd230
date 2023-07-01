@@ -169,16 +169,10 @@ main section, main div {
 /*-----------------------------JOIN---------------------------*/
 /*------------------------------------------------------------*/
 
-/*----  FORM  ----*/
 
-form label.side{
-    /* padding: .75rem 0; */
-}
-
-/*----  MAIN ----*/
-
-  #join-container{
+#join-container{
     margin: 3% 3% 25% 3%;
+    grid-template-columns: 1.8fr 2.5fr;
 }
 
 .level-info{

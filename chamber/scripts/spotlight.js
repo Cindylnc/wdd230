@@ -23,19 +23,14 @@ function spotlightBus(companies){
 
     compName.innerHTML = `${companies.name}`;
     compPhone .innerHTML = `${companies.phone}`;
-    // compPhone .classList.add('spotinfo');
     compWeb.textContent = `${companies.url}`;
 
     compName.setAttribute('class', 'large');
-    logo.setAttribute('src', companies.logo);
-    // logo.setAttribute('class', 'spotlightImg');  
+    logo.setAttribute('src', companies.logo); 
     logo.setAttribute('alt', `Logo of ${companies.name}`);
     logo.setAttribute('loading', 'lazy');
     logo.setAttribute('width', '150');
-    // logo.setAttribute('height', '240');
     compWeb.setAttribute('href', `${companies.url}`);
-    // compPhone .appendChild(compWeb);
-    // EDIT THIS???
     hr.style.margin = "15px";  
 
     const spotlightDiv = document.querySelector(element)

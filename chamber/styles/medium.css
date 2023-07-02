@@ -296,7 +296,9 @@
 /*---------------------------DIRECTORY----------------------*/
 /*------------------------------------------------------------*/
 
-
+.directory-menu button{
+    font-size: 1.2rem;
+}
 
 .directory .cards {
     grid-template-columns: 1fr 1fr;

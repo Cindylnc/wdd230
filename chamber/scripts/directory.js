@@ -8,7 +8,7 @@ const display = document.querySelector(".cards");
 async function getDirectoryData() {
     const response = await fetch(jsonDirectory);
     const data = await response.json();
-    // console.table(data.prophets);  // note that we reference the prophet array of the data object given the structure of the json file
+
     displayBusiness(data.companies);
   }
   
@@ -37,8 +37,8 @@ const displayBusiness = (companies) => {
     logo.setAttribute('src', business.logo);
     logo.setAttribute('alt', `Logo of ${business.name}`);
     logo.setAttribute('loading', 'lazy');
-    website.setAttribute("href", `${business.url}`);
-    website.setAttribute("target", "_blank");
+    website.setAttribute("href", "#");
+    // website.setAttribute("target", "_blank");
 
     card.appendChild(logo);
     card.appendChild(h2);

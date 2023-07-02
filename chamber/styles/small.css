@@ -49,7 +49,9 @@ footer {
   }
   .site-menu {
     grid-column: 1/4;
-    /* display: initial; */
+    display: initial;
+    margin-left: -3px;
+    width: 97%
   }
 
 

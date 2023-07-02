@@ -1,0 +1,190 @@
+
+/* THIS WAS PASTED FROM SMALL CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&family=Playfair+Display&family=Poiret+One&display=swap');
+
+*{
+    /* margin: 3px; */
+    font-family: "Manrope", Helvetica, sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    min-width: 350px;
+    margin: 0 auto;
+}
+
+
+/*---Header-----*/
+
+
+header {
+  display: grid;
+  grid-template-columns: 5fr 1.8fr .5fr;
+}
+
+
+.header-section{
+    display: grid;
+    grid-template-columns: .5fr 1fr ;
+    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 15px 4px 0px;
+}
+
+.logo-header{
+    width: 80px;
+    height: 40px;
+}
+
+.social {
+    width: 20px;
+    padding: 25px 15px 4px 0px;
+} 
+
+
+.site-menu {
+    grid-column: 1/4;
+    margin: auto 0;
+ 
+}
+
+.page-title h1{
+    margin: -.08rem ;
+    font-family: "Playfair Display", Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: #a7592f;
+}
+.page-title p {
+
+    margin: .5rem 0;
+    font-size: .6rem;
+    color: #a7592f;
+}
+
+/*---Date Message in header-----*/
+
+#date {
+
+    margin-bottom: 15px;
+    text-align: center;
+    color: #984710;
+    background-color: #f2d4c0;
+    padding: 10px;
+    font-size: 14px;
+    font-family: "Poiret One", Helvetica, sans-serif;
+
+}
+
+
+
+#banner {
+    display: none;
+    margin-top: -20px;
+    text-align: center;
+    color: #984710;
+    font-weight: 700;
+    background-color: #fff6eb;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Poiret One", Helvetica, sans-serif;
+  
+}
+
+
+/*-----------Navigation Button--------------*/
+
+
+
+button {
+    padding: 15px 15px 4px 0px;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: rgb(175, 79, 19);
+}
+
+
+nav {
+    background-color: #f2d4c0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0.8rem;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgb(255, 255, 255);
+    text-align: center;
+
+}
+
+
+nav ul li.active a{
+    background-color: rgb(255, 255, 255);
+    color: #f2d4c0;
+}
+
+
+nav ul li a:hover {
+    background-color: #ffffff;
+    color:rgb(175, 79, 19);
+}
+
+/*---Hide Nav-----*/
+nav ul {
+    display:none;
+}
+
+nav ul.open {
+    display: block;
+}
+
+/*---Close Menu in Nav-----*/
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+
+}
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************************************************************************************/
+
+
+/*------Hero--------*/ 
+
+
+
+.hero-container{
+    margin: auto;
+    position: relative;
+    grid-template-columns: 1fr 3fr 1fr;
+    border: none;
+}

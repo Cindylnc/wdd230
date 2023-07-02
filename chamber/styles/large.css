@@ -30,35 +30,15 @@
         padding: 0.5rem 1rem;
         width: auto;
       }
-    
-
-
-    /* .site-header{
-        display: grid;
-        grid-template-columns: 2fr 3fr 2fr;
-    }
-
-    .header-section{
-        grid-column: 1/2;
-
-    } */
 
     .site-menu {
         grid-column: 2/3;
         grid-row: 1/2;
-        /* width: 70%; */
-        /* margin:  45px; */
-        /* width: 500px; */
       }
 
     .social-div{
         grid-column: 3/4;
     }
-
-
-
- 
-
 
 
     header div button {
@@ -103,25 +83,15 @@
 }
 
 
-
-
-
 .button-join{
     grid-column: 1/4;
     font-size: 1.3rem;
 }
 
 
-
-
-
 /*--------Hero-------*/
 
 
-
-  /* main picture.temp img {
-    height: 80%;
-  } */
 
   .hero-container img{
     margin: -5px 0;
@@ -148,17 +118,8 @@
 
 
 .city{
-    /* color: rgb(47, 42, 39);
-    font-size: 300%;     */
     top: -80px;
     left: 50px;
-
-
-    /* color: white;
-    font-size: 300%;
-    font-weight: bold; 
-    text-shadow: 4px 4px 6px black; */
-
     color: black;
     font-size: 300%;
     font-weight: bold; 
@@ -170,7 +131,6 @@
 
 
 .join-hero {
-    /* background-color:   #221e4e; */
     color: white;
     font-size: 1.3rem;
     left: 35px;

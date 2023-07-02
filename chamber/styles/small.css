@@ -10,7 +10,6 @@ body {
     max-width: 1200px;
     min-width: 350px;
     margin: 0 auto;
-
 }
 
 
@@ -31,7 +30,6 @@ main,
 footer {
   max-width: 1200px;
   min-width: 350px;
-
 }
 
 
@@ -43,9 +41,7 @@ footer {
     max-width: 1200px;
     display: grid;
     grid-template-columns: 5fr 1fr 1fr;
-    /* justify-content: space-between; */
     align-items: center;
-    /* justify-content: center; */
     padding: 10px 0px 0px 0px;
   }
   .site-menu {
@@ -54,44 +50,25 @@ footer {
     margin-left: -3px;
     width: 97%;
     text-align: center;
-
   }
 
-  /* #primaryNav{
-    text-align: center;
-  } */
+
 
   ul {
-    /* padding: 15px; */
     text-align: auto;
   }
   
   #primaryNav li {
     padding-bottom: 5px;
     text-align: center;
-
   }
   
-
-
 
   header div {
     display: flex;
-
     flex-flow: row;
   }
   
-  /* header div #datetime {
-    background-color: rgba(0, 0, 0, 0.3);
-    color: #fff;
-    padding: 6px;
-    width: 100%;
-    height: 35px;
-    text-align: center;
-    margin: 15px 0px;
-    font-size: 14px;
-  } */
-
 
 
   .date-hdr {
@@ -135,29 +112,15 @@ footer {
     text-align: left;
   }
   .page-title p {
-    /* padding: 6px; */
     font-size: .6rem;
     color: #a7592f;
   } 
   
 
-
- 
-
   .social {
-    /* padding-top: 25px; */
     width: 20px;
-    /* margin: 5px; */
   }
 
-
-
-
-  
-  header div a {
-    /* margin: 1.5rem; */
-  }
-  
   header .social-div a {
     margin: 0;
   }
@@ -210,7 +173,6 @@ footer {
   }
   
 
-
   nav ul li a {
     border-top: .05px solid white;
     background-color: #fff6eb;
@@ -222,8 +184,6 @@ footer {
 
 nav {
     width: 100%;
-    /* text-align: left;
-    text-align: justify; */
     text-align: center;
 }
 
@@ -233,10 +193,7 @@ nav {
     background: transparent;
     border: none;
     font-size: 2rem;
-    /* padding: 15px 15px 4px 0px; */
 }
-
-
 
   
   #hamburgerBtn span:nth-child(1) {
@@ -264,10 +221,6 @@ nav {
   }
 
 
-  
-  
-/* 
-  MAYBE header div and header div nav not needed */
   header div {
     width: auto;
     height: auto;
@@ -539,7 +492,6 @@ figcaption{
     background-color: #ffffff;
     text-align: center;
     margin-top: 25px;
-    /* box-shadow: 10px 10px 15px rgb(224, 224, 224); */
 }
 
 #spotlights a{
@@ -568,7 +520,6 @@ figcaption{
 footer {
     background-color: #f2d4c1;
     border-radius: 5px 5px 5px 5px;
-    /* box-shadow: 10px 10px 15px rgb(110, 108, 105); */
 }
 
 footer {
@@ -607,7 +558,6 @@ footer {
 
 /*---TOP---*/
 .pg-discover, .pg-discover-images {
-    /* color: #a7592f; */
     text-align: center;
     font-size: 18px;
     padding: 20px;
@@ -656,9 +606,7 @@ footer {
 .land-area{
 
     margin: 0 auto;
-    /* padding: auto; */
     grid-column: 1/2;
-    /* grid-row: 1/2; */
 }
 
 .popu-box{
@@ -671,7 +619,6 @@ footer {
 .population{
     margin: 0 auto;
     grid-column: 2/4;
-    /* grid-row: 1/2; */
 }
 
 .growth-rate{
@@ -686,7 +633,6 @@ footer {
     grid-column: 3/4;
     grid-row: 2/3;
     margin: 0 auto;
-    /* padding: 0; */
 }
 
 
@@ -729,17 +675,10 @@ footer {
 
 }
 
-span.picture-title{
- 
-    /* margin-top: -50px; */
-    /* color: #241098; */
-    /* font-weight: 900; */
-}
 
 .event-div{
    text-align: center;
    border: none;
-   /* width: 120%; */
    margin:  auto;
    
 }
@@ -821,7 +760,6 @@ form label.top input:required:valid {
 }
 
 .join-header{
-    /* text-align: center; */
     border: none;
 }
 

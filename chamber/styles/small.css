@@ -54,10 +54,10 @@ footer {
 
 
 
-  ul {
+  /* ul {
     text-align: auto;
   }
-  
+   */
   #primaryNav li {
     padding-bottom: 5px;
     text-align: center;
@@ -419,7 +419,7 @@ main section, main div{
 
 #weather h3 {
     font-size: 1.6rem;
-    padding-top: -10px;
+    /* padding-top: -10px; */
 }
 
 #weather #w-temp {

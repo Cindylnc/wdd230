@@ -188,3 +188,287 @@ nav ul.open {
     grid-template-columns: 1fr 3fr 1fr;
     border: none;
 }
+
+
+
+
+
+
+
+
+
+******************************************************************************************************/
+
+
+
+.logo-header {
+    width: 80px;
+    height: 45px;
+  }
+  
+header,
+nav,
+main,
+footer {
+  max-width: 1200px;
+  min-width: 350px;
+
+}
+
+
+
+
+
+  
+  .site-header {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* justify-content: center; */
+    padding: 10px 0px 0px 0px;
+  }
+  .site-menu {
+    grid-column: 1/4;
+    display: initial;
+    margin-left: -3px;
+    width: 97%;
+    text-align: center;
+
+  }
+
+  /* #primaryNav{
+    text-align: center;
+  } */
+
+  ul {
+    /* padding: 15px; */
+    text-align: auto;
+  }
+  
+  #primaryNav li {
+    padding-bottom: 5px;
+    text-align: center;
+
+  }
+  
+
+
+
+  header div {
+    display: flex;
+
+    flex-flow: row;
+  }
+  
+  /* header div #datetime {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 6px;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    margin: 15px 0px;
+    font-size: 14px;
+  } */
+
+
+
+  .date-hdr {
+    grid-column: 1/4;
+  }
+
+  #banner {
+    font-family: "Poiret One", Helvetica, sans-serif;
+    display: none;
+    text-align: center;
+    color: #984710;
+    font-weight: 700;
+    background-color: #fff6eb;
+    padding: 10px;
+    font-size: 14px;
+
+
+  }
+
+  #date {
+    text-align: center;
+    color: #984710;
+    background-color: #f2d4c0;
+    padding: 10px;
+    font-size: 14px;
+    font-family: "Poiret One", Helvetica, sans-serif;
+    margin-top: -8px;
+}
+
+
+.page-title {
+    padding: 10px 10px;
+    display: flex;
+    flex-direction: column;
+  }
+.page-title h1{
+    font-family: "Playfair Display", Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: #a7592f;
+    margin: 0;
+    text-align: left;
+  }
+  .page-title p {
+    /* padding: 6px; */
+    font-size: .6rem;
+    color: #a7592f;
+  } 
+  
+
+
+ 
+
+  .social {
+    /* padding-top: 25px; */
+    width: 20px;
+    /* margin: 5px; */
+  }
+
+
+
+
+  
+  header div a {
+    /* margin: 1.5rem; */
+  }
+  
+  header .social-div a {
+    margin: 0;
+  }
+
+
+
+  /* MENU */
+  
+  header div nav ul {
+    list-style-type: none;
+    flex: auto;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header div nav ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header div nav ul li a {
+    display: block;
+    padding: 0.8rem 2vw;
+    text-decoration: none;
+    color: #984710;;
+    font-size: 1.2rem;
+    margin: 0;
+    text-align: center;
+  }
+  
+  header div nav ul li.current a {
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 5px;
+  
+  }
+  
+  header div nav ul li a:hover {
+    background-color: #f2d4c0;
+    color: black
+  }
+  
+  header div nav ul {
+    display: none;
+  }
+  
+  header div nav ul.open {
+    display: block;
+  }
+  
+
+
+  nav ul li a {
+    border-top: .05px solid white;
+    background-color: #fff6eb;
+    width: 100%;
+
+    
+    
+}
+
+nav {
+    width: 100%;
+    /* text-align: left;
+    text-align: justify; */
+    text-align: center;
+}
+
+/* Hamburguer Menu */
+
+  button {
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    /* padding: 15px 15px 4px 0px; */
+}
+
+
+
+  
+  #hamburgerBtn span:nth-child(1) {
+    display: block;
+    color: #984710;
+    background-color: #f2d4c0;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+  }
+  #hamburgerBtn span:nth-child(2) {
+    display: none;
+  }
+  
+  #hamburgerBtn.open span:nth-child(1) {
+    display: none;
+  }
+  #hamburgerBtn.open span:nth-child(2) {
+    display: block;
+    color: #984710;
+    background-color: #f2d4c0;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+  }
+
+
+  
+  
+/* 
+  MAYBE header div and header div nav not needed */
+  header div {
+    width: auto;
+    height: auto;
+  }
+  
+  header div nav {
+    width: auto;
+    height: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******************************************************************************************************/

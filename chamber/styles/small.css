@@ -331,7 +331,7 @@ picture.temp {
     grid-row: 1/2; 
     font-size: 1rem;
     top: 45px;         
-    left: -25px;       
+    left: -35px;       
     color: rgb(47, 42, 39);
     line-height: 3em;
     border: none;
@@ -342,10 +342,12 @@ picture.temp {
 
 .city{
     position: absolute;
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     width: 100%;
-    text-shadow: 0 0 20px #ffffff;
-    margin-top: 0px;
+    margin-top: -10px;
+    color: black;
+    font-weight: bold; 
+    text-shadow: 2px 2px 6px white;
 }
 
 
@@ -356,7 +358,7 @@ picture.temp {
 }
 
 .join-hero {
-    background-color:   #221e4e;
+    background-color:   #333333;;
     color: white;
     text-decoration: none;
     font-family: "Montserrat", Helvetica, sans-serif;
@@ -770,6 +772,7 @@ form label.top, form div{
     display: block;
     padding-top: 1.5rem;
     color:#2e333e;
+
     font-size: .92rem
 }
 

@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400&family=Playfair+Display&family=Poiret+One&display=swap');
 
+*{
+    /* margin: 3px; */
+    font-family: "Manrope", Helvetica, sans-serif;
+}
+
+
+body {
+    max-width: 1200px;
+    min-width: 350px;
+    margin: 0 auto;
+}
+
+
 body{
     font-family: "PlayFair", Helvetica, sans-serif;
 }
@@ -22,7 +35,7 @@ section {
     border-radius: 10px;
     margin: 50px auto;
     padding: 2% 0 8% 0;
-    width: 400px;
+    width: 350px;
     text-align: center;
   }
 

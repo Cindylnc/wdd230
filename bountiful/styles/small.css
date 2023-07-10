@@ -90,7 +90,11 @@ header div {
   }
 
 
+
+/********************* MAIN *********************/ 
 main div{
-    background-color: #f6ab6a;
-    border: solid 1px #fffefe;
+    background-color: #fbbf8a;
+    border: solid 0.5px #fffefe;
 }
+
+/********************* FOOTER *********************/ 

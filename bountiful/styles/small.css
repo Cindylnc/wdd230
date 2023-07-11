@@ -55,7 +55,7 @@ header div {
 
 /* HEADER BOTTOM */
 .logo{
-    width: 100px;
+    width: 60px;
 }
 #nav-menu{
     display: flex;
@@ -93,8 +93,29 @@ header div {
 
 /********************* MAIN *********************/ 
 main div{
-    background-color: #fbbf8a;
+    background-color: #f2ad70;
     border: solid 0.5px #fffefe;
 }
 
 /********************* FOOTER *********************/ 
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right, #ffd998, #f2ad70);
+    color: #fff;
+    padding: 50px 60px 25px;
+    border-top-left-radius: 135px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.logo-footer{
+    width: 100px;
+}
+
+.footer-topdiv{
+    
+}
+.

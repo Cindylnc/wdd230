@@ -66,7 +66,7 @@ header div {
 .bountiful-name{
     font-family: "Geologica";
     color: #737373;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
     padding: 0 0 0 3px;;
 }
@@ -93,7 +93,7 @@ header div {
 
 /********************* MAIN *********************/ 
 main div{
-    background-color: #f2ad70;
+    background-color: #fbbf8b;
     border: solid 0.5px #fffefe;
 }
 

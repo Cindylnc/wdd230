@@ -66,9 +66,13 @@ header{
     padding-top: 20px;
     font-size: 1.5rem;
     font-weight: 700;
+    color: #737373;
 }
 .logo{
     width: 40px;
+}
+.navbar{
+    padding-top: 8px;
 }
 /* hamburguer menu button*/
 .hamb-menu{
@@ -85,6 +89,7 @@ button {
     border: none;
     font-size: 2rem;
     margin-top: -6px;
+    color: #737373;
 }
 #hamburgerBtn span:nth-child(1) {
     display: block;
@@ -109,6 +114,10 @@ button {
     height: 40px;
 }
 /* menu bar display "navbar" */
+#nav-bar{
+    padding-top: 15px;
+}
+
 #nav-menu{
     display:none;
 }
@@ -123,10 +132,10 @@ button {
     /* display: block; */
 }
 #nav-menu li{
-    background-color: #f8d6b3;
+    background-color: white;
     border-bottom: 1px solid #f8b4b3;
     text-align: center;
-    padding: .5rem 1rem;
+    padding: .9rem 1rem;
 }
 /* current & Hover */
 #nav-bar a:hover{

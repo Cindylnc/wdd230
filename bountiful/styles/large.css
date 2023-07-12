@@ -1,41 +1,31 @@
 
 @media only screen and (min-width: 1200px) {  
+    /* HEADER */
     .bountiful-name{
         font-size: 40px;
     }
-    #nav-menu {
-        margin: 0 40px;  /*You can move "About US" more to the left on larger view */
-    }
-
     .site-menu a{
         margin: 0 35px 0 35px;
         font-size: 16px;
     }
+    button {
+        display: none;
+    }
+    #nav-menu{
+        display:flex;
+        padding-top: 55px;
+        margin: 0 150px; 
 
+    }
+    .navbar{
+        display:flex;
+        justify-content: space-between;
+    }
+    #nav-menu li{
+        background-color: white;
+        border-bottom: 1px solid #ffffff;
+    }
 
-    /* hamburguerSwitch */
-button {
-    display: none;
-}
-#nav-menu{
-    display:flex;
-    padding-top: 40px;
-}
-
-.navbar{
-    display:flex;
-    justify-content: space-between;
-
-}
-
-/* .hamb-menu{
-    position: absolute;
-    padding: 1rem;
-    right: 1rem;
-    display:none;
-    flex-direction: column;
-    justify-content: space-between;
-} */
 
 
 

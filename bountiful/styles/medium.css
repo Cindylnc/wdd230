@@ -1,0 +1,27 @@
+@media (min-width: 680px) {
+
+    /* FOOTER */
+    footer{
+        padding: 20px 50px 10px;
+    }
+    .footer-logo, .footer-nav, .footer-contactinfo{
+        flex-basis: 25%;
+    }
+    footer {
+        bottom: 0; 
+    }
+    ul li{
+        margin-bottom: 5px;
+    }
+    .contact-top{
+        border-bottom: 3px solid white;
+    }
+    hr{
+        border-bottom: .5px solid white;
+    }
+    .end-footer{
+        text-align: center;
+        font-size: 12px;
+    }
+
+}   

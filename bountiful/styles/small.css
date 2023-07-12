@@ -26,96 +26,167 @@ header{
 
 /* HEADER ICONS */
 .social-media img{
-    width: 30px;
-    margin-right: 5px
+    width: 39px;
+    margin-right: 4px
 }
 .contact-info img{
     width: 20px;
 }
 
-/* HEADER DIVS */
-header div {
+/* HEADER TOP */
+.header-top {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
     align-items: baseline;
 }
-
-/* HEADER TOP */
 .header-top{
     align-items: center;
     margin-bottom: 0px ;
 }
 .header-top a{
-    color: #737373;;
+    color: #737373;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
 }
 .contact-info a{
     margin-right:45px;
-
 }
 .contact-info a:first-child {
     display: none;
   }
-
+  
 /* HEADER BOTTOM */
+/* brand title */
+.company-brand{
+    display: flex;
+}
+.bountiful-name{
+    padding-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 .logo{
     width: 40px;
 }
+/* hamburguer menu button*/
+.hamb-menu{
+    position: absolute;
+    padding: 1rem;
+    right: 1rem;
+    display:flex;  /*(this is what we want to hide in larger views)*/
+    flex-direction: column;
+    justify-content: space-between;
+}
+/* hamburguerSwitch */
+button {
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    margin-top: -6px;
+}
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+    /* color: #984710;
+    background-color: #f2d4c0; */
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+}
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+#hamburgerBtn.open span:nth-child(1) {
+    display: none;
+}
+ #hamburgerBtn.open span:nth-child(2) {
+    display: block;
+    /* color: #984710; */
+    /* background-color: #f2d4c0; */
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+}
+/* menu bar display "navbar" */
 #nav-menu{
-    display: flex;
+    display:none;
 }
-.header-bottom{
-    padding: 5px 0%;
-}
-.bountiful-name{
-    font-family: "Geologica";
-    color: #737373;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 0 0 0 3px;
-}
-
-
-
 
 #nav-menu li{
-    /* display: none; */
-    width: 100%;
+    list-style:none;
+}
+#nav-menu li a{
+    text-decoration: none;
+    color: gray;
+    padding: 1rem;
+    /* display: block; */
+}
+#nav-menu li{
+    background-color: #f8d6b3;
+    border-bottom: 1px solid #f8b4b3;
     text-align: center;
+    padding: .5rem 1rem;
+}
+/* current & Hover */
+#nav-bar a:hover{
+    color: #F36664;
+}
+#current a {
+    color: #F36664 !important;
+    font-weight: 600;
 }
 
-  #nav-menu {
+/* toggle menu */
+#nav-menu.open{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+/* ********************************** */
+
+/* navbar*/
+/* .navbar{
     display: flex;
-    width: 100%;
-    align-items: center;
-    background-color: #bf454c;
-    color: #fff;
-    flex-wrap: wrap; 
-    
-  }
-/* uuuuuuuuuuuu */
+    justify-content: space-between;
+    align-items:center;
+    background-color: #F36664;
+    color: blue; MAYBE DELETE ALL OF THIS
+} */
+/* navbar links */
+.nav-menu ul{
+    /* margin: 0;
+    padding: 0;
+    display: flex;   MAYBE DELETE ALL OF THIS*/
+}
 
-#nav-menu {
-    display: none; /* Initially hide the menu options */
-  }
-  
-  #hamburgerBtn {
-    display: block; /* Show the hamburger button */
-  }
-  
-  #nav-menu.open{
-    display: block; /* Display the menu options when the button is clicked */
+
+
+
+
+
+.navbar {
+
+    /* flex-direction: column;
+    align-items: flex-start; */
+
+}
+
+.nav-menu ul{
+/* 
     flex-direction: column;
-  }
+    width: 100%   YOU CAN PROBABLU DELET THIS*/
+}
 
 
-
-
-
- 
 
 /********************* MAIN *********************/ 
 main div{
@@ -165,11 +236,11 @@ footer{
 }
 
 /* NAV COLUMN */
-ul li{
+footer ul li{
     list-style: none;
     margin-bottom: 12px;
 }
-ul li a{
+footer ul li a{
     text-decoration:  none;
     color: white;
 }

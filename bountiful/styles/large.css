@@ -1,16 +1,45 @@
 
-@media only screen and (min-width: 1280px) {  
+@media only screen and (min-width: 1200px) {  
     .bountiful-name{
         font-size: 40px;
-        }
-        #nav-menu {
-            margin: 0 40px;  /*You can move "About US" more to the left on larger view */
-          }
+    }
+    #nav-menu {
+        margin: 0 40px;  /*You can move "About US" more to the left on larger view */
+    }
 
-          .site-menu a{
-            margin: 0 35px 0 35px;
-            font-size: 16px;
-        }
+    .site-menu a{
+        margin: 0 35px 0 35px;
+        font-size: 16px;
+    }
+
+
+    /* hamburguerSwitch */
+button {
+    display: none;
+}
+#nav-menu{
+    display:flex;
+    padding-top: 40px;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+/* .hamb-menu{
+    position: absolute;
+    padding: 1rem;
+    right: 1rem;
+    display:none;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+
+
+
     /* FOOTER */
     .footer-nav ul {
         display: flex; 

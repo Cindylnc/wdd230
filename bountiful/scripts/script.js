@@ -7,6 +7,11 @@ document.querySelector("#lastModifiedDate").textContent = document.lastModified;
 function toggleMenu (){
     document.getElementById("nav-menu").classList.toggle("open");
     document.getElementById("hamburgerBtn").classList.toggle("open");
+
+
+
 }
 const hamburgerBtn = document.getElementById("hamburgerBtn");
 hamburgerBtn.addEventListener("click", toggleMenu);
+
+

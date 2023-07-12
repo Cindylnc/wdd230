@@ -8,12 +8,11 @@
     box-sizing: border-box;
 }
 
-/********************* HEADER *********************/
+/********************* HOME*********************/
 /* HEADER - ALL */
 header{
     margin-bottom:150px;
     width:100%;
-    /* padding: 100px 15%; FOOTER?? */
     padding: 10px 3%;
     background: white;
 }
@@ -21,15 +20,17 @@ header{
     border: none;
     height: 1px;
     background-color: #F36664; 
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 /* HEADER ICONS */
 .social-media img{
-    width: 50px;
-    margin-right:15px
+    width: 30px;
+    margin-right: 5px
 }
 .contact-info img{
-    width: 30px;
+    width: 20px;
 }
 
 /* HEADER DIVS */
@@ -43,53 +44,78 @@ header div {
 /* HEADER TOP */
 .header-top{
     align-items: center;
+    margin-bottom: 0px ;
 }
 .header-top a{
-    color: black;
+    color: #737373;;
     text-decoration: none;
-    font-weight: 300;
+    font-size: 14px;
+    font-weight: 600;
 }
 .contact-info a{
-    margin-right:45px
+    margin-right:45px;
+
 }
+.contact-info a:first-child {
+    display: none;
+  }
 
 /* HEADER BOTTOM */
 .logo{
-    width: 60px;
+    width: 40px;
 }
 #nav-menu{
     display: flex;
 }
 .header-bottom{
-    padding: 10px 0%;
+    padding: 5px 0%;
 }
 .bountiful-name{
     font-family: "Geologica";
     color: #737373;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: 700;
-    padding: 0 0 0 3px;;
+    padding: 0 0 0 3px;
 }
 
-/* MENU */
+
+
+
+#nav-menu li{
+    /* display: none; */
+    width: 100%;
+    text-align: center;
+}
+
+  #nav-menu {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #bf454c;
+    color: #fff;
+    flex-wrap: wrap; 
+    
+  }
+/* uuuuuuuuuuuu */
+
 #nav-menu {
-    list-style: none; 
-    margin: 0 20px;  /*You can move "About US" more to the left on larger view */
+    display: none; /* Initially hide the menu options */
   }
-.site-menu a{
-    text-decoration: none;
-    color: #737373;
-    margin: 0 23px 0 23px;
-}
-.site-menu a:hover{
-    color: #F36664;
-}
-.current a {
-    color: #F36664;
-    font-weight: 600;
+  
+  #hamburgerBtn {
+    display: block; /* Show the hamburger button */
+  }
+  
+  #nav-menu.open{
+    display: block; /* Display the menu options when the button is clicked */
+    flex-direction: column;
   }
 
 
+
+
+
+ 
 
 /********************* MAIN *********************/ 
 main div{

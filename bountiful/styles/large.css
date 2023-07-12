@@ -1,6 +1,17 @@
 
 @media only screen and (min-width: 1280px) {  
-/* FOOTER */
+    .bountiful-name{
+        font-size: 40px;
+        }
+        #nav-menu {
+            margin: 0 40px;  /*You can move "About US" more to the left on larger view */
+          }
+
+          .site-menu a{
+            margin: 0 35px 0 35px;
+            font-size: 16px;
+        }
+    /* FOOTER */
     .footer-nav ul {
         display: flex; 
         justify-content: space-between; 

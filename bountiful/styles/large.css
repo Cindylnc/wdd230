@@ -1,0 +1,19 @@
+
+@media only screen and (min-width: 1280px) {  
+/* FOOTER */
+    .footer-nav ul {
+        display: flex; 
+        justify-content: space-between; 
+    }
+    .footer-nav ul li {
+        margin-right: 20px; 
+    }
+    .footer-nav ul li:nth-child(3) a {
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis; 
+    }
+}
+
+
+

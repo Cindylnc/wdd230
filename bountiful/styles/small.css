@@ -103,19 +103,76 @@ footer{
     width: 100%;
     position: absolute;
     bottom: 0;
-    background: linear-gradient(to right, #ffd998, #f2ad70);
+    background: linear-gradient(to right, #ffd998, #bf454c );
     color: #fff;
-    padding: 50px 60px 25px;
+    padding: 20px 50px 20px;
     border-top-left-radius: 135px;
     font-size: 13px;
     line-height: 20px;
 }
 
-.logo-footer{
-    width: 100px;
+/* TOP OF HR */
+.footer-topdiv{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex -start;
+    justify-content: space-between;
+
 }
 
-.footer-topdiv{
-    
+/* you could probably erase this */
+.footer-logo, .footer-nav, .footer-contactinfo{
+    flex-basis: 100%;
+    padding:10px;
 }
-.
+
+
+
+
+
+/* LOGO COLUMN */
+.logo-footer{
+    width: 90px;
+
+}
+
+/* NAV COLUMN */
+ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a{
+    text-decoration:  none;
+    color: white;
+}
+
+/* CONTACT COLUMN */
+.contact-top{
+    border-bottom: 5px solid white;
+    margin-bottom: 15px;
+}
+.footer-icon{
+    width: 30px;
+    margin-right: 10px;
+}
+
+/* BOTTOM OF HR */
+hr{
+    width: 90%;
+    border:0;
+    border-bottom: 1px solid white;
+    margin: 20px auto;
+}
+.end-footer{
+    text-align: center;
+    font-size: 10px;
+}
+footer {
+    bottom: unset; /*chnage this to 0 on other views */
+}
+
+
+
+/* #bf454c */

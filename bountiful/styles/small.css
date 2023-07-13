@@ -12,7 +12,7 @@
 /* HEADER - ALL */
 header{
     margin-top: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     width:100%;
     padding: 10px 3%;
     background: white;
@@ -151,7 +151,7 @@ button {
 
 /********************* MAIN *********************/ 
 main div{
-    background-color: #fbbf8b;
+
     border: solid 0.5px #fffefe;
 }
 /* HERO IMAGE */
@@ -161,24 +161,123 @@ main div{
     max-width: 100%;
     overflow: hidden;
   }
-  
   .hero img {
     width: 100%;
     height: auto;
     object-fit: cover;
   }
-  
+
+  /* HERO BUTTON */
   .cta-button {
     position: absolute;
     top: 50%;
     right: 50%;
     transform: translate(50%, -50%);
-    padding: 20px 30px;
+    padding: 10px 20px;
     font-size: 18px;
-    color: black;
     background-color:  #ffbb5c;
     border: 4px solid #fff;
   }
+  .hero-button{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+  }
+
+  /* FEATURED LOCATION TOP ADD*/
+.featured-location{
+    margin-top: 30px;
+    width: 100%;
+    background-color: #fbd595;
+    text-align: center;
+    padding: 30px;
+}
+.featured-location h2{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.featured-location p{
+    font-size: 10px;
+    line-height: 1rem;
+}
+.laguna{
+
+    font-weight: 900;
+}
+.featured-location a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #5f2425;
+    font-weight: 800;
+}
+
+/* PRODUCE CARDS */
+.produce h2{
+    margin-top: 80px;
+    text-align: center;
+}
+.product-card img{
+    width: 50%;
+}
+
+.produce-container .product-card{
+
+    margin-top: 40px ;
+    width: 80%;
+    /* text-align: center; */
+    justify-content: center;
+    align-self: center;
+}
+
+
+
+
+.produce {
+    text-align: center;
+  }
+  
+  /* .produce-container {
+    display: flex;
+    justify-content: center; *** TO HAVE THEM DISPLAY IN A LINE***
+  } */
+  
+  .product-card {
+    width: 300px;
+    border: 3px solid #e0dbdb;
+    margin: 10px;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  .product-card .image {
+    text-align: center;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .product-card .product-info {
+    background-color: #f8f8f8;
+    padding: 10px;
+  }
+
+  .produce-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+
+
+
+
+ 
+
+
+
+
 
 /********************* FOOTER *********************/ 
 

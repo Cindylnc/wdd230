@@ -7,6 +7,9 @@
         margin-bottom: 5px;
     }
         /* top */
+        .contact-info img{
+            display: inline;
+        }
     .contact-info a:first-child {
         display: inline;
       }

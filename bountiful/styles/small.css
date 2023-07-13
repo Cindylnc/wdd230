@@ -11,7 +11,8 @@
 /********************* HOME*********************/
 /* HEADER - ALL */
 header{
-    margin-bottom:150px;
+    margin-top: 15px;
+    margin-bottom: 50px;
     width:100%;
     padding: 10px 3%;
     background: white;
@@ -31,6 +32,7 @@ header{
 }
 .contact-info img{
     width: 20px;
+    display: none;
 }
 
 /* HEADER TOP */
@@ -107,8 +109,6 @@ button {
 }
  #hamburgerBtn.open span:nth-child(2) {
     display: block;
-    /* color: #984710; */
-    /* background-color: #f2d4c0; */
     border-radius: 3px;
     width: 40px;
     height: 40px;
@@ -117,11 +117,9 @@ button {
 #nav-bar{
     padding-top: 15px;
 }
-
 #nav-menu{
     display:none;
 }
-
 #nav-menu li{
     list-style:none;
 }
@@ -129,7 +127,6 @@ button {
     text-decoration: none;
     color: gray;
     padding: 1rem;
-    /* display: block; */
 }
 #nav-menu li{
     background-color: white;
@@ -137,6 +134,7 @@ button {
     text-align: center;
     padding: .9rem 1rem;
 }
+
 /* current & Hover */
 #nav-bar a:hover{
     color: #F36664;
@@ -145,56 +143,10 @@ button {
     color: #F36664 !important;
     font-weight: 600;
 }
-
 /* toggle menu */
 #nav-menu.open{
     display: block;
 }
-
-
-
-
-
-
-
-
-
-
-/* ********************************** */
-
-/* navbar*/
-/* .navbar{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    background-color: #F36664;
-    color: blue; MAYBE DELETE ALL OF THIS
-} */
-/* navbar links */
-.nav-menu ul{
-    /* margin: 0;
-    padding: 0;
-    display: flex;   MAYBE DELETE ALL OF THIS*/
-}
-
-
-
-
-
-
-.navbar {
-
-    /* flex-direction: column;
-    align-items: flex-start; */
-
-}
-
-.nav-menu ul{
-/* 
-    flex-direction: column;
-    width: 100%   YOU CAN PROBABLU DELET THIS*/
-}
-
 
 
 /********************* MAIN *********************/ 
@@ -202,6 +154,31 @@ main div{
     background-color: #fbbf8b;
     border: solid 0.5px #fffefe;
 }
+/* HERO IMAGE */
+.hero {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+  
+  .hero img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .cta-button {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    padding: 20px 30px;
+    font-size: 18px;
+    color: black;
+    background-color:  #ffbb5c;
+    border: 4px solid #fff;
+  }
 
 /********************* FOOTER *********************/ 
 

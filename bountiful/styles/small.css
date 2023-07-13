@@ -201,7 +201,6 @@ main div{
     line-height: 1rem;
 }
 .laguna{
-
     font-weight: 900;
 }
 .featured-location a{
@@ -212,62 +211,59 @@ main div{
 }
 
 /* PRODUCE CARDS */
-.produce h2{
-    margin-top: 80px;
+/* text */
+.produce {
     text-align: center;
 }
-.product-card img{
-    width: 50%;
+.produce h2{
+    margin-top: 80px;
+}
+.produce h3{
+    /* margin-top: 10px; */
+    color: #F36664;
+}
+.produce p{
+    /* margin-bottom: 10px; */
 }
 
-.produce-container .product-card{
-
-    margin-top: 40px ;
+/* image */
+.product-card img{
     width: 80%;
-    /* text-align: center; */
+}
+
+/* card */
+.product-card {
+    border: 3px solid #e0dbdb;
+    margin: 10px;
+    border-radius: 9px;
+}
+.produce-container .product-card{
+    margin-top: 40px ;
+    width: 65%;  /*width of card*/
     justify-content: center;
     align-self: center;
 }
-
-
-
-
-.produce {
-    text-align: center;
-  }
-  
+.product-card .product-info {
+    background-color: #f8f8f8;
+    padding: 20px;  /*width on top and bottom on card text*/
+}
+.produce-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
   /* .produce-container {
     display: flex;
     justify-content: center; *** TO HAVE THEM DISPLAY IN A LINE***
   } */
   
-  .product-card {
-    width: 300px;
-    border: 3px solid #e0dbdb;
-    margin: 10px;
-    background-color: #fff;
-    padding: 10px;
-  }
-  
-  .product-card .image {
-    text-align: center;
-  }
-  
-  .product-card img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .product-card .product-info {
-    background-color: #f8f8f8;
-    padding: 10px;
-  }
 
-  .produce-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+  
+
+  
+  
+
+
 
 
 

@@ -233,7 +233,7 @@ main div{
 
 /* card */
 .product-card {
-    border: 3px solid #e0dbdb;
+    box-shadow: 10px 10px 15px rgb(224, 224, 224);
     margin: 10px;
     border-radius: 9px;
 }
@@ -258,7 +258,10 @@ main div{
   } */
   
 
-  
+  /* DRINK CARDS */
+  .produce .product-info .description {
+    font-size: 14px; /* Font size for Signature Drinks section */
+}
 
   
   

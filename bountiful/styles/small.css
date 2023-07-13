@@ -263,8 +263,46 @@ main div{
     font-size: 14px; /* Font size for Signature Drinks section */
 }
 
-  
-  
+/* DRINKS SUBMITTED */
+.diy-drinks{
+    padding: 40px;
+    background-color: #fde4b8;
+    /* border: 1px solid #F36664; */
+    margin: 80px 30px;
+    box-shadow: 10px 10px 15px rgb(224, 224, 224);
+    text-align: center;
+}
+.diy-drinks h3{
+    /* color:#F36664; */
+    /* text-shadow: 9px 9px 9px rgb(229, 227, 227); */
+    padding-bottom: 10px;
+}
+.diy-drinks a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #5f2425;
+    font-weight: 800;
+    padding-bottom: 39px;
+}
+
+.diy-drinks p{
+    padding-top: 19px;
+}
+
+
+
+/* LAGUNA BEACH */
+.featured-location img{
+    width: 100%;
+}  
+
+.featured-location .laguna-description{
+    padding-top: 20px;
+    font-size: 14px;
+    line-height: 1.5rem;
+    margin: 10px 20px;
+
+}
 
 
 

@@ -54,7 +54,7 @@
     <main>
         <div class="hero">
             <img src="images/hero-large.webp" alt="Bountiful Foods Hero Image">
-            <button class="cta-button"><a class="hero-button" href="fresh.html">MADE TO ORDER FRUIT DRINKS</a></button>         
+            <button class="cta-button"><a class="hero-button" href="fresh.html">MADE TO ORDER DRINKS</a></button>         
         </div>   
 
         <div class="featured-location">
@@ -150,11 +150,38 @@
         </div>
 
         <div class="weather-cards">
-            <h3>Weather In Carlsbad CA</h3>
-            <div class="day-zero"></div>
-            <div class="day-one"></div>
-            <div class="day-two"></div>
+            <div class="current-weather">
+                <h3>Weather In Carlsbad CA</h3>
+                <img class="weather-icon" src="weather-icon" alt="Weather Icon">
+                <p class="temperature"></p>
+                <p class="condition"></p>
+                <p class="humidity"></p>
+
+            </div>
+            <div class="forecast">
+                <h3>3-Day Forecast</h3>
+                <div class="forecast-three">
+                    
+                    <div class="tomorrow">
+                        <p class="day"></p>
+                        <img class="weather-icon" src="weather-icon" alt="WeatherIcon">
+                        <p class="temperature"></p>
+                     </div>
+
+                     <div class="dayafter-tomorrow">
+                        <p class="day"></p>
+                        <img class="weather-icon" src="weather-icon" alt="WeatherIcon">
+                        <p class="temperature"></p>
+                     </div>
+                     <div class="twoafter-tomorrow">
+                        <p class="day"></p>
+                        <img class="weather-icon" src="weather-icon" alt="WeatherIcon">
+                        <p class="temperature"></p>
+                     </div>
+                </div>
+            </div>
         </div>
+
 
 
     </main>
@@ -189,7 +216,8 @@
         <hr>
         <p class="end-footer">Cindy Najarro &copy;<span id="year"></span> | Last Updated: <span id="lastModifiedDate"></span></p>
     </footer>
-
+    <script src="scripts/weather.js"></script>
     <script src= "scripts/script.js"></script>
+    
 </body>
 </html>

@@ -1,6 +1,6 @@
-const temp = document.querySelector('.temperature');
-const conditionDesc = document.querySelector('.condition');
-const humidity = document.querySelector('.humidity');
+const tempElement = document.querySelector('.temperature');
+const conditionElement = document.querySelector('.condition');
+const humidityElement = document.querySelector('.humidity');
 const weatherIcon = document.querySelector('.weather-icon');
 
 const apiKey = "92849eb154486d561f4e7af5317e0cdf"
@@ -30,18 +30,18 @@ async function apiFetch() {
 }
 
   function  displayCurrentWeather(weatherData) {
-    temp.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)} &deg;F</strong>`;
+    tempElement.innerHTML = `<strong>${weatherData.main.temp.toFixed(0)} &deg;F</strong>`;
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
-    conditionDesc .textContent = desc;
+    conditionElement .textContent = desc;
     const capitalizedDesc = desc
     .split(' ')
     .map(word => word.charAt(0).toUpperCase() + word.slice(1))
     .join(' ');
-    conditionDesc .textContent = capitalizedDesc;
-    humidity.textContent = `Humidity: ${weatherData.main.humidity}%`;
+    conditionElement .textContent = capitalizedDesc;
+    humidityElement.textContent = `Humidity: ${weatherData.main.humidity}%`;
   }
 
   function displayForecast(forecastData) {
@@ -64,7 +64,7 @@ async function apiFetch() {
         offset: 3,
       },
     ];
-  
+    // loop over each day 
     forecastElements.forEach((element) => {
       const { container, dataIndex, offset } = element;
       const forecastDayElement = document.querySelector(`${container} .day`);

@@ -304,40 +304,65 @@ main div{
 }
 
 /* WEATHER CARD */
+
+
 .weather{
     margin: 80px 0;
     padding: 80px 0;
-    background-color:#fde4b8;
     text-align: center;
-
+    position: relative; /* Add this line */
 }
+
+.weather-background {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    filter: brightness(90%);
+    opacity: .7;
+    /* z-index: -1;  */
+}
+
 .weather-card{
     padding: 30px 0;
     margin: 0 20px;
-    background: pink;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    position: relative; 
 
 }
 /* Current */
 .current-weather{
     padding: 10px 30px;
     display: flex;
-    justify-content: space-between;
-}
-.current-bottom .weather-icon{
-    width: 90px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+
 }
 .current-top .temperature{
     font-size: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .current-top .humidity{
-    font-size: 10px;
+    /* margin-top: 50px; */
+    font-size: 14px;
 }
-
 .current-top {
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+    padding-right: 55px;
+}
+.current-bottom .weather-icon{
+    width: 125px;
+}
+.current-bottom .condition{
+    font-weight: 600;
 }
 
 /* forecast */
@@ -350,9 +375,9 @@ main div{
     align-items: center;
 }
 .forecast > div:not(:last-child){
-    border-right: 1px solid black;
-    padding-right: 10px;
-    margin-right: 10px;
+    border-right: 1px solid white;
+    padding-right: 15px;
+    margin-right: 15px;
 }
 .forecast .weather-icon{
     width: 70px;

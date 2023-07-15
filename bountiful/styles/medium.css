@@ -1,6 +1,9 @@
 @media (min-width: 680px) {
 
-/********************* HOME*********************/
+    body{
+        /* font-size: 160%; */
+    }
+    /********************* HOME*********************/
         /* HEADER*/
     .header-hr {
         margin-top: 20px;
@@ -29,7 +32,7 @@
     /* brand title */
     .bountiful-name{
         padding-top: 40px;
-        font-size: 40px;
+        font-size: 2.5rem;
         }
     .logo{
         width: 70px;
@@ -38,21 +41,88 @@
     /* hamburguerSwitch */
     button {
         margin-top: 20px;
-        font-size: 2.6rem;
+        font-size: 2.8rem;
+    }
+    #nav-menu li a{
+        font-size: 20px;
+    }
+    
+        /* MAIN */
+    /* hero section */
+    .cta-button {
+        padding: 25px 30px;
+
+    }
+    .hero-button{
+        font-size: 18px;
+    }
+    /* location top */
+    .featured-location{
+        font-size: 250%;
     }
 
+    .featured-location h2{
+        font-size: 20px;
+
+    }
+    .featured-location p{
+        font-size: 14px;
+        line-height: 1.5rem;
+    }
+    .featured-location a{
+        font-size: 14px;
+    }
+    /* Produce */
+    .produce h2{
+        margin: 180px 0 40px 0;
+    }
+    .product-card img{
+        width: 90%;
+    }
+    .product-card {
+        margin: 30px;
+    }
+    .produce-container .product-card{
+        width: 35%;  /*width of card*/
+    }
+    /* diydrinks */
+    .diy-drinks{
+        margin-bottom: 200px;
+    }
+    /* location bottom */
+    .featured-location h3{
+        padding: 70px 0 45px 0;
+        font-size: 35px;
+    }
+    .featured-location img{
+        width: 83%;
+        box-shadow: 4px 4px 8px rgba(126, 93, 93, 0.3);
+        border-radius: 4px;
+    } 
+    .featured-location .laguna-description {
+        padding: 20px 0 60px 0;
+        font-size: 16px;
+        margin: 0 60px;
+    }
+    /* weather */
+    .weather-card{
+        margin: 8% 20%;
+    }
+
+
+
+
+
+
+
+
     
-
-
         /* FOOTER */
     footer{
         padding: 20px 50px 10px;
     }
     .footer-logo, .footer-nav, .footer-contactinfo{
         flex-basis: 25%;
-    }
-    footer {
-        bottom: 0; 
     }
     ul li{
         margin-bottom: 5px;

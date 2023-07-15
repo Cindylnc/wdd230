@@ -329,6 +329,10 @@ main div{
 .current-top .temperature{
     font-size: 40px;
 }
+.current-top .humidity{
+    font-size: 10px;
+}
+
 .current-top {
     display: flex;
     flex-flow: column;

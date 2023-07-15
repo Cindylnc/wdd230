@@ -16,7 +16,6 @@ async function apiFetch() {
             fetch(currentWeatherUrl),
             fetch(forecastUrl)
         ]);
-
         if (currentWeatherResponse.ok && forecastResponse.ok) {
             const currentWeatherData = await currentWeatherResponse.json();
             const forecastData = await forecastResponse.json();
@@ -45,56 +44,49 @@ async function apiFetch() {
     humidity.textContent = `Humidity: ${weatherData.main.humidity}%`;
   }
 
-
   function displayForecast(forecastData) {
     const forecastList = forecastData.list;
-    // https://openweathermap.org/forecast5 
-    // Openweather provides data in a 3 hour interval
-    // tomorrow = 8 / day after tomorrow = 16 / two days after tomorrow = 24
-    const tomorrowData = forecastList[8]; 
-    const InTwoDaysData = forecastList[16]; 
-    const InThreeDaysData = forecastList[24]; 
-    // TOMORROW
-    const tomorrowDayElement = document.querySelector('.tomorrow .day');
-    const tomorrowIconElement = document.querySelector('.tomorrow .weather-icon');
-    const tomorrowTempElement = document.querySelector('.tomorrow .temperature');
-    tomorrowDayElement.textContent = getDayOfWeek();
-    tomorrowTempElement.innerHTML = `<strong>${tomorrowData.main.temp.toFixed(0)} &deg;F</strong>`;
-    const iconOnesrc = `https://openweathermap.org/img/w/${tomorrowData.weather[0].icon}.png`;
-    tomorrowIconElement.setAttribute('src', iconOnesrc);
-    tomorrowIconElement.setAttribute('alt', tomorrowData.weather[0].description);
-    // IN 2 DAYS
-    const InTwoDaysElement = document.querySelector('.intwo-days .day');
-    const InTwoDaysIconElement = document.querySelector('.intwo-days .weather-icon');
-    const InTwoDaysTempElement = document.querySelector('.intwo-days .temperature');
-    InTwoDaysElement.textContent = (getDayOfWeek(+1)+1);
-    InTwoDaysTempElement.innerHTML = `<strong>${InTwoDaysData.main.temp.toFixed(0)} &deg;F</strong>`;
-    const iconTwosrc = `https://openweathermap.org/img/w/${InTwoDaysData.weather[0].icon}.png`;
-    InTwoDaysIconElement.setAttribute('src', iconTwosrc);
-    InTwoDaysIconElement.setAttribute('alt', InTwoDaysData.weather[0].description);
-    // IN 3 DAYS
-    const InThreeDaysDayElement = document.querySelector('.inthree-days .day');
-    const InThreeDaysIconElement = document.querySelector('.inthree-days .weather-icon');
-    const InThreeDaysTempElement = document.querySelector('.inthree-days .temperature');
-    InThreeDaysDayElement.textContent = getDayOfWeek(InThreeDaysData.dt);
-    InThreeDaysTempElement.innerHTML = `<strong>${InThreeDaysData.main.temp.toFixed(0)} &deg;F</strong>`;
-    const iconThreesrc = `https://openweathermap.org/img/w/${InThreeDaysData.weather[0].icon}.png`;
-    InThreeDaysIconElement.setAttribute('src', iconThreesrc);
-    InThreeDaysIconElement.setAttribute('alt', InThreeDaysData.weather[0].description);
+    // https://openweathermap.org/forecast5 | Openweather provides data in a 3 hour interval | tomorrow = 8 / day after tomorrow = 16 / two days after tomorrow = 24
+    const forecastElements = [
+      {
+        container: '.tomorrow',
+        dataIndex: 8,
+        offset: 1,
+      },
+      {
+        container: '.intwo-days',
+        dataIndex: 16,
+        offset: 2,
+      },
+      {
+        container: '.inthree-days',
+        dataIndex: 24,
+        offset: 3,
+      },
+    ];
+  
+    forecastElements.forEach((element) => {
+      const { container, dataIndex, offset } = element;
+      const forecastDayElement = document.querySelector(`${container} .day`);
+      const forecastIconElement = document.querySelector(`${container} .weather-icon`);
+      const forecastTempElement = document.querySelector(`${container} .temperature`);
+  
+      const forecastDataItem = forecastList[dataIndex];
+      forecastDayElement.textContent = getDayOfWeek(offset);
+      forecastTempElement.innerHTML = `<strong>${forecastDataItem.main.temp.toFixed(0)} &deg;F</strong>`;
+      const iconSrc = `https://openweathermap.org/img/w/${forecastDataItem.weather[0].icon}.png`;
+      forecastIconElement.setAttribute('src', iconSrc);
+      forecastIconElement.setAttribute('alt', forecastDataItem.weather[0].description);
+    });
   }
 
 
-
-//   function getDayOfWeek(dateString) {
-//     const date = new Date(dateString);
-//     const options = { weekday: 'long' };
-//     return new Intl.DateTimeFormat('en-US', options).format(date);
-//   }
-
-  function getDayOfWeek() {
+// calculate day of the week relative to the current day
+function getDayOfWeek(offset = 0) {
     const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
     const today = new Date().getDay();
-    return daysOfWeek[today];
+    const dayIndex = (today + offset) % 7; //value within the range of 0 to 6
+    return daysOfWeek[dayIndex];
   }
 
 

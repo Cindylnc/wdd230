@@ -9,14 +9,13 @@
         margin: 0 35px 0 35px;
         font-size: 16px;
     }
-    button {
+  #hamburgerBtn{
         display: none;
     }
     #nav-menu{
         display:flex;
         padding-top: 45px;
         margin: 0 150px; 
-
     }
     .logo{
         width: 80px;
@@ -30,9 +29,57 @@
     #nav-menu li{
         border-bottom: 1px solid #ffffff;
     }
+    /* MAIN */
+    /* hero */
+    .hero {
+        margin-bottom: 100px;
+      }
+      .hero img {
+        width: 100%;
+        height: 700px;
+      }
+      
+    /* diy */
+      .diy-drinks{
+        margin-left: 20%;
+        margin-right: 20%;
+        padding: 50px 250px;
+    }
+    /* featured location */
+    /* location bottom */
+    .location-div{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        text-align: left;
+        /* padding: 0 300px; */
+    }
+    .featured-location h3{
+        padding: 30px 0 35px 0;
+        font-size: 30px;
+    }
+    .featured-location .laguna-description{
+        padding-top: 0;
+        margin: 0px 30px;
+        display: grid;
+        align-items: center; 
+        height: 80%;
+        font-size: 35%;
+    }
+    .featured-location img{
+        box-shadow: 4px 4px 8px rgba(126, 93, 93, 0.3);
+        border-radius: 4px;
+    } 
 
 
 
+    /* .featured-location img{
+        width: 700px;
+    } 
+    .featured-location .laguna-description {
+        padding: 20px 0 80px 0;
+        font-size: 18px;
+        margin: 0 25%;
+    } */
 
 
     /* FOOTER */

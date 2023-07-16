@@ -199,6 +199,7 @@ main div{
 .featured-location p{
     font-size: 10px;
     line-height: 1rem;
+    
 }
 .laguna{
     font-weight: 900;
@@ -291,12 +292,15 @@ main div{
 
 
 /* LAGUNA BEACH */
+.featured-location h3{
+    padding: 15px 0 20px 0;
+}
 .featured-location img{
     width: 100%;
 }  
 
 .featured-location .laguna-description{
-    padding-top: 20px;
+    padding-top: 8px;
     font-size: 14px;
     line-height: 1.5rem;
     margin: 10px 20px;
@@ -305,14 +309,12 @@ main div{
 
 /* WEATHER CARD */
 
-
 .weather{
     margin: 80px 0;
-    padding: 80px 0;
+    padding: 50px 0;
     text-align: center;
-    position: relative; /* Add this line */
+    position: relative; 
 }
-
 .weather-background {
     top: 0;
     left: 0;
@@ -324,14 +326,14 @@ main div{
     opacity: .7;
     /* z-index: -1;  */
 }
-
 .weather-card{
-    padding: 30px 0;
-    margin: 0 20px;
+    /* padding: 30px 0; */
+    padding: 8% 0;
+    /* margin: 0 20px; */
+    margin: 0 5%;
     background: rgba(255, 255, 255, 0.6);
     border-radius: 5px;
     position: relative; 
-
 }
 /* Current */
 .current-weather{
@@ -340,7 +342,6 @@ main div{
     justify-content: center;
     align-items: center;
     padding-bottom: 25px;
-
 }
 .current-top .temperature{
     font-size: 40px;
@@ -364,7 +365,6 @@ main div{
 .current-bottom .condition{
     font-weight: 600;
 }
-
 /* forecast */
 .forecast{
     padding: 30px 0 10px 0;
@@ -385,10 +385,6 @@ main div{
 
 
  
-
-
-
-
 
 /********************* FOOTER *********************/ 
 
@@ -420,8 +416,6 @@ footer{
     flex-basis: 100%;
     padding:10px;
 }
-
-
 
 
 

@@ -114,6 +114,10 @@
         margin: 8% 20%;
     }
 
+    .forecast .temperature{
+        font-size: 22px;
+    }
+
 
     
         /* FOOTER */

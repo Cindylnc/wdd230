@@ -40,76 +40,47 @@
       }
       
     /* diy */
-      .diy-drinks{
+    .diy-drinks{
         margin-left: 20%;
         margin-right: 20%;
         padding: 50px 250px;
     }
-    /* featured location */
-    /* location bottom */
-    /* .location-div{
-        padding: 30px 0 10px 0;
-        display: flex;
-
-        flex-flow: row;
-        justify-content: center;
-        align-items: center;
+    /* laguna */
+    .featured-location .laguna-text{
+        max-width: 600px;
+        text-align: left;
     }
-    .featured-location h3{
-        padding: 30px 0 35px 0;
-        font-size: 30px;
-    } */
-    .featured-location .laguna-description{
-        /* padding-top: 0;
-        margin: 0px 90px;
-        display: flex;
-        align-items: center; 
-        height: 0%;
-        font-size: 35%; */
+    .laguna-text .laguna-description{
+       font-size: 16px;
     }
-    /* .featured-location img{
-        width: 550px;
-    }  */
-
-    /* .location-div  {
-        display: flex; 
-        flex-flow: row;
-        justify-content: center; 
-        align-items: center; 
-      } */
+    .featured-location img{
+        max-width: 500px;
+    }  
       .location-div {
-        margin: 80px 0;
-        padding: 50px 0;
-        text-align: center;
-        position: relative; 
-      }
-
-      .location-div{
+        margin: 10px 0;
         padding: 10px 30px;
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-bottom: 25px;
+      }
+    /* weather */
+      .weather-card{
+        margin: 1% 30%;
+        padding: 3% 0%;
     }
 
-/* 
-      .featured-location .laguna-description {
-        margin: 0 50px; 
-        font-size: 18px; 
-      }
-      .featured-location img {
-        max-width: 90%; 
-    } */
+    .weather .weather-card h3{
+        font-size: 30px;
+    }
 
+    .forecast{
+        /* padding: 50px 0 10px 0; */
+    }
 
-    /* .featured-location img{
-        width: 700px;
-    } 
-    .featured-location .laguna-description {
-        padding: 20px 0 80px 0;
-        font-size: 18px;
-        margin: 0 25%;
-    } */
+    .weather{
+        /* padding: 10px 150px; */
+    }
+      
 
 
     /* FOOTER */

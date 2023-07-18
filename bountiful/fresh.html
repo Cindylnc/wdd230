@@ -48,7 +48,32 @@
     </header>
 
     <main>
+        <h2>CREATE YOUR SPECIAL <span>DRINK MIX !</span> </h2>             
+            <div class="form">
+                <form method="get"></form>
+                        <fieldset>    
+                            <legend>Order Form</legend>
+                            <label class="top">First Name* <input type="text" name="fname" required></label>
+                            <label class="top">Last Name* <input type="text" name="lname" required></label>
+                            <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                            <label class="top">Phone Number* <input type="tel" name="phone" placeholder="(000)-000-000" required></label>
+    
+                            <!-- <legend>Fruit Selection</legend> -->
+                            <label class="top">Fruit 1 <select name="fruit-one" id="fruit-one"><option value="">Select ...</option></select></label>
+                            <label class="top">Fruit 2 <select name="fruit-two" id="fruit-two"><option value="">Select ...</option></select></label>
+                            <label class="top">Fruit 3 <select name="fruit-three" id="fruit-three"><option value="">Select ...</option></select></label>
 
+                            <!-- <legend>Special Instructions</legend> -->
+                            <label for="instructions">Special Instructions:</label>
+                            <textarea id="instructions"  name="instructions" rows="4" cols="50"></textarea>
+                            
+                        </fieldset>
+                    <input type="submit" value="Submit Order" class="submitBtn">  
+                </div>     
+                <div class="order-conf">
+                    <h3>Order Confirmation</h3>
+                </div>       
+            </div>    
     </main>
 
         

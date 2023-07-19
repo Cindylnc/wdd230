@@ -169,13 +169,11 @@
 
 .farmers-img, .organic-img{
     width: 600px;
-    object-fit: cover;
 }
 .organic-img{
     border-radius: 35px;
     padding-top: 0;
     margin-top: 50px;
-    opacity: .9;
 }
 .larger-font {
     padding: 20px 30px;

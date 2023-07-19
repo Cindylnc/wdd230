@@ -575,7 +575,7 @@ input:required:valid {
     margin-left: 10px;
 }
 .about-container{
-    margin: 25px 35px;
+    margin: 15px 20px;
     display: flex;
     justify-content: space-between;
     flex-flow: column;

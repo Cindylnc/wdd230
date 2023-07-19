@@ -116,8 +116,56 @@
 /*---------------------------------------------------------------*/
 /*----------------------------  ABOUT US ------------------------*/
 /*---------------------------------------------------------------*/
+    .about-us{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .about-top{
+        margin: 0 auto;
+        max-width: 1100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
+    .about-top .larger-font{
+        flex: 1;
+        max-width: 800px;
+        padding: 20px 10px;
+        color: #D36342;
+        font-size: 38px;
+        line-height: 45px;
+        text-align: left;
+    }
+    .farmers-img{
+        flex: 1;
+        max-width: 600px;
+    }
 
+    .story-div, .serving-div{
+        margin: 20px auto;
+        max-width: 1100px;
+    }
+     .organic-img{
+        width: 480px;
+        opacity: .8;
+    }  
+
+    /* margin: 25px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column; */
+    .serving-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .serving{
+        padding-right: 50px;
+    }
 
 
 }

@@ -595,7 +595,7 @@ input:required:valid {
 }
 .story, .serving, .store-address, .store-number, .store-hours{
     margin-top: 15px;
-    color: #3e4031;
+    color: #50533b;
     line-height: 22px;
 }
 /* images */
@@ -605,7 +605,7 @@ input:required:valid {
 }
 .organic-img{
     border-radius: 35px;
-    padding-top: 16px;
+    margin-top: 16px;
     opacity: .9;
 }
 .map{
@@ -621,13 +621,13 @@ input:required:valid {
 }
 .visit-2 ul, .about-bottom p{
     text-decoration: none;
-    color: #3e4031;
+    color: #50533b;
     margin-top: 15px;
     line-height: 22px;
 }
 .visit-2 li{
     text-decoration: none;
-    color: #3e4031;
+    color: #50533b;
 }
 /* about bottom 7 */
 .about-bottom{

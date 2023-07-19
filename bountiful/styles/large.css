@@ -96,6 +96,28 @@
         overflow: hidden; 
         text-overflow: ellipsis; 
     }
+
+
+    /*------------------------------------------------------------*/
+/*----------------------------  FRESH  --------------------------*/
+/*------------------------------------------------------------*/
+
+      .refresh-img{
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+      }
+
+      .refresh-img {
+        width: 70%;
+        margin: 0 auto;
+      }
+    
+
+
+
+
+
 }
 
 

@@ -482,10 +482,15 @@ footer {
     font-size: 28px;
 }
 
+legend{
+    color: #f28909;
+    font-size: 20px;
+    font-weight: 700;
+}
 
 .form {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     /* justify-content: flex-end */
@@ -561,4 +566,49 @@ input:required:valid {
     text-align: center;
     font-size: 24px;
 }
-        /* ***** */
+/*------------------------------------------------------------*/
+/*----------------------------  ABOUT US --------------------------*/
+/*------------------------------------------------------------*/
+
+.about-us{
+    margin-left: 10px;
+}
+.farmers-img, .organic-img{
+    width: 90%;
+    /* height: auto; */
+    object-fit: cover;
+}
+.organic-img{
+    border-radius: 35px;
+}
+.map{
+    width: 100%;
+}
+
+.about-container{
+    margin: 25px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+
+}
+
+.larger-font, .large-font{
+    padding-top: 20px;
+    color: #D36342;
+    font-size: 25px;
+    line-height: 35px;
+}
+
+.large-font{
+    padding-top: 16px;
+    color: #D36342;
+    font-size: 23px;
+    line-height: 28px;
+}
+
+.story, .serving{
+    margin-top: 15px;
+    /* color: #f28909; */
+    line-height: 22px;
+}

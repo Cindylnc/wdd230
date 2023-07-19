@@ -570,50 +570,75 @@ input:required:valid {
 /*----------------------------  ABOUT US --------------------------*/
 /*------------------------------------------------------------*/
 
+/* all */
 .about-us{
     margin-left: 10px;
 }
-.farmers-img, .organic-img{
-    width: 95%;
-    /* height: auto; */
-    object-fit: cover;
-}
-.organic-img{
-    border-radius: 35px;
-}
-.map{
-    width: 100%;
-}
-
 .about-container{
     margin: 25px 35px;
     display: flex;
     justify-content: space-between;
     flex-flow: column;
-
 }
-
-.larger-font, .large-font{
-    padding-top: 20px;
+/* all text */
+.larger-font {
+    padding-top: 30px;
     color: #D36342;
     font-size: 25px;
     line-height: 35px;
 }
-
 .large-font{
-    padding-top: 40px;
+    padding-top: 50px;
     color: #D36342;
     font-size: 23px;
     line-height: 29px;
 }
-
-.story, .serving, .store-address{
+.story, .serving, .store-address, .store-number, .store-hours{
     margin-top: 15px;
     color: #3e4031;
     line-height: 22px;
 }
-
+/* images */
+.farmers-img, .organic-img{
+    width: 95%;
+    object-fit: cover;
+}
 .organic-img{
+    border-radius: 35px;
     padding-top: 16px;
     opacity: .9;
 }
+.map{
+    margin-left: -25px;
+    width: 110%;
+}
+/* visit us 5&6 */
+.visit-1{
+    padding-top: 50px;
+}
+.store-address{
+    padding-bottom: 5px;
+}
+.visit-2 ul, .about-bottom p{
+    text-decoration: none;
+    color: #3e4031;
+    margin-top: 15px;
+    line-height: 22px;
+}
+.visit-2 li{
+    text-decoration: none;
+    color: #3e4031;
+}
+/* about bottom 7 */
+.about-bottom{
+    margin-bottom: 100px;
+}
+.facebook-link a{
+    color: #D36342;
+    font-weight: 700;
+    /* text-decoration: none; */
+}
+
+
+
+

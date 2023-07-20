@@ -557,7 +557,11 @@ input:required:valid {
     background-color: #ff9719;
 }
 
+/* CONFIRMATION */
+
+
 .order-conf {
+    /* display: none; */
     width: 100%;
     margin-top: 30px;
 }

@@ -55,7 +55,7 @@
         <img class="refresh-img" src="images/placeholder.webp" data-src="images/refresh-fruits.webp" alt="slices of fruits">
         <h2>CREATE YOUR SPECIAL <span>DRINK MIX !</span> </h2>             
             <div class="form">
-                <form method="get">
+                <form method="get" onsubmit="getOrderCount();">
                         <fieldset>    
                             <legend>Order Form</legend>
                             <label class="top">First Name* <input type="text" name="fname" required></label>
@@ -130,6 +130,7 @@
 
     <script src= "scripts/script.js"></script>
     <script src="scripts/lazy.js"></script>
+    <script src= "scripts/orders.js"></script>
     <script src="scripts/freshorder.js"></script>
 </body>
 </html>

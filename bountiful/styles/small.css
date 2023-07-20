@@ -653,5 +653,9 @@ input:required:valid {
 }
 
 
+/* resources */
+.resources-container{
+    margin: 90px 50px;
+}
 
 

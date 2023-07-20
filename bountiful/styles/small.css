@@ -95,8 +95,6 @@ button {
 }
 #hamburgerBtn span:nth-child(1) {
     display: block;
-    /* color: #984710;
-    background-color: #f2d4c0; */
     border-radius: 3px;
     width: 40px;
     height: 40px;
@@ -150,10 +148,7 @@ button {
 
 
 /********************* MAIN *********************/ 
-main div{
 
-    /* border: solid 0.5px #fffefe; */
-}
 /* HERO IMAGE */
 .hero {
     position: relative;
@@ -223,9 +218,6 @@ main div{
     /* margin-top: 10px; */
     color: #e54b48;
 }
-.produce p{
-    /* margin-bottom: 10px; */
-}
 
 /* image */
 .product-card img{
@@ -274,8 +266,6 @@ main div{
     text-align: center;
 }
 .diy-drinks h3{
-    /* color:#F36664; */
-    /* text-shadow: 9px 9px 9px rgb(229, 227, 227); */
     padding-bottom: 10px;
 }
 .diy-drinks a{
@@ -327,9 +317,7 @@ main div{
     /* z-index: -1;  */
 }
 .weather-card{
-    /* padding: 30px 0; */
     padding: 8% 0;
-    /* margin: 0 20px; */
     margin: 0 5%;
     background: rgba(255, 255, 255, 0.6);
     border-radius: 5px;
@@ -349,7 +337,6 @@ main div{
     padding-bottom: 25px;
 }
 .current-top .humidity{
-    /* margin-top: 50px; */
     font-size: 14px;
 }
 .current-top {
@@ -369,7 +356,6 @@ main div{
 .forecast{
     padding: 30px 0 10px 0;
     display: flex;
-    /* justify-content: space-between; */
     flex-flow: row;
     justify-content: center;
     align-items: center;
@@ -462,9 +448,6 @@ footer {
 
 
 
-/* #bf454c */
-/* add #EFF4F6 to laguna card om home page!! */
-
 /*---------------------------------------------------------------*/
 /*----------------------------  FRESH  --------------------------*/
 /*---------------------------------------------------------------*/
@@ -536,9 +519,7 @@ input:required {
 input:required:valid {
     border-left: #ffcdcc solid 6px;
 }
-/* textarea {
-    resize: vertical;
-} */
+
 
 .submitBtn {
     background-color: #be474d;

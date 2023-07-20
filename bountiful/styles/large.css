@@ -73,14 +73,6 @@
         font-size: 30px;
     }
 
-    .forecast{
-        /* padding: 50px 0 10px 0; */
-    }
-
-    .weather{
-        /* padding: 10px 150px; */
-    }
-      
 
 
     /* FOOTER */
@@ -152,10 +144,6 @@
         opacity: .8;
     }  
 
-    /* margin: 25px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-flow: column; */
     .serving-div{
         display: flex;
         justify-content: center;

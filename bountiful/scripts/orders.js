@@ -1,13 +1,12 @@
 // Add up number of orders in localStorage
 function getOrderCount() {
     let orderCount = getStoredOrderCount();
-    // if (orderCount) {
-    //     orderCount = orderCount + 1;
-    //   } else {
-    //     orderCount = 1;
-    //   }
-    // orderCount = orderCount orderCount + 1 : 1;
-    orderCount = orderCount ? orderCount + 1 : 1;
+    if (orderCount) {
+        orderCount = orderCount + 1;
+      } else {
+        orderCount = 1;
+      }
+    // orderCount = orderCount+ 1 ;
     localStorage.setItem('orderCount', orderCount);
   }
   

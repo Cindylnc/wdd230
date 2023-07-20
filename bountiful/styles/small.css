@@ -541,7 +541,7 @@ input:required:valid {
 } */
 
 .submitBtn {
-    background-color: #ea6d2a;
+    background-color: #be474d;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -554,7 +554,9 @@ input:required:valid {
 }
 
 .submitBtn:hover {
-    background-color: #ff9719;
+    background-color: white;
+    color: #be474d;
+    border: 1px solid #be474d;
 }
 
 /* CONFIRMATION */
